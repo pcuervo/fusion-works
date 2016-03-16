@@ -9,6 +9,11 @@
 /*Footer*/
 #containerfooter{
 	padding-bottom: 20px;
+	color: #a9a8a6;
+}
+#containerfooter h4{
+	font-size: 16px;
+	color: #a9a8a6;
 }
 .footercredits{ display:none;}
 
@@ -35,6 +40,15 @@ h4{
 /*Button*/
 .kad-btn-primary{
 	background-color:#f84c02;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+/*Box subtitle*/
+#box-subtitle h3{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 /*Info box*/
@@ -43,6 +57,9 @@ h4{
 }
 .kad-info-box .kt-info-content-case h4{
 	text-align:center;
+	color: #000;
+	font-weight: 500;
+	font-size: 20px;
 }
 .kad-info-box .kt-info-icon-case{
 	position:inherit;
@@ -62,4 +79,13 @@ h4{
 .home-message h4{
 	color:#000;
 	font-weight:700;
+}
+
+/*Collapse*/
+.panel-heading .accordion-toggle.collapsed{
+	border: 1px solid #DAD8D8;
+	background: rgba(0,0,0,0)
+}
+.panel-collapse p a{
+	text-decoration: underline;
 }
