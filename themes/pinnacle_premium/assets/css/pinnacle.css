@@ -52,22 +52,22 @@ h4{
 }
 
 /*Info box*/
-.kad-info-box .kt-info-content-case{
-	padding:0px;
-}
-.kad-info-box .kt-info-content-case h4{
-	text-align:center;
-	color: #000;
-	font-weight: 500;
-	font-size: 20px;
-}
-.kad-info-box .kt-info-icon-case{
-	position:inherit;
-}
-.kad-info-box i, .kad-info-box img{
-	margin:auto;
-	display:block;
-}
+// .kad-info-box .kt-info-content-case{
+// 	padding:0px;
+// }
+// .kad-info-box .kt-info-content-case h4{
+// 	text-align:center;
+// 	color: #000;
+// 	font-weight: 500;
+// 	font-size: 20px;
+// }
+// .kad-info-box .kt-info-icon-case{
+// 	position:inherit;
+// }
+// .kad-info-box i, .kad-info-box img{
+// 	margin:auto;
+// 	display:block;
+// }
 
 /*Banner*/
 .infobanner .home-message{
