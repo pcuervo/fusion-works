@@ -56,7 +56,15 @@ h4{
 	font-weight: 600;
 }
 
-/*Info box*/
+/*Icons*/
+.kt-info-icon-case{
+	position: relative!important;
+	text-align: center!important;
+}
+kad-circle-iconclass{
+	background-color: #fff;
+	color:#f84c02;
+}
 // .kad-info-box .kt-info-content-case{
 // 	padding:0px;
 // }
