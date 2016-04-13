@@ -37,6 +37,11 @@ h4{
 .color-primary{ color: #7f7269;}
 .color-gray{ color: #4f4f4f;}
 
+/*Margin*/
+.no-margin{ margin: 0px;}
+.no-margin-bottom{ margin-bottom: 0px;}
+.no-margin-top{ margin-top: 0px;}
+
 /*Button*/
 .kad-btn-primary{
 	background-color:#f84c02;
@@ -71,21 +76,21 @@ h4{
 
 /*Banner*/
 .infobanner .home-message{
-	background-color:rgba(255,255,255,0.6)
+	background-color:rgba(248,76,2,0.6)
 }
 .infobanner .home-message:hover{
-	background-color:rgba(255,255,255,0.15)
+	background-color:rgba(248,76,2,0.15)
 }
 .home-message h4{
-	color:#000;
+	color:#fff;
 	font-weight:700;
 }
 
 /*Collapse*/
-.panel-heading .accordion-toggle.collapsed{
-	border: 1px solid #DAD8D8;
-	background: rgba(0,0,0,0)
-}
-.panel-collapse p a{
-	text-decoration: underline;
-}
+// .panel-heading .accordion-toggle.collapsed{
+// 	border: 1px solid #DAD8D8;
+// 	background: rgba(0,0,0,0)
+// }
+// .panel-collapse p a{
+// 	text-decoration: underline;
+// }
