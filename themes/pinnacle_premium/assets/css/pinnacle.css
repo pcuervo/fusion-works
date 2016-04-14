@@ -35,9 +35,14 @@ h4{
 .color-dark{ color: #030000;}
 .color-light{ color: #fff;}
 .color-primary{ color: #f84c02;}/*naranja*/
+.color-primary--hover{ color: #e53302;}/*naranja fuerte*/
 .color-gray{ color: #4f4f4f;}
+.color-gray--light{ color: #ececec; }/*gray fondo*/
 .color-secondary{ color: #7f6e64;}/*café*/
-.color-tertiary{ color: #ffa94a; }/*amarillo*/
+.color-tertiary{ color: #ff931e; }/*amarillo*/
+
+/*Bacground-color*/
+background-color: transparent;
 
 /*Margin*/
 .no-margin{ margin: 0px;}
