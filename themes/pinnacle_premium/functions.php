@@ -92,3 +92,22 @@ function pinnacle_shortcode_init() {
 }
 add_action('init', 'pinnacle_shortcode_init');
 
+
+/******************
+ * SCRIPTS CUERVO
+ *****************/
+
+require_once( 'inc/pages.php' );
+
+
+
+/*------------------------------------*\
+	#CONSTANTS
+\*------------------------------------*/
+
+/**
+* Define paths to javascript, styles, theme and site.
+**/
+define( 'JSPATH', get_template_directory_uri() . '/assets/js/' );
+define( 'THEMEPATH', get_template_directory_uri() . '/' );
+define( 'SITEURL', site_url('/') );
