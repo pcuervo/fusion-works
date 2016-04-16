@@ -39,6 +39,9 @@
 .affix { position: fixed; }
 .absolute { position: absolute; }
 
+.right-0{ right: 0}
+
+
 // Margin
 .no-margin{ margin: 0; }
 .margin{ margin: 10px; }
@@ -108,6 +111,7 @@
 
 .background-primary-30{ background-color: rgba(247,76,2,.3); }
 .background-primary-20{ background-color: rgba(247,76,2,.2); }
+.background-secondary-60{ background-color: rgba(127,110,100,.6); }
 .background-light-60{ background-color: rgba(255,255,255,.6); }
 
 
@@ -155,7 +159,7 @@ h4{
 .text-uppercase      { text-transform: uppercase; }
 .text-capitalize     { text-transform: capitalize; }
 
-.text-large{ font-size: 1.5em; }
+.text-large{ font-size: 1.5em; line-height: 1.2em;}
 
 /*Icons*/
 .kt-info-icon-case{
