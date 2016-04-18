@@ -57,6 +57,8 @@
 .margin-top--xlarge{ margin-top: 30px; }
 
 .margin-right{ margin-right: 10px; }
+.margin-right--large{ margin-right: 20px; }
+.margin-right--xlarge{ margin-right: 30px; }
 
 .margin-bottom{ margin-bottom: 10px; }
 .margin-bottom--large{ margin-bottom: 20px; }
@@ -105,10 +107,13 @@
 .color-secondary{ color: #7f6e64;}/*café*/
 .color-tertiary{ color: #ff931e; }/*amarillo*/
 .color-tertiary--dark{ color: #d6754a; }/*amarillo dark*/
+.color-quaternary{ color: #d8d2bc; } /*amarillo dark*/
 
 .background-primary{ background-color: #f74c02; }
 .background-secondary{ background-color: #7f6e64; }
+.background-quaternary { background-color: #d8d2bc; }
 .background-dark{ background-color: #030000; }
+
 
 /* Color Opacity */
 /*****************/

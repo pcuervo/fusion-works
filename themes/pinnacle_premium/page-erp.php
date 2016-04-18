@@ -66,7 +66,7 @@ Template Name: pinnacle_premium
 						<span class="[ text-uppercase lead ][ block ][ text-right text-center-xs ][ color-light ]">product planning,parts purchasing, inventory control, and product distribution, to order tracking.</span>
 					</p>
 				</div>
-				<div  data-wow-iteration="20" class="[ col-sm-4 ][ margin-bottom--xlarge ][ wow pulse ][ text-center ]">
+				<div  data-wow-iteration="30" class="[ col-sm-4 ][ margin-bottom--xlarge ][ wow pulse ][ text-center ]">
 					<img class="[ img-responsive img-centered ][ width-90 ]" src="<?php echo THEMEPATH; ?>assets/img/key.png" alt="">
 				</div>
 				<div class="[ col-sm-4 ][ margin-bottom--xlarge ]">
@@ -83,15 +83,15 @@ Template Name: pinnacle_premium
 	<section class="[ padding--xlarge ]">
 		<article class="[ container ]">
 			<div class="[ row ][ margin-bottom ]">
-				<div data-wow-delay="1000ms" class="[ col-xs-12 ][ margin-bottom--xlarge ][ wow slideInRight ]">
+				<div data-wow-delay="500ms" class="[ col-xs-12 ][ margin-bottom--xlarge ][ wow slideInRight ]">
 					<p class="[ text-large inline text-uppercase text-semi-bold text-center-xs ][ color-primary background-primary-20 ][ padding ]">Our Qualifications</p>
-					<img class="[ wow rotateIn ][ img-responsive ][ absolute right-0 ][ hidden-xs ]" src="<?php echo THEMEPATH; ?>assets/img/3-cogs.png">
 				</div>
+				<img class="[ wow rotateIn ][ img-responsive ][ absolute right-0 ][ margin-right--xlarge ][ hidden-xs ]" src="<?php echo THEMEPATH; ?>assets/img/3-cogs.png">
 			</div>
 			<div class="[ row ]">
 				<div class="[ col-xs-12 col-sm-8 ] margin-bottom ][ wow slideInrRight ]">
 					<img class="[ wow rollIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-busines.png" alt="">
-					<p class="[ inline-block ][ width-80-xs ][ lead ][ color-secondary ][ border-dashed-primary border-radius-10 no-border-left ][ middle ][ padding ]">Key business metrics are available in real-time</p>
+					<p class="[ inline-block ][ width-80-xs  width-70 ][ lead ][ color-secondary ][ border-dashed-primary border-radius-10 no-border-left ][ middle ][ padding ]">Key business metrics are available in real-time</p>
 				</div>
 				<div class="[ col-xs-12 col-sm-7 col-sm-offset-2 ][ margin-bottom ][ wow slideInLeft ]">
 					<img class="[ wow rollIn ]" src="<?php echo THEMEPATH; ?>assets/img/running.png" alt="">
@@ -103,7 +103,7 @@ Template Name: pinnacle_premium
 				</div>
 				<img class="[ wow rotateIn ][ pull-left ][ img-responsive ][ hidden-xs ]" src="<?php echo THEMEPATH; ?>assets/img/3cogs.png">
 				<div class="[ col-xs-12 col-sm-6 ][ margin-bottom ][ pull-right ][ wow slideInLeft ]">
-					<img data-wow-iteration="3" class="[ wow rollIn ]" src="<?php echo THEMEPATH; ?>assets/img/improve.png" alt="">
+					<img class="[ wow rollIn ]" src="<?php echo THEMEPATH; ?>assets/img/improve.png" alt="">
 					<p class="[ inline-block ][ width-80 ][ lead ][ color-secondary ][ border-dashed-primary border-radius-10 no-border-left ][ middle ][ padding ]">Improve accuracy of production costing and forecasting.</p>
 				</div>
 			</div>
@@ -119,7 +119,7 @@ Template Name: pinnacle_premium
 				</div>
 			</div>
 			<div class="[ row ]">
-				<div class="[ col-sm-4 ][ margin-bottom--xlarge ][ wow pulse ]" data-wow-iteration="25">
+				<div class="[ col-sm-4 ][ margin-bottom--xlarge ][ wow pulse ]" data-wow-iteration="30">
 					<img class="[ img-responsive img-centered ][ width-90 ]" src="<?php echo THEMEPATH; ?>assets/img/our-qualifications.png" alt="">
 				</div>
 				<div class="[ col-sm-8 ][ margin-bottom--xlarge ][ wow slideInRight ]">
