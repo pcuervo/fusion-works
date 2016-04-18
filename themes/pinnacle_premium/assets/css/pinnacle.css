@@ -23,6 +23,11 @@
 .width-20{ width: 20%; }
 .width-10{ width: 10%; }
 
+/* Height */
+/**********/
+.height-20{height: 20px;}
+.height-30{height: 30px;}
+
 /* Displays *
 /***********/
 .inline{ display: inline; }
@@ -32,15 +37,16 @@
 /* Floats */
 /**********/
 .pull-right { float: right !important; }
-.pull-left { float: left !important; }
+.pull-left 	{ float: left !important; }
 
 /* Position */
 /************/
-.affix { position: fixed; }
-.absolute { position: absolute; }
+.affix 		{ position: fixed; }
+.absolute 	{ position: absolute; }
 
-.right-0{ right: 0}
+.right-0	{ right: 0}
 
+.middle	{ vertical-align: middle !important; }
 
 // Margin
 .no-margin{ margin: 0; }
@@ -144,6 +150,15 @@ h4{
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 600;
+}
+
+@media (max-width: 600px) {
+
+  .text-center-xs			{ text-align: center !important; }
+  .inline.text-center-xs 	{ display: inline-block; }
+  .width-80-xs				{ width: 80%; }
+  .lead						{ font-size: 14px; }
+
 }
 
 
