@@ -139,14 +139,10 @@
 /********/
 
 /*Headings*/
-h4{
-	font-weight:700;
-}
+h4{ font-weight:700; }
 
 /*After title*/
-.hometitle:after, .sectiontitle:after, .widget-title:after, .home-message h4:after{
-	display:none;
-}
+.hometitle:after, .sectiontitle:after, .widget-title:after, .home-message h4:after{ display:none; }
 .widget-title{
 	font-weight:700;
 	padding-bottom:0px;
@@ -175,7 +171,6 @@ h4{
 .text-left { text-align: left; }
 .text-right { text-align: right; }
 .text-center { text-align: center; }
-
 
 /*Transformation*/
 .text-lowercase      { text-transform: lowercase; }
@@ -226,6 +221,7 @@ input[type=text], textarea{
 
 /* Sections */
 /************/
+.kad-info-box .kt-info-content-case{ padding: 0px; }
 
 /*Header*/
 .trans-header #kad-banner {
