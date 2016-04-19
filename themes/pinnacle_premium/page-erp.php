@@ -43,11 +43,11 @@ Template Name: pinnacle_premium
 		</article>
 	</section>
 
-	<section class="[ background-primary ][ padding--xlarge ]">
-		<article class="[ container ]">
+	<section class="[ background-primary ][ padding-top--xxlarge ]">
+		<article class="[ container ][ margin-top--large ]">
 			<div class="[ row ][ hidden-xs ][ text-center ]">
 				<div class="[ col-sm-2 ][ wow bounceInLEft ]">
-					<img class="[ img-responsive img-centered ][ width-50 ]" src="<?php echo THEMEPATH; ?>assets/img/2-cogs-a.png" alt="">
+					<img class="[ img-responsive img-centered ][ width-70 ]" src="<?php echo THEMEPATH; ?>assets/img/2-cogs-a.png" alt="">
 				</div>
 				<div class="[ col-sm-4 ][ margin-top ][ wow bounceInLeft ]">
 					<img class="[ img-responsive img-centered ][ width-50 ]" src="<?php echo THEMEPATH; ?>assets/img/dotted-line-left.png" alt="">
@@ -56,7 +56,7 @@ Template Name: pinnacle_premium
 					<img class="[ img-responsive img-centered ][ width-50 ]" src="<?php echo THEMEPATH; ?>assets/img/dotted-line-right.png" alt="">
 				</div>
 				<div class="[ col-sm-2 ][ wow bounceInRight ]">
-					<img class="[ img-responsive img-centered ][ width-50 ]" src="<?php echo THEMEPATH; ?>assets/img/2-cogs-b.png" alt="">
+					<img class="[ img-responsive img-centered ][ width-70 ]" src="<?php echo THEMEPATH; ?>assets/img/2-cogs-b.png" alt="">
 				</div>
 			</div>
 			<div class="[ row ][ text-center-xs ]">
@@ -67,7 +67,7 @@ Template Name: pinnacle_premium
 					</p>
 				</div>
 				<div  data-wow-iteration="30" class="[ col-sm-4 ][ margin-bottom--xlarge ][ wow pulse ][ text-center ]">
-					<img class="[ img-responsive img-centered ][ width-90 ]" src="<?php echo THEMEPATH; ?>assets/img/key.png" alt="">
+					<img class="[ img-responsive img-centered ][ width-80 ][ pulse-top-sm ]" src="<?php echo THEMEPATH; ?>assets/img/key.png" alt="">
 				</div>
 				<div class="[ col-sm-4 ][ margin-bottom--xlarge ]">
 					<p class="[ bold ][ wow fadeInRightBig ]["  data-wow-delay="1000ms">
@@ -83,10 +83,12 @@ Template Name: pinnacle_premium
 	<section class="[ padding--xlarge ]">
 		<article class="[ container ]">
 			<div class="[ row ][ margin-bottom ]">
-				<div data-wow-delay="500ms" class="[ col-xs-12 ][ margin-bottom--xlarge ][ wow slideInRight ]">
-					<p class="[ text-large inline text-uppercase text-semi-bold text-center-xs ][ color-primary background-primary-20 ][ padding ]">Our Qualifications</p>
+				<div class="[ col-xs-12 ][ margin-bottom--xlarge ]">
+					<div class="[ wow slideInRight ]" >
+						<p class="[ text-large inline text-uppercase text-semi-bold text-center-xs ][ color-primary background-primary-20 ][ padding ]">Our Qualifications</p>
+					</div>
+					<img class="[ wow rotateIn ][ img-responsive ][ absolute right-0 ][ hidden-xs ]" src="<?php echo THEMEPATH; ?>assets/img/3-cogs.png">
 				</div>
-				<img class="[ wow rotateIn ][ img-responsive ][ absolute right-0 ][ margin-right--xlarge ][ hidden-xs ]" src="<?php echo THEMEPATH; ?>assets/img/3-cogs.png">
 			</div>
 			<div class="[ row ]">
 				<div class="[ col-xs-12 col-sm-8 ] margin-bottom ][ wow slideInrRight ]">
