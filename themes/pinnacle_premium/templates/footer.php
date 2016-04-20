@@ -1,7 +1,7 @@
 <?php global $pinnacle; if(isset($pinnacle['sitewide_calltoaction']) && $pinnacle['sitewide_calltoaction'] == 1) { get_template_part('templates/sitewide', 'action'); } ?>
 <footer id="containerfooter" class="footerclass">
   <div class="container">
-  	<div class="row">
+  	<div class="row [ border-bottom--light ]">
   		<?php if(isset($pinnacle['footer_layout'])) { $footer_layout = $pinnacle['footer_layout']; } else { $footer_layout = 'fourc'; }
   			if ($footer_layout == "fourc") {
   				if (is_active_sidebar('footer_1') ) { ?>

@@ -79,6 +79,9 @@
 .padding--large{ padding: 20px; }
 .padding--xlarge{ padding: 30px; }
 
+/* Border */
+/**********/
+.border-bottom--light { border-bottom: 2px solid #fff; }
 
 /* Opacity */
 /**********/
