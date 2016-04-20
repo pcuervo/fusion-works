@@ -276,7 +276,7 @@ input[type=text], textarea{
 }
 
 /*Contact*/
-.contact .kad-circle-iconclass{ padding: 10px; }
+.contact .kad-circle-iconclass, .icon--small *{ padding: 10px; }
 
 /* Sections */
 /************/
