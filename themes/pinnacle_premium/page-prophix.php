@@ -81,9 +81,9 @@
 					<div class="[ relative ][ padding-top--xlarge ]">
 						<p class="[ visible-xs ][ wow slideInLeft ][ text-bold ][ color-secondary ]"> Prophix Receives 2016 High Scores from Industry Analysts for Corporate Performance Management. *
 						</p>
-						<p class="[ visible-xs ][ wow slideInLeft ][ text-bold ][ color-secondary ]"> Microsoft gold partner.
-						</p>
 						<p class="[ wow slideInRight ][ text-bold ][ color-secondary ]"> Received a Dresner Advisory Services Industry Excellence Award 2015 for achieving high rankings for vendor credibility and for its software providing a positive customer experience.
+						</p>
+						<p class="[ visible-xs ][ wow slideInLeft ][ text-bold ][ color-secondary ]"> Microsoft gold partner.
 						</p>
 						<img class="[ hidden-xs hidden-sm ][ wow bounceInRight ][ absolute top-0 left-0  img-connect-right ]" src="<?php echo THEMEPATH; ?>assets/img/connector-righ-big.png" alt="right">
 					</div>	
@@ -102,7 +102,7 @@
 		<article class="[ container ][ padding-top ]">
 			<h2 class="[ wow bounceInDown ][ color-light ][ text-center text-bold text-uppercase ][ margin-bottom--large ]">Key functionalities</h2>
 			<div class="[ row ][ margin-bottom--xxxlarge ]">
-				<div class="[ col-ss-12 col-sm-3 ][ text-center ]">
+				<div class="[ col-ss-12 col-sm-4 ][ text-center ]">
 					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/budgeting.png" alt="Budgeting Planning">
 					<p class="[ wow fadeInLeft ][ color-light ][ text-bold text-center ]">A) <br> Budgeting, Planning and Forecastin</p>
 					<p class="[ wow slideInDown ][ color-light opacity-50 ][ z-index-10 ]">
@@ -119,11 +119,9 @@
 					<img class="[ wow fadeIn ][ img-responsive
 					]" src="<?php echo THEMEPATH; ?>assets/img/line-vertical-small.png">
 				</div>
-				<div class="[ col-ss-12 col-sm-1 ][ text-center ][ relative ]">
-					<img class="[ hidden-xs ][ wow slideInLeft ][ margin-top--xxlarge ][ absolute right-0 ]" src="<?php echo THEMEPATH; ?>assets/img/line.png">
-				</div>
 
-				<div class="[ col-ss-12 col-sm-3 ][ text-center ]">
+
+				<div class="[ col-ss-12 col-sm-4 ][ text-center ]">
 					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/reporting.png" alt="Reporting Consolidations">
 					<p class="[ wow fadeInLeft ][ color-light ][ text-bold text-center ]">B) <br>Reporting and Consolidations</p>
 				</div>
@@ -131,11 +129,9 @@
 				<div class="[ col-ss-12 ][ visible-xs ][ text-center ]">
 					<img class="[ wow fadeIn ][ img-responsive ]" src="<?php echo THEMEPATH; ?>assets/img/line-vertical-small.png" alt="">
 				</div>
-				<div class="[ col-ss-12 col-sm-1 ][ text-center ][ relative ]">
-					<img class="[ hidden-xs ][ wow slideInLeft ][ margin-top--xxlarge ][ absolute right-0 ]" src="<?php echo THEMEPATH; ?>assets/img/line.png">
-				</div>
+				
 
-				<div class="[ col-ss-12 col-sm-3 ][ text-center ]">
+				<div class="[ col-ss-12 col-sm-4 ][ text-center ]">
 					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/multidimensional.png" alt="Multidimensional Analysis">
 					<p class="[ wow fadeInLeft ][ color-light ][ text-bold text-center ]">C) <br>Multidimensional Analysis</p>
 				</div>
@@ -144,11 +140,19 @@
 					<img class="[ wow fadeIn ][ img-responsive
 					]" src="<?php echo THEMEPATH; ?>assets/img/line-vertical-small.png">
 				</div>
-				<div class="[ col-ss-12 col-sm-1 ][ text-center ]">
-					<img class="[ hidden-xs ][ margin-top--xxlarge ][ wow fadeIn ][ width-100 ][ absolute left-0 ][ height-250 ]" src="<?php echo THEMEPATH; ?>assets/img/curve-connect.png" alt="connect">
+
+
+				<div class="[ col-ss-12 col-sm-4 col-sm-offset-2 ][ clear ][ text-center ][ margin-top--xxlarge-sm ]">
+					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/collaboration.png" alt="Collaboration">
+					<p class="[ wow fadeInRight ][ color-light ][ text-bold text-center ]">D) <br>Collaboration</p>
+				</div>
+				<div class="[ col-ss-12 ][ visible-xs ][ text-center ]">
+					<img class="[ wow fadeIn ][ img-responsive
+					]" src="<?php echo THEMEPATH; ?>assets/img/line-vertical-small.png">
 				</div>
 
-				<div class="[ col-ss-12 col-sm-3 col-sm-offset-1 ][ text-center ][ margin-top--xxlarge-sm ]">
+
+				<div class="[ col-ss-12 col-sm-4 ][ text-center ][ margin-top--xxlarge-sm ]">
 					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/collaboration.png" alt="Data Integration">
 					<p class="[ wow fadeInRight ][ color-light ][ text-bold text-center ]">E) <br> Data Integration</p>
 					<p class="[ wow slideInDown ][ color-light opacity-50 ][ z-index-10 ]">
@@ -161,17 +165,6 @@
 							<br>MAS
 						</small>
 					</p>
-				</div>
-				<div class="[ col-ss-12 ][ visible-xs ][ text-center ]">
-					<img class="[ wow fadeIn ][ img-responsive
-					]" src="<?php echo THEMEPATH; ?>assets/img/line-vertical-small.png">
-				</div>
-				<div class="[ col-ss-12 col-sm-1 ][ text-center ][ margin-top--xxlarge-sm ][ relative ]">
-					<img class="[ hidden-xs ][ wow slideInRight ][ margin-top--xxlarge ][ absolute right-0 ]" src="<?php echo THEMEPATH; ?>assets/img/line.png">
-				</div>
-				<div class="[ col-ss-12 col-sm-3 ][ text-center ][ margin-top--xxlarge-sm ]">
-					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/collaboration.png" alt="Collaboration">
-					<p class="[ wow fadeInRight ][ color-light ][ text-bold text-center ]">D) <br>Collaboration</p>
 				</div>
 			
 			</div>
