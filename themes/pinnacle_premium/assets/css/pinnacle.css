@@ -275,8 +275,24 @@ input[type=text], textarea{
 	margin: auto;
 }
 
-/*Contact*/
-.contact .kad-circle-iconclass, .icon--small *{ padding: 10px; }
+/*Arrow testimonials*/
+
+.test-next, .test-prev {
+	background-color: rgba(0, 0, 0, 0.5)!important;
+	color: #fff!important;
+	border-radius: 50%;
+}
+
+/*Social button*/
+.contact .kad-circle-iconclass, .sidebar .kad-circle-iconclass { padding: 10px; }
+
+/*Sidebar*/
+.sidebar { margin-bottom: 30px; }
+.sidebar .widget-title {
+	text-align: center;
+	text-transform: none;
+}
+.sidebar .postclass, .sidebar .widget_categories li { background-color: #ececec; }
 
 /* Sections */
 /************/
