@@ -310,8 +310,8 @@ input[type=text], textarea{
 .kad-info-box .kt-info-content-case{ padding: 0px; }
 
 /*Header*/
-.is-sticky .headerclass{
-	background: rgba(255, 255, 255, 0.9)!important;
+.is-sticky .headerclass, .headerclass{
+	background: rgba(255, 255, 255, 0.8)!important;
 }
 .trans-header #kad-banner {
 	position: relative;
@@ -319,9 +319,10 @@ input[type=text], textarea{
 	z-index: 1020;
 }
 
-.kad-primary-nav > ul {
-	background-color: transparent!important;
-}
+.kad-primary-nav > ul { background-color: transparent!important; }
+
+#nav-main ul.sf-dropdown-menu li.current-menu-item a { background: #444!important; }
+#nav-main ul.sf-dropdown-menu li.current-menu-item a:hover { background: #f84c02!important; }
 
 /*Footer*/
 #containerfooter{
