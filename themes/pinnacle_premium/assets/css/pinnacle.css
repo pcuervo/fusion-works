@@ -82,6 +82,7 @@
 .margin-bottom--large{ margin-bottom: 20px; }
 .margin-bottom--xlarge{ margin-bottom: 30px; }
 .margin-bottom--xxxlarge{ margin-bottom: 50px; }
+.margin-bottom--xxxxlarge{ margin-bottom: 80px; }
 
 .margin-left{ margin-left: 10px; }
 .margin-left--large{ margin-left: 20px; }
@@ -146,7 +147,6 @@
 .backgroung-tertiary{ background-color: #ff931e;}
 .background-quaternary { background-color: #d8d2bc; }
 .background-dark{ background-color: #030000; }
-
 
 /* Color Opacity */
 /*****************/
@@ -293,7 +293,11 @@ input[type=text], textarea{
 	text-align: center;
 	text-transform: none;
 }
-.sidebar .postclass, .sidebar .widget_categories li { background-color: #ececec; }
+.sidebar .postclass,
+.sidebar .widget_categories li,
+#kad-blog-grid .blog_item .postcontent,
+#content .single-article article,
+.blog_carousel .blog_item { background-color: #ececec; }
 
 /* Sections */
 /************/
