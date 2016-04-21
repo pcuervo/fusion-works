@@ -167,6 +167,10 @@
 .border-dashed-tertiary{ border: 3px dashed #ff931e;}
 .border-radius-10{ border-radius: 10px}
 
+/* Buttons */
+/***********/
+
+.xl-kad-btn a, .xl-kad-btn input#submit { padding: 8px 36px; }
 
 /* Type */
 /********/
