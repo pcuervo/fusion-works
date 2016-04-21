@@ -282,6 +282,12 @@ input[type=text], textarea{
 	background-color: rgba(0, 0, 0, 0.5)!important;
 	color: #fff!important;
 	border-radius: 50%;
+	bottom: 40px;
+	left: 56%;
+}
+.testimonialbottom p{
+	padding-top: 20px;
+	margin-right: 0px;
 }
 
 /*Social button*/
