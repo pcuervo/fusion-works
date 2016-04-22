@@ -7,6 +7,8 @@
 /* Utilities */
 /*************/
 
+.full-img img { width: 100%; }
+
 /* Box model */
 /*************/
 
@@ -172,13 +174,15 @@
 
 .xl-kad-btn a, .xl-kad-btn input#submit { padding: 8px 36px; }
 
+.form-search .search-icon { background: #FF931E!important; }
+
 /* Type */
 /********/
 h4{ font-weight:700; }
 
 .textwidget { color: #5C5B5B; }
 
-/*After title*/
+/*Title*/
 /*************/
 .hometitle:after,
 .sectiontitle:after,
@@ -195,11 +199,16 @@ h4{ font-weight:700; }
 }
 
 @media (max-width: 600px) {
-
   .text-center-xs			{ text-align: center !important; }
   .inline.text-center-xs 	{ display: inline-block; }
   .width-80-xs				{ width: 80%; }
   .lead						{ font-size: 14px; }
+}
+
+.single-article article .entry-title {
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-bottom: 0px;
 }
 
 /* Weights */
@@ -260,10 +269,7 @@ h4{ font-weight:700; }
     z-index: 10;
 }
 
-@media (min-width: 768px){
-	.pulse-top-sm { margin-top: -40%; }
-}
-
+@media (min-width: 768px){ .pulse-top-sm { margin-top: -40%; } }
 
 /*Form*/
 /******/
@@ -287,12 +293,29 @@ input[type=text], textarea{
 	color: #fff!important;
 	border-radius: 50%;
 	bottom: 40px;
-	left: 56%;
+	left: 55%;
 }
+
 .testimonialbottom p{
 	padding-top: 20px;
-	margin-right: 0px;
+	margin-right: 20px;
 }
+
+@media (max-width: 600px){
+	.test-next, .test-prev {
+	bottom: 10px;
+	left: 80%;
+	}
+}
+
+/*Search*/
+
+.resultados-busqueda .widget_kadence_gallery_widget,
+.resultados-busqueda  .siteorigin-panels-stretch{
+	display: none;
+}
+
+/* siteorigin-panels-stretch kt-panel-row-full-stretch panel-row-style */
 
 /*Social button*/
 .contact .kad-circle-iconclass, .sidebar .kad-circle-iconclass { padding: 10px; }
@@ -327,6 +350,10 @@ input[type=text], textarea{
 
 #nav-main ul.sf-dropdown-menu li.current-menu-item a { background: #444!important; }
 #nav-main ul.sf-dropdown-menu li.current-menu-item a:hover { background: #f84c02!important; }
+.kad-mobile-nav ul.sf-dropdown-menu li.current-menu-item>a {
+	background: #fff!important;
+	color: #7f6e64!important;
+}
 
 /*Footer*/
 #containerfooter{
