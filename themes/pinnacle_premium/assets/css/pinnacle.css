@@ -81,6 +81,7 @@
 
 .no-margin{ margin: 0; }
 .margin{ margin: 10px; }
+.margin-auto * { margin:auto!important; }
 
 .margin-top{ margin-top: 10px; }
 .margin-top--large{ margin-top: 20px; }
@@ -119,7 +120,7 @@
 .padding-top--large { padding-top: 20px; }
 .padding-top--xlarge { padding-top: 30px; }
 .padding-top--xxlarge { padding-top: 40px; }
-@media (min-width: 992px){ .padding-top--sm { padding-top: 70px; }}
+@media (min-width: 992px){ .padding-top--sm { padding-top: 85px; }}
 @media (max-width: 991px){ .padding-top--sm .kt-simple-box { padding: 0px!important; }}
 
 .padding-bottom { padding-bottom: 10px; }
@@ -385,6 +386,8 @@ input[type=text], textarea{
 	background: #fff!important;
 	color: #7f6e64!important;
 }
+
+#nav-main ul .sf-dropdown-menu { background-color: #7F6E64 }
 
 /*Footer*/
 #containerfooter{
