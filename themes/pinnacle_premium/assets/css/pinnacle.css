@@ -9,6 +9,12 @@
 
 .full-img img { width: 100%; }
 
+@media (max-width: 478px ) { .box-team .textwidget { min-height: auto; } }
+@media (min-width: 479px ) { .box-team .textwidget { min-height: 110px; } }
+@media (min-width: 776px ) { .box-team .textwidget { min-height: 120px; } }
+@media (min-width: 1400px ) { .box-team .textwidget { min-height: 100px; } }
+
+#pg-1128-1 textarea { height: 39px; } /* Formulario temporal de whitepaper */
 /* Box model */
 /*************/
 
@@ -366,6 +372,11 @@ input[type=text], textarea{
 #kad-blog-grid .blog_item .postcontent,
 #content .single-article article,
 .blog_carousel .blog_item { background-color: #ececec; }
+
+/* Blog */
+/************/
+
+.postauthortop { display: none; }
 
 /* Sections */
 /************/
