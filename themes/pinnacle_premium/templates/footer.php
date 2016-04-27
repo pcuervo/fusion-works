@@ -86,7 +86,6 @@
 		        <?php } ?>
         </div> <!-- Row -->
         <div class="footercredits clearfix">
-
     		<?php if (has_nav_menu('footer_navigation')) :
         	?><div class="footernav clearfix"><?php
               wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => 'footermenu'));
