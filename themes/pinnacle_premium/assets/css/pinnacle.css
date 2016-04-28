@@ -212,8 +212,8 @@
 
 .xl-kad-btn a, .xl-kad-btn input#submit { padding: 8px 36px; }
 
-.form-search .search-icon { background: #FF931E!important; }
-
+.form-search .search-icon { background: #f74c02!important; }
+.form-search .search-icon:hover { background: #f5873f!important; }
 /* Type */
 /********/
 h4{ font-weight:700; }
