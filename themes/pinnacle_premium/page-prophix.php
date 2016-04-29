@@ -3,7 +3,7 @@
 
 <?php get_header(); ?>
 <?php get_template_part('templates/page', 'header'); ?>
-	
+
 <div class="[ background-primary ][ width-100 height-30 ]"></div>
 	<section class="[ container ]">
 		<article class="[ row ]">
@@ -14,11 +14,11 @@
 				<h2 class="[ wow bounceInDown ][ color-primary ][ text-uppercase ][ margin-bottom--large ]"><strong>Territories</strong></h2>
 				<div class="[ wow bounceInLeft ]">
 					<p class="[ color-primary ][ text-medium text-bold ][ margin-bottom--xlarge ]">Puerto Rico, Dominican Republic, Central America and Mexico.</p>
-					<p><strong>Customers:</strong></p>
-					<p>Puerto Rico</p>
+					<p><img class="[ img-responsive img-centered ]" src="<?php echo THEMEPATH; ?>assets/img/customers.png" alt=""> <strong>Customers</strong></p>
+					<!-- <p>Puerto Rico</p>
 					<p>Dominican Republic</p>
 					<p>Guatemala</p>
-					<p>Panama</p>
+					<p>Panama</p> -->
 				</div>
 			</div>
 			<div class="[ col-xs-12 col-sm-6 ][ visible-xs ]">
@@ -54,7 +54,7 @@
 		</div>
 
 	</section>
- 
+
 	<section class="[ background-quaternary ][ padding ]">
 		<article class="[ container ]">
 			<h2 class="[ wow bounceInDown ][ color-primary ][ text-uppercase ][ text-center ]"><strong>Important facts</strong></h2>
@@ -62,15 +62,15 @@
 			<div class="[ row ][ margin-bottom--xlarge ]">
 				<div class="[ col-sm-4 ][ hidden-xs ]">
 					<div class="[ relative ][ padding-top--large ][ margin-bottom--xxxlarge ]">
-						<p class="[ wow slideInLeft ][ text-bold text-right ][ color-secondary ]"> Prophix Receives 2016 High Scores from Industry Analysts for Corporate Performance Management. *
+						<p class="[  padding-right--sm ][ wow slideInLeft ][ text-bold text-right ][ color-secondary ]"> Prophix Receives 2016 High Scores from Industry Analysts for Corporate Performance Management. *
 						</p>
-						<img class="[ hidden-xs hidden-sm ][ wow bounceInLeft ][ absolute top-0 right-0  img-connect-left ]" src="<?php echo THEMEPATH; ?>assets/img/connector-left.png" alt="left">						
+						<img class="[ hidden-xs hidden-sm ][ wow bounceInLeft ][ absolute top-0 right-0  img-connect-left ]" src="<?php echo THEMEPATH; ?>assets/img/connector-left.png" alt="left">
 					</div>
 					<div class="[ height-30 ][ hidden-ss hidden-xs ]"></div>
 					<div class="[ relative ][ padding-top--xxlarge ]">
-						<p class="[ wow slideInLeft ][ text-bold text-right middle ][ color-secondary ]"> Microsoft gold partner.
+						<p class="[  padding-right--sm ][ wow slideInLeft ][ text-bold text-right middle ][ color-secondary ]"> Microsoft gold partner.
 						</p>
-						<img class="[ hidden-xs hidden-sm ][ wow bounceInLeft ][ absolute top-0 right-0  img-connect-left ]" src="<?php echo THEMEPATH; ?>assets/img/connector-left.png" alt="left">						
+						<img class="[ hidden-xs hidden-sm ][ wow bounceInLeft ][ absolute top-0 right-0  img-connect-left ]" src="<?php echo THEMEPATH; ?>assets/img/connector-left.png" alt="left">
 					</div>
 				</div>
 				<div class="[ col-sm-4 ]">
@@ -78,23 +78,23 @@
 				</div>
 				<div class="[ hidden-xs margin-top--xxlarge ]"></div>
 				<div class="[ col-sm-4 ]">
-					<div class="[ relative ][ padding-top--xlarge ]">
-						<p class="[ visible-xs ][ wow slideInLeft ][ text-bold ][ color-secondary ]"> Prophix Receives 2016 High Scores from Industry Analysts for Corporate Performance Management. *
+					<div class="[ relative ][ padding-top--xxlarge ]">
+						<p class="[ visible-xs ][ padding-left--sm ][ wow slideInLeft ][ text-bold ][ color-secondary ]"> Prophix Receives 2016 High Scores from Industry Analysts for Corporate Performance Management. *
 						</p>
-						<p class="[ wow slideInRight ][ text-bold ][ color-secondary ]"> Received a Dresner Advisory Services Industry Excellence Award 2015 for achieving high rankings for vendor credibility and for its software providing a positive customer experience.
+						<p class="[ padding-left--sm ][ wow slideInRight ][ text-bold ][ color-secondary ]"> Received a Dresner Advisory Services Industry Excellence Award 2015 for achieving high rankings for vendor credibility and for its software providing a positive customer experience.
 						</p>
-						<p class="[ visible-xs ][ wow slideInLeft ][ text-bold ][ color-secondary ]"> Microsoft gold partner.
+						<p class="[ padding-left--sm ][ visible-xs ][ wow slideInLeft ][ text-bold ][ color-secondary ]"> Microsoft gold partner.
 						</p>
 						<img class="[ hidden-xs hidden-sm ][ wow bounceInRight ][ absolute top-0 left-0  img-connect-right ]" src="<?php echo THEMEPATH; ?>assets/img/connector-righ-big.png" alt="right">
-					</div>	
-				</div>		
+					</div>
+				</div>
 			</div>
 			<div class="[ row ]">
 				<div class="[ text-center ][ wow fadeIn ]" data-wow-duration="4s">
 					<small>*Studies released by Dresner Advisory Services and Gartner Inc. evaluate CPM application vendors with respect to a number of criteria.</small>
-				</div>	
+				</div>
 			</div>
-		</article>	
+		</article>
 	</section>
 
 <!-- Key functionalities info -->
@@ -106,7 +106,7 @@
 					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/budgeting.png" alt="Budgeting Planning">
 					<p class="[ wow fadeInLeft ][ color-light ][ text-bold text-center ]">A) <br> Budgeting, Planning and Forecastin</p>
 					<p class="[ wow slideInDown ][ color-light opacity-50 ][ z-index-10 ]">
-						<small>i. Revenue by Customer, Client, Product, Region, etc. 
+						<small>i. Revenue by Customer, Client, Product, Region, etc.
 							<br>ii. Payroll by Employee
 							<br>iii. CapEx: existing + new
 							<br>iv. Opex: by department, etc.
@@ -129,7 +129,7 @@
 				<div class="[ col-ss-12 ][ visible-xs ][ text-center ]">
 					<img class="[ wow fadeIn ][ img-responsive ]" src="<?php echo THEMEPATH; ?>assets/img/line-vertical-small.png" alt="">
 				</div>
-				
+
 
 				<div class="[ col-ss-12 col-sm-4 ][ text-center ]">
 					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/multidimensional.png" alt="Multidimensional Analysis">
@@ -166,11 +166,11 @@
 						</small>
 					</p>
 				</div>
-			
+
 			</div>
-			
+
 		</article>
-		
+
 	</section>
 
 <?php get_footer(); ?>

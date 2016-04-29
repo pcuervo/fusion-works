@@ -56,7 +56,7 @@
 .block{ display: block; }
 .inline-block{ display: inline-block; }
 
-@media (min-width: 768px){ .hidden-xs { display: none; } }
+@media (max-width: 768px){ .hidden-xs { display: none; } }
 
 /* Floats */
 /**********/
@@ -68,8 +68,10 @@
 .affix 		{ position: fixed; }
 .absolute 	{ position: absolute; }
 .relative 	{ position: relative; }
+.panel-relative .panel-grid-cell { position: relative; }
 
 .top-0		{ top: 0; }
+.top--20		{ top: -20px; }
 .top-50		{ top: 50px; }
 
 .right-0	{ right: 0; }
@@ -107,7 +109,9 @@
 .margin-bottom{ margin-bottom: 10px; }
 .margin-bottom--large{ margin-bottom: 20px; }
 .margin-bottom--xlarge{ margin-bottom: 30px; }
+.margin-bottom--xxlarge{ margin-bottom: 40px; }
 .margin-bottom--xxxlarge{ margin-bottom: 50px; }
+.margin-bottom--xl{ margin-bottom: 60px; }
 .margin-bottom--xxxxlarge{ margin-bottom: 80px; }
 
 .margin-left{ margin-left: 10px; }
@@ -135,6 +139,9 @@
 
 .padding--large { padding: 20px; }
 .padding--xlarge { padding: 30px; }
+
+@media (min-width: 992px) and (max-width: 1200px){.padding-right--sm { padding-right: 12px; } }
+@media (min-width: 992px) and (max-width: 1200px){.padding-left--sm { padding-left: 12px; } }
 
 .padding--sides { padding-left: 30px; padding-right: 30px; }
 
@@ -187,6 +194,7 @@
 .backgroung-tertiary{ background-color: #ff931e;}
 .background-quaternary { background-color: #d8d2bc; }
 .background-dark{ background-color: #030000; }
+.background-light{ background-color: #fff; }
 
 /* Color Opacity */
 /*****************/
@@ -216,6 +224,9 @@
 .form-search .search-icon:hover { background: #f5873f!important; }
 /* Type */
 /********/
+
+.font-size--large{ font-size: 22px; }
+
 h4{ font-weight:700; }
 
 .textwidget { color: #5C5B5B; }
@@ -339,7 +350,7 @@ input[type=text], textarea{
 	color: #fff!important;
 	border-radius: 50%;
 	bottom: 40px;
-	left: 55%;
+	left: 47%;
 }
 
 .testimonialbottom p{
@@ -347,7 +358,7 @@ input[type=text], textarea{
 	margin-right: 20px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 780px){
 	.test-next, .test-prev {
 	bottom: 10px;
 	left: 80%;
