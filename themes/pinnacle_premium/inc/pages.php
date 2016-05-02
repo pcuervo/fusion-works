@@ -31,7 +31,7 @@ add_action('init', function(){
 		wp_insert_post( $page, true );
 	}
 
-	// ERP
+	// Oracle ERP
 	if( ! get_page_by_path('oracle-erp') ){
 		$page = array(
 			'post_author' => 1,
