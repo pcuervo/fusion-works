@@ -98,77 +98,73 @@
 	</section>
 
 <!-- Key functionalities info -->
-	<section class="[ backgroung-tertiary ]">
+	<section class="[ backgroung-tertiary ][ relative ][ padding-bottom--xxlarge ]">
 		<article class="[ container ][ padding-top ]">
-			<h2 class="[ wow bounceInDown ][ color-light ][ text-center text-bold text-uppercase ][ margin-bottom--large ]">Key functionalities</h2>
+			<h2 class="[ wow bounceInDown ][ color-light ][ text-center text-bold text-uppercase ][ margin-bottom--xxxlarge ]">Key functionalities</h2>
 			<div class="[ row ][ margin-bottom--xxxlarge ]">
-				<div class="[ col-ss-12 col-sm-4 ][ text-center ]">
-					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/budgeting.png" alt="Budgeting Planning">
-					<p class="[ wow fadeInLeft ][ color-light ][ text-bold text-center ]">A) <br> Budgeting, Planning and Forecastin</p>
-					<p class="[ wow slideInDown ][ color-light opacity-50 ][ z-index-10 ]">
-						<small>i. Revenue by Customer, Client, Product, Region, etc.
-							<br>ii. Payroll by Employee
-							<br>iii. CapEx: existing + new
-							<br>iv. Opex: by department, etc.
-							<br>v. Cash Flow
-						</small>
-					</p>
+				<img class="[ hidden-xs ][ absolute left-0 ][ max-height--820 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key-left.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ absolute right-0 ][ max-height--820 ][ wow bounceInRight ]" src="<?php echo THEMEPATH; ?>assets/img/key-right.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute bottom-0 margin-left--38 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
+				<div class="[ col-ss-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 no-padding ][ border--gray ][ background-light ][ text-bold ]">
+					<table>
+						<tr class="[ border-bottom--tertiary ]">
+							<td class="[ col-xs-1 ][ background-primary ][ text-center ][ padding ]">
+								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon1.png" alt="Budgeting Planning">
+							</td>
+							<td class="[ col-xs-11 ][ padding--large ]">
+								<p class="[ font-size--large ][ wow bounceInRight ]">A) Budgeting, Planning and Forescasting</p>
+								<p class="[ color-tertiary ][ padding-left ][ wow bounceInRight ]">
+									i. Revenue by Customer, Client, Product, Region, etc.
+									<br>ii. Payroll by Employee
+									<br>iii. CapEx: existing + new
+									<br>iv. Opex: by department, etc.
+									<br>v. Cash Flow
+								</p>
+							</td>
+						</tr>
+						<tr class="[ border-bottom--tertiary ]">
+							<td class="[ background-tertiary ][ text-center ][ padding ]">
+								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon2.png" alt="Reporting Consolidations">
+							</td>
+							<td class="[ padding--large ]">
+								<p class="[ font-size--large ][ wow bounceInRight ]">B) Reporting and Consolidations</p>
+							</td>
+						</tr>
+						<tr class="[ border-bottom--tertiary ]">
+							<td class="[ background-primary ][ text-center ][ padding ]">
+								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon3.png" alt="Multidimensional Analysis">
+							</td>
+							<td class="[ padding--large ]">
+								<p class="[ font-size--large ][ wow bounceInRight ]">C) Multidimensional Analysis</p>
+							</td>
+						</tr>
+						<tr class="[ border-bottom--tertiary ]">
+							<td class="[ background-tertiary ][ text-center ][ padding ]">
+								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon4.png" alt="Collaboration">
+							</td>
+							<td class="[ padding--large ]">
+								<p class="[ font-size--large ][ wow bounceInRight ]">D) Data Integration</p>
+								<p class="[ color-tertiary ][ padding-left ][ wow bounceInRight ]">
+									JD Edwards
+									<br>SAP
+									<br>Microsoft GP
+									<br>Oracle
+									<br>SQL
+									<br>MAS
+								</p>
+							</td>
+						</tr>
+						<tr class="[ border-bottom--tertiary ]">
+							<td class="[ background-primary ][ text-center ][ padding ]">
+								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon5.png" alt="Data Integration">
+							</td>
+							<td class="[ padding--large ]">
+								<p class="[ font-size--large ][ wow bounceInRight ]">E) Collaboration</p>
+							</td>
+						</tr>
+					</table>
 				</div>
-
-				<div class="[ col-ss-12 ][ visible-xs ][ text-center ]">
-					<img class="[ wow fadeIn ][ img-responsive
-					]" src="<?php echo THEMEPATH; ?>assets/img/line-vertical-small.png">
-				</div>
-
-
-				<div class="[ col-ss-12 col-sm-4 ][ text-center ]">
-					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/reporting.png" alt="Reporting Consolidations">
-					<p class="[ wow fadeInLeft ][ color-light ][ text-bold text-center ]">B) <br>Reporting and Consolidations</p>
-				</div>
-
-				<div class="[ col-ss-12 ][ visible-xs ][ text-center ]">
-					<img class="[ wow fadeIn ][ img-responsive ]" src="<?php echo THEMEPATH; ?>assets/img/line-vertical-small.png" alt="">
-				</div>
-
-
-				<div class="[ col-ss-12 col-sm-4 ][ text-center ]">
-					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/multidimensional.png" alt="Multidimensional Analysis">
-					<p class="[ wow fadeInLeft ][ color-light ][ text-bold text-center ]">C) <br>Multidimensional Analysis</p>
-				</div>
-
-				<div class="[ col-ss-12 ][ visible-xs ][ text-center ]">
-					<img class="[ wow fadeIn ][ img-responsive
-					]" src="<?php echo THEMEPATH; ?>assets/img/line-vertical-small.png">
-				</div>
-
-
-				<div class="[ col-ss-12 col-sm-4 col-sm-offset-2 ][ clear ][ text-center ][ margin-top--xxlarge-sm ]">
-					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/collaboration.png" alt="Collaboration">
-					<p class="[ wow fadeInRight ][ color-light ][ text-bold text-center ]">D) <br>Collaboration</p>
-				</div>
-				<div class="[ col-ss-12 ][ visible-xs ][ text-center ]">
-					<img class="[ wow fadeIn ][ img-responsive
-					]" src="<?php echo THEMEPATH; ?>assets/img/line-vertical-small.png">
-				</div>
-
-
-				<div class="[ col-ss-12 col-sm-4 ][ text-center ][ margin-top--xxlarge-sm ]">
-					<img class="[ wow rotateIn ][ margin-bottom ]" src="<?php echo THEMEPATH; ?>assets/img/collaboration.png" alt="Data Integration">
-					<p class="[ wow fadeInRight ][ color-light ][ text-bold text-center ]">E) <br> Data Integration</p>
-					<p class="[ wow slideInDown ][ color-light opacity-50 ][ z-index-10 ]">
-						<small>
-							JD Edwards
-							<br>SAP
-							<br>Microsoft GP
-							<br>Oracle
-							<br>SQL
-							<br>MAS
-						</small>
-					</p>
-				</div>
-
 			</div>
-
 		</article>
 
 	</section>
