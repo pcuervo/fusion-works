@@ -36,7 +36,7 @@ add_action('init', function(){
 		$page = array(
 			'post_author' => 1,
 			'post_status' => 'publish',
-			'post_title'  => 'erp',
+			'post_title'  => 'oracle-erp',
 			'post_name'   => 'ERP',
 			'post_type'   => 'page'
 		);
