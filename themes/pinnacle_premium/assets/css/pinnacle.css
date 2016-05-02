@@ -73,6 +73,12 @@
 .panel-relative .panel-grid-cell { position: relative; }
 
 .bottom-0	{ bottom: 0; }
+.bottom-40 { bottom: 40px;}
+.bottom-80 { bottom: 80px; }
+.bottom-280 { bottom: 280px;}
+.bottom-320 { bottom: 320px;}
+.bottom-400 { bottom: 400px; }
+.bottom-420 { bottom: 420px;}
 
 .top-0		{ top: 0; }
 .top--20		{ top: -20px; }
@@ -82,8 +88,15 @@
 .right-10	{ right: 10%;}
 .right-15	{ right: 15%;}
 .right-20	{ right: 20%;}
+.right-50	{ right: 50px;}
+.right-125 { right: 125px; }
+.right-250 { right: 250px; }
 
 .left-0		{ left: 0; }
+.left-20 { left: 20px; }
+.left-80 { left: 80px; }
+.left-150 { left: 150px; }
+.left-200  { left: 200px; }
 
 .middle	{ vertical-align: middle !important; }
 
@@ -121,7 +134,7 @@
 .margin-left{ margin-left: 10px; }
 .margin-left--large{ margin-left: 20px; }
 .margin-left--xlarge{ margin-left: 30px; }
-.margin-left--38 { margin-left: 38%; }
+.margin-left--35 { margin-left: 35%; }
 
 /* Padding */
 /**********/

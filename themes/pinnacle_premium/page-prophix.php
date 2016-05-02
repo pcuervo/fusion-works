@@ -102,9 +102,21 @@
 		<article class="[ container ][ padding-top ]">
 			<h2 class="[ wow bounceInDown ][ color-light ][ text-center text-bold text-uppercase ][ margin-bottom--xxxlarge ]">Key functionalities</h2>
 			<div class="[ row ][ margin-bottom--xxxlarge ]">
-				<img class="[ hidden-xs ][ absolute left-0 ][ max-height--820 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key-left.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ absolute right-0 ][ max-height--820 ][ wow bounceInRight ]" src="<?php echo THEMEPATH; ?>assets/img/key-right.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute bottom-0 margin-left--38 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-0 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-80 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key7.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-150 bottom-280 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-20 bottom-420 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-20 bottom-280 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key8.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-0 bottom-40 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-20 bottom-0 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key9.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-200 bottom-80 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca--small.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-125 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-50  ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key10.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-0 bottom-400 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-50 bottom-280 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key11.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-250 bottom-40 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-50 bottom-0 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key12.png" alt="background key functionalities">
+				<img class="[ hidden-xs ][ hidden-sm ][ absolute bottom-0 margin-left--35 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
 				<div class="[ col-ss-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 no-padding ][ border--gray ][ background-light ][ text-bold ]">
 					<table>
 						<tr class="[ border-bottom--tertiary ]">
