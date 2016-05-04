@@ -20,7 +20,7 @@
 					</div>
 	            <?php }; ?>
 				<?php if (is_active_sidebar('footer_4') ) { ?>
-					<div class="col-md-3 col-sm-6 footercol4 [ margin-bottom--xlarge ]">
+					<div class="col-md-3 col-sm-6 footercol4">
 					<?php dynamic_sidebar('footer_4'); ?>
 					</div>
 		        <?php }; ?>

@@ -488,10 +488,18 @@ footer .widget { margin-top: 0px; }
 
 .bnt_widget img { display: none; }
 .bnt_widget * { padding-left: 0px!important; padding-right: 0px!important; }
-.bnt_widget h3 { margin: 0px!important; font-size: 15px;}
+.bnt_widget h3 {
+	margin-top: 0px!important; margin-bottom: 5px!important;
+	font-size: 15px;
+	line-height: 15px;
+}
 .bnt_widget #controls { display: none;}
+div.bnt-content p {
+	margin-top: 0px!important;
+	font-weight: 300;
+}
 
-div.bnt-content p { margin-top: 0px!important; }
+.widget-entry-meta {  font-weight: 300; }
 
 /*Tweeter*/
 .timeline-Widget { background-color: transparent!important;}
