@@ -505,3 +505,6 @@ div.bnt-content p {
 /*Tweeter*/
 .timeline-Widget { background-color: transparent!important;}
 .timeline-Header { display: none; }
+
+/*Contact*/
+@media (min-width: 992px){ .contactformcase { margin-top: 310px; }}
