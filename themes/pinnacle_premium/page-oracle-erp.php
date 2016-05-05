@@ -7,143 +7,158 @@ Template Name: pinnacle_premium
 <?php get_header(); ?>
 <?php get_template_part('templates/page', 'header'); ?>
 
-<div class="[ info-erp ]">
-
-	<section class="[ backgroung-tertiary ][ padding-top--xlarge ]">
-		<h3 class="[ text-center ][ color-light ]">ENTERPRISE RESOURCE PLANNING</h3>
-		<div class="[ container ][ background-light ][ padding-top--xlarge ][ what-is ]">
-			<article class="[ row ]">
-				<div class="[ col-sm-4 ][ margin-bottom--xlarge ][ text-center ]">
-					<img class="[ wow bounceInDown rollIn ][ img-responsive img-centered ]" src="<?php echo THEMEPATH; ?>assets/img/what-is-erp.png" alt="">
-					<img class="[ wow rollIn ][ img-responsive img-centered ][ width-50 ][ hidden-xs ]" src="<?php echo THEMEPATH; ?>assets/img/3-cogs.png" alt="">
-					<img class="[ wow slideInLeft ][ img-responsive img-centered ][ margin-left--xlarge ][ pull-right ][ hidden-xs ]" src="<?php echo THEMEPATH; ?>assets/img/arrow-down-right.png" alt="">
-				</div>
-				<div class="[ col-sm-4 ][ margin-bottom--xlarge ][ text-center ]">
-					<div class="[ wow fadeInUp ][ margin-top ]">
-						<img class="[ img-responsive img-centered ][ hidden-xs ]" src="<?php echo THEMEPATH; ?>assets/img/software.png" alt="">
-						<p class="[ color-secondary ][ text-normal ][ padding ]">ERP is a business software with functionality for every part of your business integrated into one robust solution</p>
-					</div>
-				</div>
-				<div class="[ col-sm-4 ][ margin-bottom--xlarge ][ text-center ]">
-					<img data-wow-delay="500ms" class="[ wow bounceInRight ][ img-responsive img-centered ][ width-50 ][ opacity-30 ][ margin-bottom--xlarge ]" src="<?php echo THEMEPATH; ?>assets/img/3-cogs.png" alt="">
-					<p data-wow-delay="500ms" class="[ wow bounceInRight ][ text-center color-secondary text-bold ][ margin-bottom--xlarge ][ font-size--large ]">ERP is implemented to improve the organizations'</p>
-					<img data-wow-duration="1000ms" class="[ wow slideInRight ][ img-responsive img-centered ][ margin-bottom--xlarge ]" src="<?php echo THEMEPATH; ?>assets/img/resource-planning.png" alt="">
-					<img data-wow-duration="1500ms" class="[ wow slideInRight ][ img-responsive img-centered ][ margin-bottom--xlarge ]" src="<?php echo THEMEPATH; ?>assets/img/management-and-operational.png" alt="">
-					<!--<img data-wow-delay="2000ms" class="[ wow slideInDown ][ img-responsive img-centered ]" src="<?php echo THEMEPATH; ?>assets/img/arrow-down-left.png" alt=""> -->
-				</div>
-			</article>
-			<article class="[ row ][ margin-bottom--xlarge ]">
-				<div class="[ col-xs-12 col-sm-offset-3 col-sm-6 col-md-4 col-md-offset-4 ][ wow slideInLeft ][ text-right ]">
-					<p class="[ text-semi-bold color-dark ][ text-center-xs ]">Its main purpose is to</p>
-					<p class="[ text-large inline text-uppercase text-semi-bold text-center-xs ][ color-primary background-primary-20 ]">Improve and streamline</p>
-					<p class="[ text-large inline text-uppercase text-semi-bold text-center-xs ][ color-primary background-primary-20 ]">internal business processes</p>
-					<p class="[ text-center-xs ]">to facilitate the information flow between all business functions, consolidating operations into a uniform system.</p>
-				</div>
-				<div class="[ col-md-4  ][ hidden-xs ]">
-					<img class="[ wow slideInRight ][ img-responsive img-centered ][ margin-left--xlarge ][ hidden-xs ][ text-center ]" src="<?php echo THEMEPATH; ?>assets/img/down-left.png" alt="">
-				</div>
-			</article>
+<section class="[ container ][ text-center ]">
+	<h2 class="[ text-uppercase ][ color-primary ][ margin-bottom--xlarge ][ font-weight--600 ][ wow bounceInLeft ]">Experience</h2>
+	<div class="[ col-ss-12 col-xs-6 col-sm-3 ][ margin-bottom ]">
+		<div class="[ border-primary--info ][ padding--small ][ wow bounceInDown ]">
+			<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
+				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 18</p>
+				<p class="[ font-weight--600 ][ no-margin ][ color-primary ][ padding-top ]">Clients</p>
+			</div>
 		</div>
-	</section>
-
-	<section class="[ background-primary ][ padding-top--xxlarge ]">
-		<article class="[ container ][ margin-top--large ]">
-			<div class="[ row ][ hidden-xs ][ text-center ]">
-				<div class="[ col-sm-2 ][ wow bounceInLEft ]">
-					<img class="[ img-responsive img-centered ][ width-70 ]" src="<?php echo THEMEPATH; ?>assets/img/2-cogs-a.png" alt="">
+	</div>
+	<div class="[ col-ss-12 col-xs-6 col-sm-3 ][ margin-bottom ]">
+		<div class="[ border-primary--info ][ padding--small ][ wow bounceInDown ]">
+			<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
+				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 30</p>
+				<p class="[ font-weight--600 ][ no-margin ][ color-primary ]">Implementation<br>& migrations</p>
+			</div>
+		</div>
+	</div>
+	<div class="[ col-ss-12 col-xs-6 col-sm-3 ][ margin-bottom ]">
+		<div class="[ border-primary--info ][ padding--small ][ wow bounceInDown ]">
+			<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
+				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 1,200</p>
+				<p class="[ font-weight--600 ][ no-margin ][ color-primary ][ padding-top ]">Users trained</p>
+			</div>
+		</div>
+	</div>
+	<div class="[ col-ss-12 col-xs-6 col-sm-3 ][ margin-bottom ]">
+		<div class="[ border-primary--info ][ padding--small ][ wow bounceInDown ]">
+			<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
+				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 24</p>
+				<p class="[ font-weight--600 ][ no-margin ][ color-primary ]">Years of experience miplementing Oracle</p>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="[ text-center ]">
+	<img class="[ hidden-xs hidden-sm ][ margin-bottom--2 ][ wow bounceInUp ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-tuercas.png" alt="fondo tuercas">
+</div>
+<section class="[ background-primary--info ][ padding-top-bottom--large ]">
+	<div class=""><!-- container -->
+		<div class="[ row ][ padding--sides ]">
+			<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs col-sm-offset-1 ][ margin-bottom--large ][ text-center ]">
+				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-goverment.png" alt="goverment">
+				<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Goverment</p>
+			</div>
+			<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs ][ margin-bottom--large ][ text-center ]">
+				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-transportation.png" alt="transportation">
+				<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Transportation</p>
+			</div>
+			<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs ][ margin-bottom--large ][ text-center ]">
+				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-comunication.png" alt="communication">
+				<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Communications</p>
+			</div>
+			<div class="[ col-xs-2 visible-xs ]"></div>
+			<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs ][ margin-bottom--large ][ text-center ]">
+				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-utilities.png" alt="utilities">
+				<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Utilities</p>
+			</div>
+			<div class="[ col-ss-3 visible-xs ]"></div>
+			<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs ][ margin-bottom--large ][ text-center ]">
+				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-retail.png" alt="retail">
+				<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Retail</p>
+			</div>
+		</div>
+		<div class="[ hidden-xs ][ row ][ background-primary ][ padding-top-bottom--small padding--sides ][ text-center ]">
+			<div class="[ col-ss-12 col-sm-2 col-sm-offset-1 ]">
+				<p class="[ wow bounceInRight ][ margin-bottom--0 ][ color-light ][ text-bold ]">Goverment</p>
+			</div>
+			<div class="[ col-ss-12 col-sm-2 ]">
+				<p class="[ wow bounceInRight ][ margin-bottom--0 ][ color-light ][ text-bold ]">Transportation</p>
+			</div>
+			<div class="[ col-ss-12 col-sm-2 ]">
+				<p class="[ wow bounceInRight ][ margin-bottom--0 ][ color-light ][ text-bold ]">Communications</p>
+			</div>
+			<div class="[ col-ss-12 col-sm-2 ]">
+				<p class="[ wow bounceInRight ][ margin-bottom--0 ][ color-light ][ text-bold ]">Utilities</p>
+			</div>
+			<div class="[ col-ss-12 col-sm-2 ]">
+				<p class="[ wow bounceInRight ][ margin-bottom--0 ][ color-light ][ text-bold ]">Retail</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="[ row ][ background-quaternary ]">
+	<div class="[ col-ss-12 col-sm-5 col-lg-4 ][ no-padding-right ][ background-light ][ border-bottom--secondary ]">
+		<img class="[ wow fadeInRight ][ width-100 ][ hidden-xlg ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-map.png" alt="Map Puerto Rico">
+		<img class="[ wow fadeInRight ][ width-100 ][ visible-xlg ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-map2.png" alt="Map Puerto Rico">
+	</div>
+	<div class="[ col-ss-12 col-sm-7 col-lg-8 ][ padding--sides ]">
+		<h3 class="[ wow bounceInUp ][ text-center ][ color-light ][ font-weight--600 ]">KEY FUNCTIONALITIES</h3>
+		<div class="[ row ]">
+			<div class="[ col-ss-3 ][ text-center ]">
+				<img class="[ wow bounceInDown ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-key.png" alt="Key functionalities">
+			</div>
+			<div class="[ col-ss-9 ]">
+				<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Oracle Enterprise Resource Planning Cloud</h4>
+				<p class="[ wow bounceInRight ][ color-secondary ]">Build a collaborative, efficient, and intuitiveback-office hub with rich financial and operational capabilities married to the latest in social, mobile, and analytics technologies.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="">
+	<div class="[ row ]">
+		<div class="[ col-ss-12 col-sm-5 col-lg-4 ][ text-center ]">
+			<div class="[ padding--large ]">
+				<h3 class="[ wow bounceInDown ][ font-weight--600 ][ color-secondary ]">IMPORTANT FACTS</h3>
+				<p class="[ wow bounceInLeft ][ text-bold ][ color-primary ]">FusionWorks provide services in the following areas:</p>
+				<div class="[ background-primary--info ][ padding-top-bottom--small padding--sides ][ text-center ][ margin-bottom ]">
+					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-facts1.png" alt="Important facts">
+					<p class="[ wow bounceInDown ][ text-bold ][ color-light ][ no-margin ]">Enterprise Resource Planning (ERP) implementation, project management, trainings, documentation, support to end users.</p>
 				</div>
-				<div class="[ col-sm-4 ][ margin-top ][ wow bounceInLeft ]">
-					<img class="[ img-responsive img-centered ][ width-50 ]" src="<?php echo THEMEPATH; ?>assets/img/dotted-line-left.png" alt="">
-				</div>
-				<div class="[ col-sm-4 ][ margin-top ][ wow bounceInRight ]">
-					<img class="[ img-responsive img-centered ][ width-50 ]" src="<?php echo THEMEPATH; ?>assets/img/dotted-line-right.png" alt="">
-				</div>
-				<div class="[ col-sm-2 ][ wow bounceInRight ]">
-					<img class="[ img-responsive img-centered ][ width-70 ]" src="<?php echo THEMEPATH; ?>assets/img/2-cogs-b.png" alt="">
+				<div class="[ background-primary--info ][ padding-top-bottom--small padding--sides ][ text-center ]">
+					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-facts2.png" alt="Important facts">
+					<p class="[ wow bounceInDown ][ text-bold ][ color-light ][ no-margin ]">Nucleus Research: Oracle ERP Cloud a Leader in ERP Value Matrix</p>
 				</div>
 			</div>
-			<div class="[ row ][ text-center-xs ]">
-				<div class="[ col-sm-4 ][ margin-bottom--xlarge ]">
-					<p class="[ wow fadeInLeftBig ]"  data-wow-delay="1000ms">
-						<span class="[ color-light-50 ][ text-large text-right ]">It can integrate activities across functional departments ranging from</span><br />
-						<span class="[ text-uppercase lead ][ block ][ text-right text-center-xs ][ color-light ]">product planning,parts purchasing, inventory control, and product distribution, to order tracking.</span>
-					</p>
-				</div>
-				<div  data-wow-iteration="30" class="[ col-sm-4 ][ margin-bottom--xlarge ][ wow pulse ][ text-center ]">
-					<img class="[ img-responsive img-centered ][ width-80 ][ pulse-top-sm ]" src="<?php echo THEMEPATH; ?>assets/img/key.png" alt="">
-				</div>
-				<div class="[ col-sm-4 ][ margin-bottom--xlarge ]">
-					<p class="[ bold ][ wow fadeInRightBig ]["  data-wow-delay="1000ms">
-						<span class="[ text-uppercase lead ][ block ][ text-left text-center-xs ][ color-light ]">Works with finance & accounting, forecasting, reporting.</span><br />
-						<span class="[ color-light-50 ][ text-large text-left ]">Can be deployed in several ways, including: on premise, in the cloud.</span>
-					</p>
-				</div>
-			</div>
-		</article>
-	</section>
-
-
-	<section class="[ padding--xlarge ]">
-		<article class="[ container ]">
-			<div class="[ row ][ margin-bottom ]">
-				<div class="[ col-xs-12 ][ margin-bottom--xlarge ]">
-					<div class="[ wow slideInRight ]" >
-						<p class="[ text-large inline text-uppercase text-semi-bold text-center-xs ][ color-primary background-primary-20 ][ padding ]">Our Qualifications</p>
+		</div>
+		<div class="[ col-ss-12 col-sm-7 col-lg-8 ][ no-padding-left ]">
+			<div class="[ background-secondary--light ][ padding-top-bottom padding--sides ]">
+				<div class="[ row ]">
+					<div class="[ col-ss-3 ][ text-center ]">
+						<img class="[ wow rotateIn ][ max-height--150 ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-business.png" alt="Oracle e-businesss">
 					</div>
-					<img class="[ wow rotateIn ][ img-responsive ][ absolute right-0 ][ hidden-xs ]" src="<?php echo THEMEPATH; ?>assets/img/3-cogs.png">
+					<div class="[ col-ss-9 ]">
+						<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Oracle E-Business Suite Financials</h4>
+						<p class="[ wow bounceInRight ][ color-light ]">Build a collaborative, efficient, and intuitiveback-office hub with rich financial and operational capabilities married to the latest in social, mobile, and analytics technologies.</p>
+					</div>
 				</div>
 			</div>
-			<div class="[ row ]">
-				<div class="[ col-xs-12 col-sm-8 ] margin-bottom ][ wow slideInrRight ]">
-					<img class="[ wow rollIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-busines.png" alt="">
-					<p class="[ inline-block ][ width-80-xs  width-70 ][ lead ][ color-secondary ][ border-dashed-primary border-radius-10 no-border-left ][ middle ][ padding ]">Key business metrics are available in real-time</p>
-				</div>
-				<div class="[ col-xs-12 col-sm-7 col-sm-offset-2 ][ margin-bottom ][ wow slideInLeft ]">
-					<img class="[ wow rollIn ]" src="<?php echo THEMEPATH; ?>assets/img/running.png" alt="">
-					<p class="[ inline-block ][ width-80-xs ][ lead ][ color-secondary ][ border-dashed-primary border-radius-10 no-border-left ][ middle ][ padding ]">Running status reports instantly</p>
-				</div>
-				<div class="[ col-xs-12 col-sm-6 col-sm-offset-4  ][ margin-bottom ][ wow slideInRight ]">
-					<img class="[ wow rollIn ]" src="<?php echo THEMEPATH; ?>assets/img/streamline.png" alt="">
-					<p class="[ inline-block ][ width-70 width-80-xs ][ lead ][ color-secondary ][ border-dashed-primary border-radius-10 no-border-left ][ middle ][ padding ]">Streamline operations and improve productivity</p>
-				</div>
-				<img class="[ wow rotateIn ][ pull-left ][ img-responsive ][ hidden-xs ]" src="<?php echo THEMEPATH; ?>assets/img/3cogs.png">
-				<div class="[ col-xs-12 col-sm-6 ][ margin-bottom ][ pull-right ][ wow slideInLeft ]">
-					<img class="[ wow rollIn ]" src="<?php echo THEMEPATH; ?>assets/img/improve.png" alt="">
-					<p class="[ inline-block ][ width-80 ][ lead ][ color-secondary ][ border-dashed-primary border-radius-10 no-border-left ][ middle ][ padding ]">Improve accuracy of production costing and forecasting.</p>
+			<div class="[ background-quaternary ][ padding-top-bottom padding--sides ]">
+				<div class="[ row ]">
+					<div class="[ col-ss-3 ][ text-center ]">
+						<img class="[ wow rotateIn ][ max-height--150 ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-manage.png" alt="Manage and control">
+					</div>
+					<div class="[ col-ss-9 ]">
+						<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Manage and control your full accounting cycle:</h4>
+						<p class="[ wow bounceInRight ][ color-secondary ]">General Ledger, Receivables, Payables, Procurement, Inventory, Projects, Assets, Cash Management</p>
+					</div>
 				</div>
 			</div>
-		</article>
-	</section>
-
-
-	<section class="[ backgroung-tertiary ][ padding--xlarge ]">
-		<article class="[ container ]">
-			<div class="[ row ]">
-				<div data-wow-delay="1000ms" class="[ col-xs-12 ][ margin-bottom--xlarge ][ wow slideInLeft ]">
-					<p class="[ text-large inline text-uppercase text-semi-bold text-center-xs ][ color-primary background-light-60 ][ padding ]">Our Qualifications</p>
+			<div class="[ background-secondary--light ][ padding-top padding--sides ]">
+				<div class="[ row ]">
+					<div class="[ col-ss-3 ][ text-center ]">
+						<img class="[ wow rotateIn ][ max-height--150 ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-acces.png" alt="Access your financial statements">
+					</div>
+					<div class="[ col-ss-9 ]">
+						<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Access your financial statements anytime.</h4>
+					</div>
 				</div>
 			</div>
-			<div class="[ row ]">
-				<div class="[ col-sm-4 ][ margin-bottom--xlarge ][ wow pulse ]" data-wow-iteration="30">
-					<img class="[ img-responsive img-centered ][ width-90 ]" src="<?php echo THEMEPATH; ?>assets/img/our-qualifications.png" alt="">
-				</div>
-				<div class="[ col-sm-8 ][ margin-bottom--xlarge ][ wow slideInRight ]">
-					<p class="[ text-large ][ color-light ]">Fusionworks Inc. is an expert source of</p>
-				</div>
-				<div class="[ col-sm-4 ][ margin-bottom--xlarge ][ wow fadeInDown ]">
-					<img class="[ img-responsive img-centered ][ width-90 ]" src="<?php echo THEMEPATH; ?>assets/img/microsoft-logo.png" alt="">
-				</div>
-				<div class="[ col-sm-4 ][ margin-bottom--xlarge ][ wow fadeInDown ]">
-					<img class="[ img-responsive img-centered ][ width-90 ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-logo.png" alt="">
-				</div>
-				<div data-wow-offset="10" class="[ col-sm-8 ][ margin-bottom--xlarge ][ wow slideInRight ]">
-					<p class="[ text-large ][ color-light ]">ERP Solutions with over 30 <br>successful implementations</p>
-				</div>
-			</div>
-		</article>
-	</section>
-
-
-</div> <!-- /info-erp -->
+		</div>
+	</div>
+</section>
 
 <?php get_footer(); ?>

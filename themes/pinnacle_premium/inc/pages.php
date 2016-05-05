@@ -43,5 +43,17 @@ add_action('init', function(){
 		wp_insert_post( $page, true );
 	}
 
+	// Microsoft Dynamics CRM
+	if( ! get_page_by_path('microsoft-dynamics-crm') ){
+		$page = array(
+			'post_author' => 1,
+			'post_status' => 'publish',
+			'post_title'  => 'microsoft-dynamics-crm',
+			'post_name'   => 'Microsoft Dynamics CRM',
+			'post_type'   => 'page'
+		);
+		wp_insert_post( $page, true );
+	}
+
 });
 
