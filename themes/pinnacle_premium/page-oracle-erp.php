@@ -39,7 +39,7 @@ Template Name: pinnacle_premium
 		<div class="[ border-primary--info ][ padding--small ][ wow bounceInRight ]">
 			<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
 				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 24</p>
-				<p class="[ font-weight--600 ][ no-margin ][ color-primary ]">Years of experience miplementing Oracle</p>
+				<p class="[ font-weight--600 ][ no-margin ][ color-primary ]">Years of experience implementing Oracle</p>
 			</div>
 		</div>
 	</div>

@@ -321,6 +321,8 @@
 
 .textwidget { color: #5C5B5B; }
 
+.letter-spacing{letter-spacing: 6px;}
+
 @media (max-width: 480px) {
 	.rev_slider_wrapper p,
 	.rev_slider_wrapper a { font-size: 18px!important; }
@@ -488,7 +490,7 @@ input[type=text], textarea, input[type=email], input[type=url]{
 .page-header h1,
 h3.widget-title,
 h3 {
-	text-transform: capitalize!important;
+	text-transform: inherit;!important;
 	font-weight: 300;
 	letter-spacing: 6px;
 }

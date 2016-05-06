@@ -7,27 +7,27 @@ Template Name: pinnacle_premium
 <?php get_header(); ?>
 <?php get_template_part('templates/page', 'header'); ?>
 <section class="[ container ][ no-padding ][ relative ][ background-quaternary ]">
-		<img class="[ wow rotateIn ][ absolute ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright-esquina.png" alt="fondo tuercas">
-		<img class="[ hidden-xs ][ wow rotateIn ][ absolute left-200 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaleft-top.png" alt="fondo tuercas">
-		<img class="[ wow rotateIn ][ absolute right-125 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright-top.png" alt="fondo tuercas">
-		<img class="[ wow rotateIn ][ absolute right-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright.png" alt="fondo tuercas">
-		<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute right-0 bottom-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuerca-bottom.png" alt="fondo tuercas">
-		<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute left-20 bottom-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuerca.png" alt="fondo tuercas">
-		<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute left-20 top-20 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-clients.png" alt="fondo tuercas">
-		<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute left-150 top-100 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-years.png" alt="fondo tuercas">
-		<div class="[ padding-top--xxlarge margin-bottom--xxxlarge ][  margin-auto ]">
-			<h2 class="[ wow fadeInDown ][ text-center text-uppercase ][ font-size--xl font-size--sm font-weight--600 ][ color-secondary ][ border-light--dotted  padding-top-bottom ][ width-350 width--sm ]">Experience</h2>
+	<img class="[ wow rotateIn ][ absolute ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright-esquina.png" alt="fondo tuercas">
+	<img class="[ hidden-xs ][ wow rotateIn ][ absolute left-200 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaleft-top.png" alt="fondo tuercas">
+	<img class="[ wow rotateIn ][ absolute right-125 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright-top.png" alt="fondo tuercas">
+	<img class="[ wow rotateIn ][ absolute right-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright.png" alt="fondo tuercas">
+	<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute right-0 bottom-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuerca-bottom.png" alt="fondo tuercas">
+	<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute left-20 bottom-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuerca.png" alt="fondo tuercas">
+	<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute left-20 top-20 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-clients.png" alt="fondo tuercas">
+	<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute left-150 top-100 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-years.png" alt="fondo tuercas">
+	<div class="[ padding-top--xxlarge margin-bottom--xxxlarge ][  margin-auto ]">
+		<h2 class="[ wow fadeInDown ][ text-center text-uppercase ][ font-size--xl font-size--sm font-weight--600 ][ color-secondary ][ border-light--dotted  padding-top-bottom ][ width-350 width--sm ]">Experience</h2>
+	</div>
+	<img class="[ wow zoomIn ][ hidden-xs hidden-sm ][ margin-bottom--large margin-left--35 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-users.png" alt="fondo tuercas">
+	<div class="[ row ][ visible-xs visible-sm ][ text-center ]">
+		<div class="[ col-ss-12 col-sm-6 ]">
+			<img class="[ wow rotateIn ][ margin-bottom--large" src="<?php echo THEMEPATH; ?>assets/img/crm-clients.png" alt="11 clients">
+			<img class="[ wow rotateIn ][ margin-bottom--large" src="<?php echo THEMEPATH; ?>assets/img/crm-years.png" alt="9 years">
 		</div>
-		<img class="[ wow zoomIn ][ hidden-xs hidden-sm ][ margin-bottom--large margin-left--35 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-users.png" alt="fondo tuercas">
-		<div class="[ row ][ visible-xs visible-sm ][ text-center ]">
-			<div class="[ col-ss-12 col-sm-6 ]">
-				<img class="[ wow rotateIn ][ margin-bottom--large" src="<?php echo THEMEPATH; ?>assets/img/crm-clients.png" alt="11 clients">
-				<img class="[ wow rotateIn ][ margin-bottom--large" src="<?php echo THEMEPATH; ?>assets/img/crm-years.png" alt="9 years">
-			</div>
-			<div class="[ col-ss-12 col-sm-6 ]">
-				<img class="[ wow zoomIn ][ padding--sides margin-top--xlarge margin-bottom--large ]" src="<?php echo THEMEPATH; ?>assets/img/crm-users.png" alt="fondo tuercas">
-			</div>
+		<div class="[ col-ss-12 col-sm-6 ]">
+			<img class="[ wow zoomIn ][ padding--sides margin-top--xlarge margin-bottom--large ]" src="<?php echo THEMEPATH; ?>assets/img/crm-users.png" alt="fondo tuercas">
 		</div>
+	</div>
 </section>
 <section class="[ container ][ no-padding ]">
 	<div class="[ background-secondary ][ padding--sides--small padding-top-bottom--large ]">
