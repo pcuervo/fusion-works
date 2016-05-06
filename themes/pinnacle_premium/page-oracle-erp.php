@@ -52,25 +52,25 @@ Template Name: pinnacle_premium
 <section class="[ container ][ background-primary--info ][ padding-top-bottom--large ]">
 	<div class="[ row ][ padding--sides ]">
 		<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs col-sm-offset-1 ][ margin-bottom--large ][ text-center ]">
-			<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-goverment.png" alt="goverment">
+			<img data-wow-delay="0.8s" class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-goverment.png" alt="goverment">
 			<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Goverment</p>
 		</div>
 		<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs ][ margin-bottom--large ][ text-center ]">
-			<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-transportation.png" alt="transportation">
+			<img data-wow-delay="0.8s" class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-transportation.png" alt="transportation">
 			<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Transportation</p>
 		</div>
 		<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs ][ margin-bottom--large ][ text-center ]">
-			<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-comunication.png" alt="communication">
+			<img data-wow-delay="0.8s" class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-comunication.png" alt="communication">
 			<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Communications</p>
 		</div>
 		<div class="[ col-xs-2 visible-xs ]"></div>
 		<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs ][ margin-bottom--large ][ text-center ]">
-			<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-utilities.png" alt="utilities">
+			<img data-wow-delay="0.8s" class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-utilities.png" alt="utilities">
 			<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Utilities</p>
 		</div>
 		<div class="[ col-ss-3 visible-xs ]"></div>
 		<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs ][ margin-bottom--large ][ text-center ]">
-			<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-retail.png" alt="retail">
+			<img data-wow-delay="0.8s" class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-retail.png" alt="retail">
 			<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Retail</p>
 		</div>
 	</div>
