@@ -20,6 +20,7 @@
 .width-100{ width: 100%; }
 .width-90{ width: 90%; }
 .width-80{ width: 80%; }
+.width-75{ width: 75%; }
 .width-70{ width: 70%; }
 .width-60{ width: 60%; }
 .width-50{ width: 50%; }
@@ -67,6 +68,11 @@
 .inline-block{ display: inline-block; }
 
 @media (max-width: 768px){ .hidden-xs { display: none; } }
+
+/* Vertical align */
+/***********/
+
+.middle {vertical-align: middle;}
 
 /*Visible-hidden */
 .visible-xlg { display: none; }
@@ -131,6 +137,7 @@
 .margin-auto * { margin:auto!important; }
 .margin-auto--img  img { margin:auto!important; }
 
+.no-margin-top{ margin-top: 0px; }
 .margin-top{ margin-top: 10px; }
 .margin-top--large{ margin-top: 20px; }
 .margin-top--xlarge{ margin-top: 30px; }
@@ -142,7 +149,7 @@
 .margin-right--large{ margin-right: 20px; }
 .margin-right--xlarge{ margin-right: 30px; }
 
-.margin-bottom--0{ margin-bottom: 0px; }
+.margin-bottom--0, .no-margin-bottom { margin-bottom: 0px; }
 .margin-bottom--no .panel-grid-cell { margin-bottom: 0px!important; }
 .margin-bottom--2{ margin-bottom: -2px; }
 .margin-bottom{ margin-bottom: 10px; }
@@ -184,6 +191,7 @@
 
 .padding-bottom{ padding-bottom: 10px; }
 .padding-bottom--medium{ padding-bottom: 20px; }
+.padding-bottom--large { padding-bottom: 30px; }
 .padding-bottom--xxlarge{ padding-bottom: 70px; }
 
 .padding-top-bottom--small { padding-top: 10px; padding-bottom: 10px; }

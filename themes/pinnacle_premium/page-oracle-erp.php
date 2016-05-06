@@ -44,9 +44,11 @@ Template Name: pinnacle_premium
 		</div>
 	</div>
 </section>
-<div class="[ text-center ][ row ]">
-	<img class="[ margin-bottom--2 ][ wow bounceInUp ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-tuercas.png" alt="fondo tuercas">
-</div>
+<section class="[ container ]">
+	<div class="[ text-center ][ row ]">
+		<img class="[ margin-bottom--2 ][ wow bounceInUp ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-tuercas.png" alt="fondo tuercas">
+	</div>
+</section>
 <section class="[ container ][ background-primary--info ][ padding-top-bottom--large ]">
 	<div class="[ row ][ padding--sides ]">
 		<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs col-sm-offset-1 ][ margin-bottom--large ][ text-center ]">
@@ -113,7 +115,7 @@ Template Name: pinnacle_premium
 	<div class="[ row ]">
 		<div class="[ col-ss-12 col-sm-5 col-lg-4 ][ text-center ]">
 			<div class="[ padding-top--botom ]">
-				<h3 class="[ wow bounceInLeft ][ font-weight--600 ][ color-secondary ]">IMPORTANT FACTS</h3>
+				<h3 class="[ wow bounceInLeft ][ font-weight--600 ][ color-secondary ][ no-margin-top ]">IMPORTANT FACTS</h3>
 				<p class="[ wow bounceInLeft ][ text-bold ][ color-primary ]">FusionWorks provide services in the following areas:</p>
 				<div class="[ background-primary--info ][ padding-top-bottom--small padding--sides ][ text-center ][ margin-bottom ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-facts1.png" alt="Important facts">

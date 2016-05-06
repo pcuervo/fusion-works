@@ -25,7 +25,7 @@ Template Name: pinnacle_premium
 				<img class="[ wow rotateIn ][ margin-bottom--large" src="<?php echo THEMEPATH; ?>assets/img/crm-years.png" alt="9 years">
 			</div>
 			<div class="[ col-ss-12 col-sm-6 ]">
-				<img class="[ wow zoomIn ][ margin-bottom--large" src="<?php echo THEMEPATH; ?>assets/img/crm-users.png" alt="fondo tuercas">
+				<img class="[ wow zoomIn ][ padding--sides margin-top--xlarge margin-bottom--large ]" src="<?php echo THEMEPATH; ?>assets/img/crm-users.png" alt="fondo tuercas">
 			</div>
 		</div>
 </section>
@@ -33,42 +33,42 @@ Template Name: pinnacle_premium
 	<div class="[ background-secondary ][ padding--sides--small padding-top-bottom--large ]">
 		<div class="[ row ]">
 			<div class="[ col-ss-12 col-md-3 ]">
-				<h2 class="[ wow fadeInDown ][ padding-top--desktop margin-bottom ][ text-uppercase text-center font-size--xxlarge ][ color-light ]">Industries</h2>
+				<h2 data-wow-delay="0.8s" class="[ wow fadeInDown ][ padding-top--desktop margin-bottom ][ text-uppercase text-center font-size--xxlarge ][ color-light ]">Industries</h2>
 			</div>
 			<div class="[ col-ss-12 col-md-9 ]">
 				<div class="[ row ]">
 					<div class="[ col-ss-6 col-sm-4 col-md-3 ][ margin-bottom ]">
-						<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-1.png" alt="industries dynamics crm">
-						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]">Health/Medical</p>
+						<img class="[ wow rotateIn ]" data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-1.png" alt="industries dynamics crm">
+						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]" data-wow-delay="0.8s">Health/Medical</p>
 					</div>
 					<div class="[ col-ss-6 col-sm-4 col-md-3 ][ margin-bottom ]">
-						<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-2.png" alt="industries dynamics crm">
-						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]">Tourism</p>
+						<img class="[ wow rotateIn ]" data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-2.png" alt="industries dynamics crm">
+						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]" data-wow-delay="0.8s">Tourism</p>
 					</div>
 					<div class="[ col-ss-6 col-sm-4 col-md-3 ][ margin-bottom ]">
-						<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-3.png" alt="industries dynamics crm">
-						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]">Goverment</p>
+						<img class="[ wow rotateIn ]" data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-3.png" alt="industries dynamics crm">
+						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]" data-wow-delay="0.8s">Goverment</p>
 					</div>
 					<div class="[ col-ss-6 col-sm-4 col-md-3 ][ margin-bottom ]">
-						<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-4.png" alt="industries dynamics crm">
-						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]">Non-profit Organization</p>
+						<img class="[ wow rotateIn ]" data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-4.png" alt="industries dynamics crm">
+						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]" data-wow-delay="0.8s">Non-profit Organization</p>
 					</div>
 					<div class="[ col-ss-6 col-sm-4 col-md-3 ][ margin-bottom ]">
-						<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-5.png" alt="industries dynamics crm">
-						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]">Education</p>
+						<img class="[ wow rotateIn ]" data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-5.png" alt="industries dynamics crm">
+						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]" data-wow-delay="0.8s">Education</p>
 					</div>
 					<div class="[ col-ss-6 col-sm-4 col-md-3 ][ margin-bottom ]">
-						<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-6.png" alt="industries dynamics crm">
-						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]">Services</p>
+						<img class="[ wow rotateIn ]" data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-6.png" alt="industries dynamics crm">
+						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]" data-wow-delay="0.8s">Services</p>
 					</div>
 					<div class="[ col-sm-2 ][ visible-sm ]"></div>
 					<div class="[ col-ss-6 col-sm-4 col-md-3 ][ margin-bottom ]">
-						<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-7.png" alt="industries dynamics crm">
-						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]">Insurance</p>
+						<img class="[ wow rotateIn ]" data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-7.png" alt="industries dynamics crm">
+						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]" data-wow-delay="0.8s">Insurance</p>
 					</div>
 					<div class="[ col-ss-6 col-sm-4 col-md-3 ][ margin-bottom ]">
-						<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-8.png" alt="industries dynamics crm">
-						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]">Consulting</p>
+						<img class="[ wow rotateIn ]" data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-8.png" alt="industries dynamics crm">
+						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]" data-wow-delay="0.8s">Consulting</p>
 					</div>
 				</div>
 			</div>
@@ -143,46 +143,26 @@ Template Name: pinnacle_premium
 		</div>
 	</div>
 	<div class="[ col-ss-12 col-sm-7 col-lg-8 ]">
-		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ][ row ]">
-			<h2 class="[ wow fadeInDown ][ text-uppercase text-center ][ color-light ]">Important facts</h2>
-			<div class="[ col-ss-3 col-xs-2 col-sm-3 col-md-2 ]">
-				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-rapid-start.png" alt="">
-			</div>
-			<div class="[ col-ss-9 ]">
-				<p class="[ color-light ][ wow bounceInRight ]">Rapid Start implementation tools help make the solution fast and simple to deploy.</p>
-			</div>
+		<div class="[ background-primary ][ padding--sides--small padding-top padding-bottom--large ][ row ]">
+			<h2 class="[ wow fadeInDown ][ text-uppercase text-center ][ color-light ][ no-margin-top ]">Important facts</h2>
+			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-rapid-start.png" alt="">
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Rapid Start implementation tools help make the solution fast and simple to deploy.</p>
 		</div>
 		<div class="[ background-tertiary ][ padding--sides--small padding-top-bottom--large ][ row ]">
-			<div class="[ col-ss-3 col-xs-2 col-sm-3 col-md-2 ]">
-				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-comfortable.png" alt="">
-			</div>
-			<div class="[ col-ss-9 ]">
-				<p class="[ color-light ][ wow bounceInRight ]">Comfortable, intuitive look and feel easy-to-use</p>
-			</div>
+			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-comfortable.png" alt="">
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Comfortable, intuitive look and feel easy-to-use</p>
 		</div>
 		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ][ row ]">
-			<div class="[ col-ss-3 col-xs-2 col-sm-3 col-md-2 ]">
-				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-flexible.png" alt="">
-			</div>
-			<div class="[ col-ss-9 ]">
-				<p class="[ color-light ][ wow bounceInRight ]">Flexible solution that fits with several business process</p>
-			</div>
+			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-flexible.png" alt="">
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Flexible solution that fits with several business process</p>
 		</div>
 		<div class="[ background-tertiary ][ padding--sides--small padding-top-bottom--large ][ row ]">
-			<div class="[ col-ss-3 col-xs-2 col-sm-3 col-md-2 ]">
-				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-provide.png" alt="">
-			</div>
-			<div class="[ col-ss-9 ]">
-				<p class="[ color-light ][ wow bounceInRight ]">Provide the information and processes to users to understanding, and identifying their customers´needs</p>
-			</div>
+			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-provide.png" alt="">
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Provide the information and processes to users to understanding, and identifying their customers´needs</p>
 		</div>
 		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ][ row ]">
-			<div class="[ col-ss-3 col-xs-2 col-sm-3 col-md-2 ]">
-				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-agile.png" alt="">
-			</div>
-			<div class="[ col-ss-9 ]">
-				<p class="[ color-light ][ wow bounceInRight ]">Agile automation tools to build Business Process flows and workflows</p>
-			</div>
+			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-agile.png" alt="">
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Agile automation tools to build Business Process flows and workflows</p>
 		</div>
 	</div>
 </section>
