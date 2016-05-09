@@ -71,7 +71,7 @@
             ?>
           </footer>
         </article>
-        <?php echo do_shortcode('[addtoany buttons="facebook,twitter,linkedin"]'); ?>
+        <p style="float: left; margin-right: 10px;">Share: </p> <?php echo do_shortcode('[addtoany buttons="facebook,twitter,linkedin"]'); ?>
       <?php
       /**
       * @hooked pinnacle_post_nav - 10
