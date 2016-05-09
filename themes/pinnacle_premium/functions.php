@@ -98,6 +98,7 @@ add_action('init', 'pinnacle_shortcode_init');
  *****************/
 
 require_once( 'inc/pages.php' );
+require_once( 'inc/post-types.php' );
 
 
 
@@ -111,3 +112,58 @@ require_once( 'inc/pages.php' );
 define( 'JSPATH', get_template_directory_uri() . '/assets/js/' );
 define( 'THEMEPATH', get_template_directory_uri() . '/' );
 define( 'SITEURL', site_url('/') );
+
+
+/*------------------------------------*\
+	#GET/SET FUNCTIONS
+\*------------------------------------*/
+
+/**
+* Get all posts from post type White Papers
+* @return array $white_papers 
+**/
+function get_white_papers(){
+	global $post;
+	$white_papers = array();
+	$white_papers_args = array(
+		'post_type' 		=> 'white-papers',
+		'posts_per_page' 	=> -1,
+	);
+	$query_white_papers = new WP_Query( $white_papers_args );
+
+	if ( $query_white_papers->have_posts() ) : while( $query_white_papers->have_posts() ) : $query_white_papers->the_post();
+		// $img_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' );
+		$pdfs = get_white_paper_pdfs( $post->post_id );
+		var_dump( $pdfs );
+		$white_papers[$post->post_name] = array(
+			'id'		=> $post->post_id,
+			'title'		=> $post->post_title,
+			'content'	=> $post->post_content,
+		);
+	endwhile; endif; wp_reset_query();
+
+	return $white_papers;
+}
+
+/**
+* Get PDFs from post of type White Papers
+* @return array $white_papers 
+**/
+function get_white_paper_pdfs( $post_id ){
+	$pdfs = array();
+	$query_pdf_args = array(
+		'post_parent'		=> $post_id,
+		'post_status' 		=> 'inherit',
+		'post_type'			=> 'attachment',
+		'post_mime_type' 	=> 'application/pdf',
+		'post_per_page'		=> -1,
+	);
+	$query_pdf = new WP_Query( $query_pdf_args );
+	foreach ( $query_pdf->posts as $file) {
+		$pdfs[$file->post_name] = array(
+			'title' => $file->post_title,
+			'url' 	=> $file->guid
+		);
+	}
+	return $pdfs;
+}// get_white_paper_pdfs
