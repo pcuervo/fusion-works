@@ -27,6 +27,7 @@ if (is_child_theme()) {
   wp_enqueue_script('pinnacle_plugins');
   wp_enqueue_script('wow');
   wp_enqueue_script( 'functions', JSPATH.'functions.js', array('pinnacle_plugins'), '1.0', true );
+  wp_localize_script( 'functions', 'ajax_url', admin_url('admin-ajax.php') );
   if(isset($pinnacle["smooth_scrolling"]) && $pinnacle["smooth_scrolling"] == '1') { 
      wp_register_script('pinnacle_smoothscroll', get_template_directory_uri() . '/assets/js/min/nicescroll-min.js', false, null, true);
      wp_enqueue_script('pinnacle_smoothscroll');
