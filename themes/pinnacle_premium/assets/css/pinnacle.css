@@ -100,7 +100,11 @@
 .bottom-0	{ bottom: 0; }
 .bottom-40	{ bottom: 40px;}
 .bottom-80	{ bottom: 80px; }
+.bottom-100	{ bottom: 100px; }
+.bottom-200	{ bottom: 100px; }
+.bottom-170	{ bottom: 170px;}
 .bottom-280	{ bottom: 280px;}
+.bottom-300	{ bottom: 300px;}
 .bottom-320	{ bottom: 320px;}
 .bottom-400	{ bottom: 400px; }
 .bottom-420	{ bottom: 420px;}
@@ -110,10 +114,12 @@
 .top-20		{ top: 20px; }
 .top-50		{ top: 50px; }
 .top-100	{ top: 100px; }
+.top-150	{ top: 150px; }
 
 .right-0	{ right: 0; }
 .right-10	{ right: 10%;}
 .right-15	{ right: 15%;}
+.right--15	{ right: 15px;}
 .right-20	{ right: 20%;}
 .right-50	{ right: 50px;}
 .right-125 { right: 125px; }
@@ -161,6 +167,7 @@
 .margin-bottom--xxxxlarge{ margin-bottom: 80px; }
 
 .margin-top-bottom{ margin-top: 20px; margin-bottom: 20px; }
+.margin-top-bottom--large{ margin-top: 40px; margin-bottom: 40px; }
 
 .margin-left{ margin-left: 10px; }
 .margin-left--large{ margin-left: 20px; }
@@ -205,6 +212,7 @@
 .no-padding-right{ padding-right: 0px; }
 @media (min-width: 992px) and (max-width: 1200px){.padding-right--sm { padding-right: 12px; } }
 
+.no-padding--sides { padding-left: 0; padding-right: 0; }
 .padding--sides--small { padding-left: 20px; padding-right: 20px; }
 .padding--sides { padding-left: 30px; padding-right: 30px; }
 @media (max-width: 768px ){.padding--sides--small--xs { padding-left: 5px; padding-right: 5px; }}
@@ -221,10 +229,21 @@
 .border-bottom--tertiary { border: 1px solid #ff931e; }
 .border-bottom--secondary { border-bottom: 7px solid #7f6e64; }
 .border-bottom--primary--large { border-bottom: 7px solid #f74c02; }
+.border-bottom--primary--xlarge { border-bottom: 35px solid #f74c02; }
 
 .border-primary--info{ border: 4px dotted #ff871e; }
 .border-bottom--primary--dotted{ border-bottom: 4px dotted #f74c02; }
 .border-light--dotted{ border: 4px dotted #fff; }
+
+.no-border-left{ border-left: none !important; }
+.border-dashed-primary{ border: 3px dashed #f74c02 ;}
+.border-dashed-tertiary{ border: 3px dashed #ff931e;}
+
+/* Borders radius*/
+/***********/
+
+.border-radius-10{ border-radius: 10px}
+
 /* Opacity */
 /**********/
 
@@ -282,24 +301,6 @@
 .background-secondary-60{ background-color: rgba(127,110,100,.6); }
 .background-light-60{ background-color: rgba(255,255,255,.6); }
 
-
-/* Borders */
-/***********/
-
-.no-border-left{ border-left: none !important; }
-.border-dashed-primary{ border: 3px dashed #f74c02 ;}
-.border-dashed-tertiary{ border: 3px dashed #ff931e;}
-.border-radius-10{ border-radius: 10px}
-
-/* Images */
-/***********/
-
-.bg-image{
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
 /* Buttons */
 /***********/
 
@@ -318,6 +319,7 @@
 /********/
 .text-uppercase { text-transform: uppercase;}
 
+.font-size--14 { font-size: 14px; }
 .font-size--18 { font-size: 18px; }
 .font-size--large { font-size: 22px; }
 .font-size--medium { font-size: 25px; }

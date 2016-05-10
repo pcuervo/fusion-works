@@ -7,12 +7,12 @@ Template Name: pinnacle_premium
 <?php get_header(); ?>
 <?php get_template_part('templates/page', 'header'); ?>
 <section class="[ container ][ no-padding ][ relative ][ background-quaternary ]">
-	<img class="[ wow rotateIn ][ absolute ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright-esquina.png" alt="fondo tuercas">
-	<img class="[ hidden-xs ][ wow rotateIn ][ absolute left-200 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaleft-top.png" alt="fondo tuercas">
-	<img class="[ wow rotateIn ][ absolute right-125 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright-top.png" alt="fondo tuercas">
-	<img class="[ wow rotateIn ][ absolute right-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright.png" alt="fondo tuercas">
-	<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute right-0 bottom-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuerca-bottom.png" alt="fondo tuercas">
-	<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute left-20 bottom-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuerca.png" alt="fondo tuercas">
+	<img class="[ wow bounceInLeft ][ absolute ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright-esquina.png" alt="fondo tuercas">
+	<img class="[ hidden-xs ][ wow bounceInDown ][ absolute left-200 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaleft-top.png" alt="fondo tuercas">
+	<img class="[ wow bounceInDown ][ absolute right-125 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright-top.png" alt="fondo tuercas">
+	<img class="[ wow bounceInRight ][ absolute right-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuercaright.png" alt="fondo tuercas">
+	<img class="[ hidden-xs hidden-sm ][ wow bounceInUp ][ absolute right-0 bottom-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuerca-bottom.png" alt="fondo tuercas">
+	<img class="[ hidden-xs hidden-sm ][ wow bounceInUp ][ absolute left-20 bottom-0 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-tuerca.png" alt="fondo tuercas">
 	<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute left-20 top-20 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-clients.png" alt="fondo tuercas">
 	<img class="[ hidden-xs hidden-sm ][ wow rotateIn ][ absolute left-150 top-100 ]" src="<?php echo THEMEPATH; ?>assets/img/crm-years.png" alt="fondo tuercas">
 	<div class="[ padding-top--xxlarge margin-bottom--xxxlarge ][  margin-auto ]">
@@ -143,24 +143,24 @@ Template Name: pinnacle_premium
 		</div>
 	</div>
 	<div class="[ col-ss-12 col-sm-7 col-lg-8 ]">
-		<div class="[ background-primary ][ padding--sides--small padding-top padding-bottom--large ][ row ]">
+		<div class="[ background-primary ][ padding--sides--small padding-top padding-bottom--large ]">
 			<h2 class="[ wow fadeInDown ][ text-uppercase text-center ][ color-light ][ no-margin-top ]">Important facts</h2>
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-rapid-start.png" alt="">
 			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Rapid Start implementation tools help make the solution fast and simple to deploy.</p>
 		</div>
-		<div class="[ background-tertiary ][ padding--sides--small padding-top-bottom--large ][ row ]">
+		<div class="[ background-tertiary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-comfortable.png" alt="">
 			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Comfortable, intuitive look and feel easy-to-use</p>
 		</div>
-		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ][ row ]">
+		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-flexible.png" alt="">
 			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Flexible solution that fits with several business process</p>
 		</div>
-		<div class="[ background-tertiary ][ padding--sides--small padding-top-bottom--large ][ row ]">
+		<div class="[ background-tertiary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-provide.png" alt="">
 			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Provide the information and processes to users to understanding, and identifying their customers´needs</p>
 		</div>
-		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ][ row ]">
+		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-agile.png" alt="">
 			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Agile automation tools to build Business Process flows and workflows</p>
 		</div>

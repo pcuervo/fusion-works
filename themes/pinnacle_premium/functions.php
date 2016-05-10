@@ -126,8 +126,8 @@ function notify_admin_white_paper_download( $name, $position, $company, $pdf_tit
 
 	$mail      	= new PHPMailer(); // defaults to using php "mail()"
 	$body       = get_white_paper_admin_email_body( $name, $position, $company, $pdf_title );
-	$reply_to	= 'no-reply@fusionworks.com';
-	$name_to	= 'FusionWorkds';
+	$reply_to	= 'miguel@pcuervo.com';
+	$name_to	= 'FusionWorks';
 
 	$mail->AddReplyTo( $reply_to, $name_to );
 	$mail->SetFrom( $reply_to, $name_to );
@@ -212,7 +212,7 @@ function get_white_paper_pdf( $post_id ){
 * @param string $name
 * @return HTML $body
 **/
-function get_white_paper_download_email_body( $name ){
+function get_white_paper_download_email_body( $name, $pdf_title ){
 	$body = <<<EOT
 		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 		<html>
@@ -220,15 +220,40 @@ function get_white_paper_download_email_body( $name ){
 				<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 				<title>Download PDF</title>
 			</head>
-			<body>
-				<div style="width: 640px; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">
-					<h1 style="color: #5C5B5B;">FusionWorks White Paper</h1>
-					<div align="center">
-						<p style="color: #5C5B5B;">Hi <span style=" color: #f74c02;">$name</span>! You will find attached a copy of the white paper you requested.</p>
-					</div>
-				</div>
-			</body>
-		</html>
+		<body style="font-family: Verdana">
+			<table style="width: 100%">
+				<tr style="background-color: #f74c02; color: #fff; ">
+					<td>
+						<h1 style="text-align: center;color: #fff">FusionWorks White Paper</h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p style="color: #5C5B5B;font-size: 15px">Hi <strong>$name</strong>!</p>
+						<p style="color: #5C5B5B;font-size: 15px">You will find attached a copy of the white paper you requested.</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p style="color: #5C5B5B;font-size: 15px">White Paper: <span>$pdf_title</span></p>
+					</td>
+				</tr>
+				<tr style="text-align: center;">
+					<td>
+						<a href="http://pcuervo.com/fusion-works">
+							<img src="http://pcuervo.com/fusion-works/wp-content/uploads/2016/05/Logo-Fusion-Works.png" alt="Logo FusionWorks" style="width: 200px; display: block; margin: auto;"/>
+						</a>
+						<p style="display: inline-block;margin-bottom: 8px;margin-right: 10px;font-size: 12px;color: #5C5B5B">View more <a href="http://pcuervo.com/fusion-works/white-papers/" style="color: #f74c02;text-decoration: none;font-size: 12px">White papers</a></p>
+						<p style="display: inline-block;margin-bottom: 8px;font-size: 12px;color: #5C5B5B">Go to <a href="http://pcuervo.com/fusion-works" style="color: #f74c02;text-decoration: none;font-size: 12px">FusionWorks</a></p>
+					</td>
+				</tr>
+			</table>
+		</body>
+	</html>
+
+
+
+
 EOT;
 	return $body;
 }// get_white_paper_download_email_body
@@ -279,13 +304,13 @@ function send_pdf_by_email(){
 	$email 		= $_POST['email'];
 	$pdf_url	= $_POST['pdf_url'];
 	$pdf_title	= $_POST['pdf_title'];
-	$reply_to	= 'whatever@fw.com';
+	$reply_to	= 'miguel@pcuervo.com';
 	$name_to	= 'Whatevs Bruh';
 	$position 	= isset( $_POST['position'] ) ? $_POST['position'] : '';
 	$company 	= isset( $_POST['company'] ) ? $_POST['company'] : '';
 
 	$mail      	= new PHPMailer(); // defaults to using php "mail()"
-	$body       = get_white_paper_download_email_body( $name );
+	$body       = get_white_paper_download_email_body( $name, $pdf_title  );
 	//$body       = preg_replace("[\]",'',$body);
 
 	$mail->AddReplyTo( $reply_to, $name_to );
