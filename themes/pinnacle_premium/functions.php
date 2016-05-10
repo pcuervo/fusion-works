@@ -159,7 +159,7 @@ function notify_admin_white_paper_download( $name, $position, $company, $pdf_tit
 
 /**
 * Get all posts from post type White Papers
-* @return array $white_papers 
+* @return array $white_papers
 **/
 function get_white_papers(){
 	global $post;
@@ -185,7 +185,7 @@ function get_white_papers(){
 /**
 * Get PDFs from post of type White Papers
 * @param int $post_id
-* @return array $pdf 
+* @return array $pdf
 **/
 function get_white_paper_pdf( $post_id ){
 	$pdf = array();
@@ -210,7 +210,7 @@ function get_white_paper_pdf( $post_id ){
 /**
 * Get HTML body for email
 * @param string $name
-* @return HTML $body 
+* @return HTML $body
 **/
 function get_white_paper_download_email_body( $name ){
 	$body = <<<EOT
@@ -221,10 +221,10 @@ function get_white_paper_download_email_body( $name ){
 				<title>Download PDF</title>
 			</head>
 			<body>
-				<div style="width: 640px; font-family: Arial, Helvetica, sans-serif; font-size: 11px;">
-					<h1>FusionWorks White Paper</h1>
+				<div style="width: 640px; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">
+					<h1 style="color: #5C5B5B;">FusionWorks White Paper</h1>
 					<div align="center">
-						<p>Hi $name! You will find attached a copy of the white paper you requested.</p>
+						<p style="color: #5C5B5B;">Hi <span style=" color: #f74c02;">$name</span>! You will find attached a copy of the white paper you requested.</p>
 					</div>
 				</div>
 			</body>
@@ -236,7 +236,7 @@ EOT;
 /**
 * Get HTML body for email
 * @param string $name
-* @return HTML $body 
+* @return HTML $body
 **/
 function get_white_paper_admin_email_body( $name, $position, $company, $pdf_title ){
 	$body = <<<EOT
@@ -299,7 +299,7 @@ function send_pdf_by_email(){
 
 	$upload_dir = wp_upload_dir();
 	$pdf_url_arr = explode( 'uploads/', $pdf_url );
-	$attachment = $mail->addAttachment( $upload_dir['basedir'] . '/' . $pdf_url_arr[1] );     
+	$attachment = $mail->addAttachment( $upload_dir['basedir'] . '/' . $pdf_url_arr[1] );
 
 	notify_admin_white_paper_download( $name, $position, $company, $pdf_title );
 

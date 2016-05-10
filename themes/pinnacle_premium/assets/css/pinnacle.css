@@ -291,6 +291,15 @@
 .border-dashed-tertiary{ border: 3px dashed #ff931e;}
 .border-radius-10{ border-radius: 10px}
 
+/* Images */
+/***********/
+
+.bg-image{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 /* Buttons */
 /***********/
 
@@ -309,6 +318,7 @@
 /********/
 .text-uppercase { text-transform: uppercase;}
 
+.font-size--18 { font-size: 18px; }
 .font-size--large { font-size: 22px; }
 .font-size--medium { font-size: 25px; }
 .font-size--xlarge { font-size: 28px; }
@@ -573,5 +583,9 @@ div.bnt-content p {
 /*Contact*/
 @media (min-width: 992px){ .contactformcase { margin-top: 310px; }}
 
-
+/*Element space footer*/
 .addtoany_share_save_container { margin: 0px 0!important;}
+
+/*White Paper*/
+
+#white_paper + aside { display: none; }
