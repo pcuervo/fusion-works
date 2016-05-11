@@ -98,7 +98,7 @@ add_action('init', 'pinnacle_shortcode_init');
  *****************/
 
 require_once( 'inc/pages.php' );
-
+require_once( 'inc/post-types.php' );
 
 
 /*------------------------------------*\
@@ -111,3 +111,239 @@ require_once( 'inc/pages.php' );
 define( 'JSPATH', get_template_directory_uri() . '/assets/js/' );
 define( 'THEMEPATH', get_template_directory_uri() . '/' );
 define( 'SITEURL', site_url('/') );
+
+/*------------------------------------*\
+	#GENERAL FUNCTIONS
+\*------------------------------------*/
+
+/**
+ * Send email to admin when someone request to download a white paper.
+ * @return JSON $message - A success/error message about the status of the post.
+*/
+function notify_admin_white_paper_download( $name, $position, $company, $pdf_title ){
+
+	// require_once('inc/phpmailer/class.phpmailer.php');
+
+	$mail      	= new PHPMailer(); // defaults to using php "mail()"
+	$body       = get_white_paper_admin_email_body( $name, $position, $company, $pdf_title );
+	$reply_to	= 'miguel@pcuervo.com';
+	$name_to	= 'FusionWorks';
+
+	$mail->AddReplyTo( $reply_to, $name_to );
+	$mail->SetFrom( $reply_to, $name_to );
+	$mail->AddReplyTo( $reply_to, $name_to );
+
+	$address = 'miguel@pcuervo.com';
+	$mail->AddAddress( $address, $name );
+	$mail->Subject = $name . " has downloaded a white paper.";
+	$mail->MsgHTML( $body );
+
+	if( !$mail->Send() ) {
+		error_log( $mail->ErrorInfo );
+		$message = array(
+			'error'		=> 1,
+			'message'	=> 'An error has occurred. Please try again later.',
+		);
+	} else {
+		$message = array(
+			'error'		=> 0,
+			'message'	=> 'Thanks ' . $name .'!',
+		);
+	}
+
+}// notify_admin_white_paper_download
+
+/*------------------------------------*\
+	#GET/SET FUNCTIONS
+\*------------------------------------*/
+
+/**
+* Get all posts from post type White Papers
+* @return array $white_papers
+**/
+function get_white_papers(){
+	global $post;
+	$white_papers = array();
+	$white_papers_args = array(
+		'post_type' 		=> 'white-papers',
+		'posts_per_page' 	=> -1,
+	);
+	$query_white_papers = new WP_Query( $white_papers_args );
+
+	if ( $query_white_papers->have_posts() ) : while( $query_white_papers->have_posts() ) : $query_white_papers->the_post();
+		// $img_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' );
+		$white_papers[$post->post_name] = array(
+			'id'		=> $post->ID,
+			'title'		=> $post->post_title,
+			'content'	=> $post->post_content,
+		);
+	endwhile; endif; wp_reset_query();
+
+	return $white_papers;
+}
+
+/**
+* Get PDFs from post of type White Papers
+* @param int $post_id
+* @return array $pdf
+**/
+function get_white_paper_pdf( $post_id ){
+	$pdf = array();
+	$query_pdf_args = array(
+		'post_parent'		=> $post_id,
+		'post_status' 		=> 'inherit',
+		'post_type'			=> 'attachment',
+		'post_mime_type' 	=> 'application/pdf',
+		'post_per_page'		=> 1,
+	);
+	$query_pdf = new WP_Query( $query_pdf_args );
+	foreach ( $query_pdf->posts as $file) {
+		$pdf = array(
+			'title'		=> get_the_title( $post_id ),
+			'pdf_title'	=> $file->post_title,
+			'url' 		=> $file->guid
+		);
+	}
+	return $pdf;
+}// get_white_paper_pdf
+
+/**
+* Get HTML body for email
+* @param string $name
+* @return HTML $body
+**/
+function get_white_paper_download_email_body( $name, $pdf_title ){
+	$body = <<<EOT
+		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+		<html>
+			<head>
+				<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+				<title>Download PDF</title>
+			</head>
+		<body style="font-family: Verdana">
+			<table style="width: 100%">
+				<tr style="background-color: #f74c02; color: #fff; ">
+					<td>
+						<h1 style="text-align: center;color: #fff">FusionWorks White Paper</h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p style="color: #5C5B5B;font-size: 15px">Hi <strong>$name</strong>!</p>
+						<p style="color: #5C5B5B;font-size: 15px">You will find attached a copy of the white paper you requested.</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p style="color: #5C5B5B;font-size: 15px">White Paper: <span>$pdf_title</span></p>
+					</td>
+				</tr>
+				<tr style="text-align: center;">
+					<td>
+						<a href="http://pcuervo.com/fusion-works">
+							<img src="http://pcuervo.com/fusion-works/wp-content/uploads/2016/05/Logo-Fusion-Works.png" alt="Logo FusionWorks" style="width: 200px; display: block; margin: auto;"/>
+						</a>
+						<p style="display: inline-block;margin-bottom: 8px;margin-right: 10px;font-size: 12px;color: #5C5B5B">View more <a href="http://pcuervo.com/fusion-works/white-papers/" style="color: #f74c02;text-decoration: none;font-size: 12px">White papers</a></p>
+						<p style="display: inline-block;margin-bottom: 8px;font-size: 12px;color: #5C5B5B">Go to <a href="http://pcuervo.com/fusion-works" style="color: #f74c02;text-decoration: none;font-size: 12px">FusionWorks</a></p>
+					</td>
+				</tr>
+			</table>
+		</body>
+	</html>
+
+
+
+
+EOT;
+	return $body;
+}// get_white_paper_download_email_body
+
+/**
+* Get HTML body for email
+* @param string $name
+* @return HTML $body
+**/
+function get_white_paper_admin_email_body( $name, $position, $company, $pdf_title ){
+	$body = <<<EOT
+		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+		<html>
+			<head>
+				<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+				<title>Download PDF</title>
+			</head>
+			<body>
+				<div style="width: 640px; font-family: Arial, Helvetica, sans-serif; font-size: 11px;">
+					<h2>FusionWorks White Paper</h2>
+					<div align="center">
+						<p>Name: $name </p>
+						<p>Company: $company</p>
+						<p>Position: $position</p>
+						<p>White paper: $pdf_title</p>
+					</div>
+				</div>
+			</body>
+		</html>
+EOT;
+	return $body;
+}// get_white_paper_admin_email_body
+
+
+/*------------------------------------*\
+	#AJAX RESPONSE FUNCTIONS
+\*------------------------------------*/
+
+/**
+ * Send email for "more information"
+ * @return JSON $message - A success/error message about the status of the post.
+*/
+function send_pdf_by_email(){
+
+	require_once('inc/phpmailer/class.phpmailer.php');
+
+	$name 		= $_POST['name'];
+	$email 		= $_POST['email'];
+	$pdf_url	= $_POST['pdf_url'];
+	$pdf_title	= $_POST['pdf_title'];
+	$reply_to	= 'miguel@pcuervo.com';
+	$name_to	= 'Whatevs Bruh';
+	$position 	= isset( $_POST['position'] ) ? $_POST['position'] : '';
+	$company 	= isset( $_POST['company'] ) ? $_POST['company'] : '';
+
+	$mail      	= new PHPMailer(); // defaults to using php "mail()"
+	$body       = get_white_paper_download_email_body( $name, $pdf_title  );
+	//$body       = preg_replace("[\]",'',$body);
+
+	$mail->AddReplyTo( $reply_to, $name_to );
+	$mail->SetFrom( $reply_to, $name_to );
+	$mail->AddReplyTo( $reply_to, $name_to );
+
+	$address = $email;
+	$mail->AddAddress( $address, $name );
+	$mail->Subject    = "PHPMailer Test Subject via mail(), basic";
+	$mail->MsgHTML( $body );
+
+	$upload_dir = wp_upload_dir();
+	$pdf_url_arr = explode( 'uploads/', $pdf_url );
+	$attachment = $mail->addAttachment( $upload_dir['basedir'] . '/' . $pdf_url_arr[1] );
+
+	notify_admin_white_paper_download( $name, $position, $company, $pdf_title );
+
+	if( !$mail->Send() ) {
+		error_log( $mail->ErrorInfo );
+		$message = array(
+			'error'		=> 1,
+			'message'	=> 'An error has occurred. Please try again later.',
+		);
+	} else {
+		$message = array(
+			'error'		=> 0,
+			'message'	=> 'Thanks ' . $name .'!',
+		);
+	}
+
+	echo json_encode($message , JSON_FORCE_OBJECT);
+	exit();
+
+}// send_pdf_by_email
+add_action("wp_ajax_send_pdf_by_email", "send_pdf_by_email");
+add_action("wp_ajax_nopriv_send_pdf_by_email", "send_pdf_by_email");

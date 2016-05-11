@@ -48,7 +48,7 @@
 
 <?php if (comments_open()) : ?>
   <section id="respond">
-        <?php 
+        <?php
         $req = true;
         $comment_args = array( 'fields' => apply_filters( 'comment_form_default_fields', array(
            'author' => '<div class="col-md-4">' . '<label for="author">' . __('Name', 'pinnacle') . ( $req ? ' <span class="comment-required">*</span>' : '' ) . '</label> ' .
@@ -57,7 +57,7 @@
                         '<input type="email" class="text" name="email" id="email" value="' . esc_attr(  $comment_author_email ) . '" ' . ( $req ? 'aria-required="true"' : '') . ' /></div>',
             'url'    => '<div class="col-md-4"><label for="url">' . __( 'Website', 'pinnacle' ) . '</label> ' .
                         '<input id="url" name="url" type="url" value="' . esc_attr( $comment_author_url ) . '" /></div>',
-                        ) 
+                        )
             ),
               'comment_field'        => '<p class="comment-form-comment"><label for="comment">' . __( 'Comment', 'pinnacle' ) . '</label> <textarea id="comment" name="comment" cols="45" rows="8" class="input-xlarge" aria-required="true" required="required"></textarea></p>',
               'comment_notes_before' => '',

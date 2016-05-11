@@ -28,7 +28,7 @@ jQuery(document).ready(function ($) {
 		$("[data-toggle=popover]").popover();
 		$('#authorTab a').click(function (e) {e.preventDefault(); $(this).tab('show'); });
 		$('.sc_tabs a').click(function (e) {e.preventDefault(); $(this).tab('show'); });
-		
+
 		$(".videofit").fitVids();
 		$(".embed-youtube").fitVids();
 
@@ -202,28 +202,28 @@ jQuery(document).ready(function ($) {
 		function niceScrollInit(){
 			var $smoothautohide = $('body').attr('data-smooth-scrolling-hide');
 			if( $smoothautohide == 1 ) {
-						$("html").niceScroll({
-							scrollspeed: 60,
-							mousescrollstep: 40,
-							cursorwidth: 12,
-							cursorborder: 0,
-							cursorcolor: '#313131',
-							cursorborderradius: 6,
-							autohidemode: true,
-							horizrailenabled: false
-						});
-				} else {
-						$("html").niceScroll({
-							scrollspeed: 60,
-							mousescrollstep: 40,
-							cursorwidth: 12,
-							cursorborder: 0,
-							cursorcolor: '#313131',
-							cursorborderradius: 6,
-							autohidemode: false,
-							horizrailenabled: false
-						});
-				}
+				$("html").niceScroll({
+					scrollspeed: 60,
+					mousescrollstep: 40,
+					cursorwidth: 12,
+					cursorborder: 0,
+					cursorcolor: '#313131',
+					cursorborderradius: 6,
+					autohidemode: true,
+					horizrailenabled: false
+				});
+			} else {
+				$("html").niceScroll({
+					scrollspeed: 60,
+					mousescrollstep: 40,
+					cursorwidth: 12,
+					cursorborder: 0,
+					cursorcolor: '#313131',
+					cursorborderradius: 6,
+					autohidemode: false,
+					horizrailenabled: false
+				});
+			}
 			$('html').addClass('no-overflow-y');
 		}
 	if ($('.tab-pane .kad_product_wrapper').length) {
@@ -243,7 +243,7 @@ jQuery(document).ready(function ($) {
 	}
 
 	var $smoothActive = $('body').attr('data-smooth-scrolling');
-	if( $smoothActive == 1 && !kt_isMobile.any() && Modernizr.csstransforms3d && $(window).width() > 690 && $('body').outerHeight(true) > $(window).height()) { 
+	if( $smoothActive == 1 && !kt_isMobile.any() && Modernizr.csstransforms3d && $(window).width() > 690 && $('body').outerHeight(true) > $(window).height()) {
 	 niceScrollInit();
 	 $("a[rel^='lightbox']").on('mfpAfterClose', function(e) {
 		$('html').css('overflow', 'hidden');
@@ -351,7 +351,7 @@ jQuery(document).ready(function ($) {
 			animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation
 			speed:       'fast'                          // faster animation speed
 		});
-	// Fullwidth Pagebuilder 
+	// Fullwidth Pagebuilder
 	function kad_fullwidth_panel() {
 		$('.kt-panel-row-stretch').each(function(){
 			var margins = $(window).width() - $(this).parent('.panel-grid').width();
@@ -468,18 +468,18 @@ jQuery(document).ready(function ($) {
 				thisfilters.on( 'click', 'a', function( event ) {
 						var filtr = $(this).attr('data-filter');
 						isocontainer.isotopeb({ filter: filtr });
-						  return false; 
+						  return false;
 					});
 					var $optionSets = $('#options .option-set'),
-	          		$optionLinks = $optionSets.find('a');	
-					$optionLinks.click(function(){ 
+	          		$optionLinks = $optionSets.find('a');
+					$optionLinks.click(function(){
 						var $this = $(this); if ( $this.hasClass('selected') ) {return false;}
 						var $optionSet = $this.parents('.option-set'); $optionSet.find('.selected').removeClass('selected'); $this.addClass('selected');
 					});
 				}
 			}
 		});
-				
+
 	});
 	$('.init-isotope-varwidth').each(function(){
     	var isocontainer = $(this);
@@ -492,7 +492,7 @@ jQuery(document).ready(function ($) {
 					});
 			}
 		});
-				
+
 	});
 	$('.init-mosaic-isotope').each(function(){
     	var isocontainer = $(this),
@@ -515,18 +515,18 @@ jQuery(document).ready(function ($) {
 				thisfilters.on( 'click', 'a', function( event ) {
 						var filtr = $(this).attr('data-filter');
 						isocontainer.isotopeb({ filter: filtr });
-						  return false; 
+						  return false;
 					});
 					var $optionSets = $('#options .option-set'),
-	          		$optionLinks = $optionSets.find('a');	
-					$optionLinks.click(function(){ 
+	          		$optionLinks = $optionSets.find('a');
+					$optionLinks.click(function(){
 						var $this = $(this); if ( $this.hasClass('selected') ) {return false;}
 						var $optionSet = $this.parents('.option-set'); $optionSet.find('.selected').removeClass('selected'); $this.addClass('selected');
 					});
 				}
 			}
 		});
-				
+
 	});
 if ($('.woocommerce-tabs .panel .init-isotope').length) {
 		var $container = $('.init-isotope'),
@@ -555,17 +555,17 @@ if ($('.panel-body .init-isotope').length) {
 	 //init carousel
      jQuery('.initcaroufedsel').each(function(){
      	  var container = jQuery(this);
-          var wcontainerclass = container.data('carousel-container'), 
+          var wcontainerclass = container.data('carousel-container'),
           cspeed = container.data('carousel-speed'),
-          cscroll = container.data('carousel-scroll'), 
+          cscroll = container.data('carousel-scroll'),
           ctransition = container.data('carousel-transition'),
           cauto = container.data('carousel-auto'),
           carouselid = container.data('carousel-id'),
-          ss = container.data('carousel-ss'), 
+          ss = container.data('carousel-ss'),
           xs = container.data('carousel-xs'),
           sm = container.data('carousel-sm'),
-          md = container.data('carousel-md'), 
-          xl = container.data('carousel-xl'), 
+          md = container.data('carousel-md'),
+          xl = container.data('carousel-xl'),
           sxl = container.data('carousel-sxl');
           var wcontainer = jQuery(wcontainerclass);
 
@@ -594,7 +594,7 @@ if ($('.panel-body .init-isotope').length) {
           setWidths();
           function initCarousel() {
           container.carouFredSel({
-            scroll: {items:cscroll, easing: "swing", duration: ctransition, pauseOnHover : true}, 
+            scroll: {items:cscroll, easing: "swing", duration: ctransition, pauseOnHover : true},
             auto: {play: cauto, timeoutDuration: cspeed},
               prev: '#prevport-'+carouselid, next: '#nextport-'+carouselid, pagination: false, swipe: true, items: {visible: null}
             });
@@ -612,8 +612,8 @@ if ($('.panel-body .init-isotope').length) {
 		//init carouselslider
 	    jQuery('.initcarouselslider').each(function(){
 	     	  var container = jQuery(this);
-	          var wcontainerclass = container.data('carousel-container'), 
-	          cspeed = container.data('carousel-speed'), 
+	          var wcontainerclass = container.data('carousel-container'),
+	          cspeed = container.data('carousel-speed'),
 	          ctransition = container.data('carousel-transition'),
 	          cauto = container.data('carousel-auto'),
 	          carouselid = container.data('carousel-id'),
@@ -658,8 +658,8 @@ if ($('.panel-body .init-isotope').length) {
     //init image carousel
     jQuery('.initimagecarousel').each(function(){
      	  var container = jQuery(this);
-          var wcontainerclass = container.data('carousel-container'), 
-          cspeed = container.data('carousel-speed'), 
+          var wcontainerclass = container.data('carousel-container'),
+          cspeed = container.data('carousel-speed'),
           ctransition = container.data('carousel-transition'),
           cauto = container.data('carousel-auto'),
           carouselid = container.data('carousel-id'),
@@ -685,7 +685,7 @@ if ($('.panel-body .init-isotope').length) {
 				auto: {play: true, timeoutDuration: 7000},
 				scroll: {items : 1,easing: 'quadratic'},
 				items: {visible: 1, width: 'variable'},
-                prev: '#prevport-'+carouselid, 
+                prev: '#prevport-'+carouselid,
                 next: '#nextport-'+carouselid,
                 swipe: {onMouse: true,onTouch: true},
                 onCreate: function() {

@@ -1,4 +1,4 @@
-<?php 
+<?php
 //Shortcode for Blog Posts
 function kad_map_shortcode_function( $atts ) {
 	extract(shortcode_atts(array(
@@ -18,7 +18,6 @@ function kad_map_shortcode_function( $atts ) {
 		'maptype' => 'ROADMAP'
 ), $atts));
 	if(empty($center)) {$center = $address;}
-
                 	ob_start(); ?>
 			<div id="map_address<?php echo $id;?>" class="kad_google_map" style="height:<?php echo $height;?>px;"></div>
 			<?php if($loadscripts != 'false'){ ?>
@@ -29,7 +28,7 @@ function kad_map_shortcode_function( $atts ) {
 			function kad_build_gmap() {
 					jQuery('#map_address<?php echo $id;?>').gmap3({
 			map: {
-			    address:"<?php echo $center;?>",
+			    address:"18.452610, -66.074372",
 				options: {
               		zoom:<?php echo $zoom;?>,
 					draggable: true,
@@ -45,9 +44,7 @@ function kad_map_shortcode_function( $atts ) {
 			},
 			marker:{
 	            values:[
-	            	{ address: "<?php echo $address;?>",
-				 	    	data:"<div class='mapinfo'><?php if($title) echo '<h5>'.$title.'</h5>';?> <?php echo $address;?></div>",
-				 	},
+	            	{latLng:[18.452610, -66.074372], data:"<?php if($title) echo '<h5>'.$title.'</h5>';?> <?php echo $address;?>"},
 				 	<?php if($address2) {?> { address: "<?php echo $address2;?>",
 				 	    	data:"<div class='mapinfo'><?php if($title2) echo '<h5>'.$title2.'</h5>';?> <?php echo $address2;?></div>",
 				 	},
@@ -75,7 +72,7 @@ function kad_map_shortcode_function( $atts ) {
 	                } else {
 	                  jQuery(this).gmap3({
 	                    infowindow:{
-	                      anchor:marker, 
+	                      anchor:marker,
 	                      options:{content: context.data}
 	                    }
 	                  });
@@ -96,10 +93,10 @@ function kad_map_shortcode_function( $atts ) {
 				jQuery('#map_address<?php echo $id;?>').gmap3('destroy');
 			    setTimeout(kad_build_gmap, 200);
 			});
-        
+
       });
 			</script>
-            		
+
 	<?php  $output = ob_get_contents();
 		ob_end_clean();
 	return $output;

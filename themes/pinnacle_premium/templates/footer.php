@@ -5,17 +5,17 @@
   		<?php if(isset($pinnacle['footer_layout'])) { $footer_layout = $pinnacle['footer_layout']; } else { $footer_layout = 'fourc'; }
   			if ($footer_layout == "fourc") {
   				if (is_active_sidebar('footer_1') ) { ?>
-					<div class="col-md-3 col-sm-6 footercol1">
+					<div class="col-md-3 col-sm-6 footercol1 [ margin-bottom--xlarge ]">
 					<?php dynamic_sidebar('footer_1'); ?>
 					</div>
             	<?php }; ?>
 				<?php if (is_active_sidebar('footer_2') ) { ?>
-					<div class="col-md-3 col-sm-6 footercol2">
+					<div class="col-md-3 col-sm-6 footercol2 [ margin-bottom--xlarge ]">
 					<?php dynamic_sidebar('footer_2'); ?>
 					</div>
 		        <?php }; ?>
 		        <?php if (is_active_sidebar('footer_3') ) { ?>
-					<div class="col-md-3 col-sm-6 footercol3">
+					<div class="col-md-3 col-sm-6 footercol3 [ margin-bottom--xlarge ]">
 					<?php dynamic_sidebar('footer_3'); ?>
 					</div>
 	            <?php }; ?>
@@ -86,7 +86,6 @@
 		        <?php } ?>
         </div> <!-- Row -->
         <div class="footercredits clearfix">
-
     		<?php if (has_nav_menu('footer_navigation')) :
         	?><div class="footernav clearfix"><?php
               wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => 'footermenu'));

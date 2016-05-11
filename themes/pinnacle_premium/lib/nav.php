@@ -48,7 +48,7 @@ class kadence_Nav_Walker extends Walker_Nav_Menu {
     $attributes .= ! empty($item->target)     ? ' target="' . esc_attr($item->target    ) .'"' : '';
     $attributes .= ! empty($item->xfn)        ? ' rel="'    . esc_attr($item->xfn       ) .'"' : '';
     $attributes .= ! empty($item->url)        ? ' href="'   . esc_attr($item->url       ) .'"' : '';
-  
+
   $description  = ! empty( $item->description ) ? '<span class="sf-description">'.esc_attr( $item->description ).'</span>' : '';
   if(!empty($kt_iconmenu)) {
      $icon  = '<i class="'. $kt_iconmenu . '"></i>';
@@ -57,14 +57,14 @@ class kadence_Nav_Walker extends Walker_Nav_Menu {
   } else {
     $icon  = '';
   }
-  
+
   if($depth != 0)
            {
                      $description = "";
            }
 
     $item_output  = $args->before;
-    $item_output .= '<a'. $attributes . '>'.$icon;
+    $item_output .= '<a'. $attributes . ' rel="m_PageScroll2id">'.$icon;
     $item_output .= $args->link_before . apply_filters('the_title', $item->title, $item->ID) . __($description) . $args->link_after;
     $item_output .= '</a>';
     $item_output .= $args->after;
@@ -155,16 +155,16 @@ class kadence_mobile_walker extends Walker_Nav_Menu {
     $attributes .= ! empty($item->target)     ? ' target="' . esc_attr($item->target    ) .'"' : '';
     $attributes .= ! empty($item->xfn)        ? ' rel="'    . esc_attr($item->xfn       ) .'"' : '';
     $attributes .= ! empty($item->url)        ? ' href="'   . esc_attr($item->url       ) .'"' : '';
-  
+
   $description  = ! empty( $item->description ) ? '<span class="sf-description">'.esc_attr( $item->description ).'</span>' : '';
   $icon  = ! empty( $custom_class) ? '<i class="'. $custom_class . '"></i>' : '';
-  
+
   if($depth != 0) {
     $description = "";
   }
 
     $item_output  = $args->before;
-    $item_output .= '<a'. $attributes . '>'.$icon;
+    $item_output .= '<a'. $attributes . ' rel="m_PageScroll2id">'.$icon;
     $item_output .= $args->link_before . apply_filters('the_title', $item->title, $item->ID) . __($description) . $args->link_after;
     $item_output .= '</a>';
     if( $has_sub ){
