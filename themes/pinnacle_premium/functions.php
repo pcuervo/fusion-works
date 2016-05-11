@@ -138,18 +138,6 @@ function notify_admin_white_paper_download( $name, $position, $company, $pdf_tit
 	$mail->Subject = $name . " has downloaded a white paper.";
 	$mail->MsgHTML( $body );
 
-	if( !$mail->Send() ) {
-		error_log( $mail->ErrorInfo );
-		$message = array(
-			'error'		=> 1,
-			'message'	=> 'An error has occurred. Please try again later.',
-		);
-	} else {
-		$message = array(
-			'error'		=> 0,
-			'message'	=> 'Thanks ' . $name .'!',
-		);
-	}
 
 }// notify_admin_white_paper_download
 
