@@ -47,7 +47,7 @@ Template Name: pinnacle_premium
 					</div>
 					<div class="[ col-ss-6 col-sm-4 col-md-3 ][ margin-bottom ]">
 						<img class="[ wow rotateIn ]" data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-3.png" alt="industries dynamics crm">
-						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]" data-wow-delay="0.8s">Goverment</p>
+						<p class="[ wow fadeInUp ][ color-light ][ text-bold text-center ]" data-wow-delay="0.8s">Government</p>
 					</div>
 					<div class="[ col-ss-6 col-sm-4 col-md-3 ][ margin-bottom ]">
 						<img class="[ wow rotateIn ]" data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-4.png" alt="industries dynamics crm">
@@ -158,7 +158,7 @@ Template Name: pinnacle_premium
 		</div>
 		<div class="[ background-tertiary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-provide.png" alt="">
-			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Provide the information and processes to users to understanding, and identifying their customers´needs</p>
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Provide the information and processes to users for their understanding, and identifying their customers´needs</p>
 		</div>
 		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-agile.png" alt="">

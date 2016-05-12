@@ -10,13 +10,13 @@ Template Name: pinnacle_premium
 <section class="[ container ]">
 	<div class="[ row ][ background-primary ][ relative ]">
 		<img class="[ wow fadeInUp ][[ absolute ][ bottom-0 ][ right-0 ]" src="<?php echo THEMEPATH; ?>assets/img/by-tuercas.png" alt="Fondo tuercas">
-		<div class="[ col-ss-12 col-sm-5 col-lg-4 ][ no-padding-left no-padding-right ][ background-light ]">
+		<div class="[ col-ss-12 col-md-5 col-lg-4 ][ no-padding-left no-padding-right ][ background-light ]">
 			<img class="[ wow fadeInLeft ][ width-100 ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-map.png" alt="Map Puerto Rico">
 		</div>
-		<div class="[ col-ss-12 col-sm-7 col-lg-8 ][ padding--sides ]">
+		<div class="[ col-ss-12  col-md-7 col-lg-8 ][ padding--sides ]">
 			<h2 class="[ wow bounceInLeft ][ text-center ][ color-light ][ font-weight--600 ][ margin-bottom--xlarge ]">Experience</h2>
-			<div class="[ row ][ text-center ]">
-				<div class="[ col-ss-4 ]">
+			<div class="[ row ][ text-center ][ margin-bottom--large ]">
+				<div class="[ col-ss-12 col-xs-4 ][ margin-bottom ]">
 					<div class="[ border-primary--info ][ padding--small ][ wow bounceInRight ]">
 						<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
 							<p class="[ color-light ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 13</p>
@@ -24,7 +24,7 @@ Template Name: pinnacle_premium
 						</div>
 					</div>
 				</div>
-				<div class="[ col-ss-4 ]">
+				<div class="[ col-ss-12 col-xs-4 ][ margin-bottom ]">
 					<div class="[ border-primary--info ][ padding--small ][ wow bounceInRight ]">
 						<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
 							<p class="[ color-light ][ text-bold ][ font-size--xlarge ][ no-margin ]">20</p>
@@ -32,7 +32,7 @@ Template Name: pinnacle_premium
 						</div>
 					</div>
 				</div>
-				<div class="[ col-ss-4 ]">
+				<div class="[ col-ss-12 col-xs-4 ][ margin-bottom ]">
 					<div class="[ border-primary--info ][ padding--small ][ wow bounceInRight ]">
 						<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
 							<p class="[ color-light ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 385</p>
@@ -46,20 +46,20 @@ Template Name: pinnacle_premium
 </section>
 <section class="[ container ][ background-primary--info ]">
 	<h2 class="[ wow bounceInLeft ][ text-center ][ color-light ][ font-weight--600 ][ margin-bottom--large ]">Important facts</h2>
-	<div class="[ row ]">
-		<div class="[ col-ss-12 col-sm-3 ][ padding-top ][ background-primary--xxlight ][ height-350 ]">
+	<div class="[ row ][ text-center ]">
+		<div class="[ col-ss-12 col-sm-3 ][ padding-top--large ][ background-primary--xxlight ][ height-350 ]">
 			<img data-wow-delay="0.8s" class="[ wow rotateIn ][ margin-bottom--xlarge ]" src="<?php echo THEMEPATH; ?>assets/img/by-i1.png" alt="important facts">
 			<p class="[ wow fadeInLeft ][ color-light ]">a. Rapid Start implementation tools help make the solution fast and simple to deploy.</p>
 		</div>
-		<div class="[ col-ss-12 col-sm-3 ][ padding-top ]">
+		<div class="[ col-ss-12 col-sm-3 ][ padding-top--large ]">
 			<img data-wow-delay="0.8s" class="[ wow rotateIn ][ margin-bottom--xlarge ]" src="<?php echo THEMEPATH; ?>assets/img/by-i2.png" alt="important facts">
 			<p class="[ wow fadeInLeft ][ color-light ]">b. Dynamics GP offers many capabilities! Whether your company has 10 employees or 5000 employees. You can use the modules that you need and as your business grows you can utilize more of GP features.</p>
 		</div>
-		<div class="[ col-ss-12 col-sm-3 ][ padding-top ][ background-primary--xxlight ][ height-350 ]">
+		<div class="[ col-ss-12 col-sm-3 ][ padding-top--large ][ background-primary--xxlight ][ height-350 ]">
 			<img data-wow-delay="0.8s" class="[ wow rotateIn ][ margin-bottom--xlarge ]" src="<?php echo THEMEPATH; ?>assets/img/by-i3.png" alt="important facts">
 			<p class="[ wow fadeInRight ][ color-light ]">c. Dynamics GP supports your core business needs with comprehensive built-in capabilities that are easy to customize</p>
 		</div>
-		<div class="[ col-ss-12 col-sm-3 ][ padding-top ]">
+		<div class="[ col-ss-12 col-sm-3 ][ padding-top--large ]">
 			<img data-wow-delay="0.8s" class="[ wow rotateIn ][ margin-bottom--xlarge ]" src="<?php echo THEMEPATH; ?>assets/img/by-i4.png" alt="important facts">
 			<p class="[ wow fadeInRight ][ color-light ]">d. With Microsoft Dynamics GP, your people will have the innovative, flexible tools they need to be proactive and productive, keeping you ahead of the competition. As a result, your business can move forward instead of standing still.</p>
 		</div>
@@ -93,39 +93,39 @@ Template Name: pinnacle_premium
 		<div class="[ col-ss-12 col-sm-6 ][ text-center ]">
 			<h3 class="[ wow bounceInLeft ][ text-center ][ color-primary--light ][ font-weight--600 ][ margin-bottom--large ]">Industries</h3>
 			<div class="[ row ]">
-				<div class="[ col-ss-4 ]">
+				<div class="[ col-ss-6 col-xs-4 ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/by-1.png" alt="indusdustries">
 					<p class="[ wow fadeInRight ][ color-primary--light ][ margin-bottom--xlarge ]">Retail</p>
 				</div>
-				<div class="[ col-ss-4 ]">
+				<div class="[ col-ss-6 col-xs-4 ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/by-2.png" alt="indusdustries">
 					<p class="[ wow fadeInRight ][ color-primary--light ][ margin-bottom--xlarge ]">Food Chain</p>
 				</div>
-				<div class="[ col-ss-4 ]">
+				<div class="[ col-ss-6 col-xs-4 ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/by-3.png" alt="indusdustries">
 					<p class="[ wow fadeInRight ][ color-primary--light ][ margin-bottom--xlarge ]">Legal</p>
 				</div>
-				<div class="[ col-ss-4 ]">
+				<div class="[ col-ss-6 col-xs-4 ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/by-4.png" alt="indusdustries">
 					<p class="[ wow fadeInRight ][ color-primary--light ][ margin-bottom--xlarge ]">Non for Profit</p>
 				</div>
-				<div class="[ col-ss-4 ]">
+				<div class="[ col-ss-6 col-xs-4 ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/by-5.png" alt="indusdustries">
 					<p class="[ wow fadeInRight ][ color-primary--light ][ margin-bottom--xlarge ]">Cable</p>
 				</div>
-				<div class="[ col-ss-4 ]">
+				<div class="[ col-ss-6 col-xs-4 ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/by-6.png" alt="indusdustries">
 					<p class="[ wow fadeInRight ][ color-primary--light ][ margin-bottom--xlarge ]">Health</p>
 				</div>
-				<div class="[ col-ss-4 ]">
+				<div class="[ col-ss-6 col-xs-4 ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/by-7.png" alt="indusdustries">
 					<p class="[ wow fadeInRight ][ color-primary--light ][ margin-bottom--xlarge ]">Transportation</p>
 				</div>
-				<div class="[ col-ss-4 ]">
+				<div class="[ col-ss-6 col-xs-4 ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/by-8.png" alt="">
 					<p class="[ wow fadeInRight ][ color-primary--light ][ margin-bottom--xlarge ]">Communications</p>
 				</div>
-				<div class="[ col-ss-4 ]">
+				<div class="[ col-ss-6 col-xs-4 ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/by-9.png" alt="">
 					<p class="[ wow fadeInRight ][ color-primary--light ][ margin-bottom--xlarge ]">Education</p>
 				</div>

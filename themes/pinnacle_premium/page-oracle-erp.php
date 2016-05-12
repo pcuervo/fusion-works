@@ -52,8 +52,8 @@ Template Name: pinnacle_premium
 <section class="[ container ][ background-primary--info ][ padding-top-bottom--large ]">
 	<div class="[ row ][ padding--sides ]">
 		<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs col-sm-offset-1 ][ margin-bottom--large ][ text-center ]">
-			<img data-wow-delay="0.8s" class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-goverment.png" alt="goverment">
-			<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Goverment</p>
+			<img data-wow-delay="0.8s" class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-goverment.png" alt="government">
+			<p class="[ visible-xs ][ text-center ][ color-light ][ text-bold ][ background-primary padding-top-bottom--small ][ margin-top ]">Government</p>
 		</div>
 		<div class="[ col-ss-6 col-xs-4 col-sm-2 padding--sides--small--xs ][ margin-bottom--large ][ text-center ]">
 			<img data-wow-delay="0.8s" class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-transportation.png" alt="transportation">
@@ -76,7 +76,7 @@ Template Name: pinnacle_premium
 	</div>
 	<div class="[ hidden-xs ][ row ][ background-primary ][ padding-top-bottom--small padding--sides ][ text-center ]">
 		<div class="[ col-ss-12 col-sm-2 col-sm-offset-1 ]">
-			<p class="[ wow bounceInRight ][ margin-bottom--0 ][ color-light ][ text-bold ]">Goverment</p>
+			<p class="[ wow bounceInRight ][ margin-bottom--0 ][ color-light ][ text-bold ]">Government</p>
 		</div>
 		<div class="[ col-ss-12 col-sm-2 ]">
 			<p class="[ wow bounceInRight ][ margin-bottom--0 ][ color-light ][ text-bold ]">Transportation</p>
@@ -105,7 +105,7 @@ Template Name: pinnacle_premium
 				</div>
 				<div class="[ col-ss-9 ]">
 					<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Oracle Enterprise Resource Planning Cloud</h4>
-					<p class="[ wow bounceInRight ][ color-secondary ]">Build a collaborative, efficient, and intuitiveback-office hub with rich financial and operational capabilities married to the latest in social, mobile, and analytics technologies.</p>
+					<p class="[ wow bounceInRight ][ color-secondary ]">Build a collaborative, efficient, and intuitive back-office hub with rich financial and operational capabilities married to the latest in social, mobile, and analytics technologies.</p>
 				</div>
 			</div>
 		</div>
@@ -116,7 +116,7 @@ Template Name: pinnacle_premium
 		<div class="[ col-ss-12 col-sm-5 col-lg-4 ][ text-center ]">
 			<div class="[ padding-top--botom ]">
 				<h3 class="[ wow bounceInLeft ][ font-weight--600 ][ color-secondary ][ no-margin-top ]">IMPORTANT FACTS</h3>
-				<p class="[ wow bounceInLeft ][ text-bold ][ color-primary ]">FusionWorks provide services in the following areas:</p>
+				<p class="[ wow bounceInLeft ][ text-bold ][ color-primary ]">Fusionworks provide services in the following areas:</p>
 				<div class="[ background-primary--info ][ padding-top-bottom--small padding--sides ][ text-center ][ margin-bottom ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-facts1.png" alt="Important facts">
 					<p class="[ wow bounceInLeft ][ text-bold ][ color-light ][ no-margin ]">Enterprise Resource Planning (ERP) implementation, project management, trainings, documentation, support to end users.</p>

@@ -68,7 +68,7 @@ Template Name: pinnacle_premium
 					<h2 class="[ text-uppercase ][ color-light ][ no-margin-top margin-bottom ][ wow bounceInLeft ]"  data-wow-delay="0.8s">Awards</h2>
 					<img class="[ wow rotateIn ][ margin-bottom ]"  data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-awards.png" alt="">
 					<div class="[ border-primary--info ][ padding--small margin-bottom--large ][ wow bounceInLeft ]"  data-wow-delay="0.8s">
-						<p class="[ color-light ]">1st SAP Partner in Latin America to be recognized as Expert in Business Intelligence by Sap</p>
+						<p class="[ color-light ]">1st SAP Partner in Latin America to be recognized as Expert in Business Intelligence by SAP</p>
 					</div>
 				</div>
 				<div class="[ background-primary--info ][ margin-bottom--large padding-top-bottom ]">
@@ -79,7 +79,7 @@ Template Name: pinnacle_premium
 				<div class="[ padding--sides ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/biawards2.png" alt="">
 					<p class="[ text-bold ][ color-light ][ wow bounceInLeft ]">Technologies</p>
-					<p class="[ color-light ][ wow bounceInRight ]">Microsoft Power BI, SQL Server, Oracle OBI, Sap Business Objects, Sybase IQ and HANA, R</p>
+					<p class="[ color-light ][ wow bounceInRight ]">Microsoft Power BI, SQL Server, Oracle OBI, SAP Business Objects, Sybase IQ and HANA, R</p>
 				</div>
 			</div>
 			<div class="[ col-ss-12 col-sm-7 ][ relative ][ margin-top-bottom ]">

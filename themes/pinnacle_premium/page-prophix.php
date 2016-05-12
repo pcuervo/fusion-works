@@ -68,7 +68,7 @@
 					</div>
 					<div class="[ height-30 ][ hidden-ss hidden-xs ]"></div>
 					<div class="[ relative ][ padding-top--xxlarge ]">
-						<p class="[  padding-right--sm ][ wow slideInLeft ][ text-bold text-right middle ][ color-secondary ]"> Microsoft gold partner.
+						<p class="[  padding-right--sm ][ wow slideInLeft ][ text-bold text-right middle ][ color-secondary ]"> Microsoft Gold Partner.
 						</p>
 						<img class="[ hidden-xs hidden-sm ][ wow bounceInLeft ][ absolute top-0 right-0  img-connect-left ]" src="<?php echo THEMEPATH; ?>assets/img/connector-left.png" alt="left">
 					</div>
@@ -124,7 +124,7 @@
 								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon1.png" alt="Budgeting Planning">
 							</td>
 							<td class="[ col-xs-11 ][ padding--large ]">
-								<p class="[ font-size--large ][ wow bounceInRight ]">A) Budgeting, Planning and Forescasting</p>
+								<p class="[ font-size--large ][ wow bounceInRight ]">Budgeting, Planning and Forescasting</p>
 								<p class="[ color-tertiary ][ padding-left ][ wow bounceInRight ]">
 									i. Revenue by Customer, Client, Product, Region, etc.
 									<br>ii. Payroll by Employee
@@ -139,7 +139,7 @@
 								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon2.png" alt="Reporting Consolidations">
 							</td>
 							<td class="[ padding--large ]">
-								<p class="[ font-size--large ][ wow bounceInRight ]">B) Reporting and Consolidations</p>
+								<p class="[ font-size--large ][ wow bounceInRight ]">Reporting and Consolidations</p>
 							</td>
 						</tr>
 						<tr class="[ border-bottom--tertiary ]">
@@ -147,7 +147,7 @@
 								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon3.png" alt="Multidimensional Analysis">
 							</td>
 							<td class="[ padding--large ]">
-								<p class="[ font-size--large ][ wow bounceInRight ]">C) Multidimensional Analysis</p>
+								<p class="[ font-size--large ][ wow bounceInRight ]">Multidimensional Analysis</p>
 							</td>
 						</tr>
 						<tr class="[ border-bottom--tertiary ]">
@@ -155,7 +155,7 @@
 								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon4.png" alt="Collaboration">
 							</td>
 							<td class="[ padding--large ]">
-								<p class="[ font-size--large ][ wow bounceInRight ]">D) Data Integration</p>
+								<p class="[ font-size--large ][ wow bounceInRight ]">Data Integration</p>
 								<p class="[ color-tertiary ][ padding-left ][ wow bounceInRight ]">
 									JD Edwards
 									<br>SAP
@@ -171,7 +171,7 @@
 								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon5.png" alt="Data Integration">
 							</td>
 							<td class="[ padding--large ]">
-								<p class="[ font-size--large ][ wow bounceInRight ]">E) Collaboration</p>
+								<p class="[ font-size--large ][ wow bounceInRight ]">Collaboration</p>
 							</td>
 						</tr>
 					</table>

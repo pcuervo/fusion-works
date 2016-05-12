@@ -67,29 +67,31 @@ add_action('init', function(){
 			wp_insert_post( $page, true );
 		}
 
-	// 	// Oracle HCM
-	// 	if( ! get_page_by_path('oracle-hcm') ){
-	// 		$page = array(
-	// 			'post_author' => 1,
-	// 			'post_status' => 'publish',
-	// 			'post_title'  => 'oracle-hcm',
-	// 			'post_name'   => 'Oracle HCM',
-	// 			'post_type'   => 'page'
-	// 		);
-	// 		wp_insert_post( $page, true );
-	// 	}
+				// Smart Flow
+		if( ! get_page_by_path('smart-flog') ){
+			$page = array(
+				'post_author' => 1,
+				'post_status' => 'publish',
+				'post_title'  => 'smart-flog',
+				'post_name'   => 'Smart Flow',
+				'post_type'   => 'page'
+			);
+			wp_insert_post( $page, true );
+		}
 
-	// 	// Smart Flow
-	// 	if( ! get_page_by_path('smart-flog') ){
-	// 		$page = array(
-	// 			'post_author' => 1,
-	// 			'post_status' => 'publish',
-	// 			'post_title'  => 'smart-flog',
-	// 			'post_name'   => 'Smart Flow',
-	// 			'post_type'   => 'page'
-	// 		);
-	// 		wp_insert_post( $page, true );
-	// 	}
+		// Oracle HCM
+		if( ! get_page_by_path('oracle-hcm') ){
+			$page = array(
+				'post_author' => 1,
+				'post_status' => 'publish',
+				'post_title'  => 'oracle-hcm',
+				'post_name'   => 'Oracle HCM',
+				'post_type'   => 'page'
+			);
+			wp_insert_post( $page, true );
+		}
+
+
 
 		// White Paper Form
 		if( ! get_page_by_path('white-papers-download') ){
