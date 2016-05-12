@@ -126,14 +126,14 @@ function notify_admin_white_paper_download( $name, $position, $company, $pdf_tit
 
 	$mail      	= new PHPMailer(); // defaults to using php "mail()"
 	$body       = get_white_paper_admin_email_body( $name, $position, $company, $pdf_title );
-	$reply_to	= 'miguel@pcuervo.com';
+	$reply_to	= 'info@fwpr.com';
 	$name_to	= 'FusionWorks';
 
 	$mail->AddReplyTo( $reply_to, $name_to );
 	$mail->SetFrom( $reply_to, $name_to );
 	$mail->AddReplyTo( $reply_to, $name_to );
 
-	$address = 'miguel@pcuervo.com';
+	$address = 'info@fwpr.com';
 	$mail->AddAddress( $address, $name );
 	$mail->Subject = $name . " has downloaded a white paper.";
 	$mail->MsgHTML( $body );
@@ -230,6 +230,7 @@ function get_white_paper_download_email_body( $name, $pdf_title ){
 				<tr>
 					<td>
 						<p style="color: #5C5B5B;font-size: 15px">Hi <strong>$name</strong>!</p>
+						<p style="color: #5C5B5B;font-size: 15px">Thank you for your interest in our white papers.</p>
 						<p style="color: #5C5B5B;font-size: 15px">You will find attached a copy of the white paper you requested.</p>
 					</td>
 				</tr>
@@ -244,7 +245,7 @@ function get_white_paper_download_email_body( $name, $pdf_title ){
 							<img src="http://pcuervo.com/fusion-works/wp-content/uploads/2016/05/Logo-Fusion-Works.png" alt="Logo FusionWorks" style="width: 200px; display: block; margin: auto;"/>
 						</a>
 						<p style="display: inline-block;margin-bottom: 8px;margin-right: 10px;font-size: 12px;color: #5C5B5B">View more <a href="http://pcuervo.com/fusion-works/white-papers/" style="color: #f74c02;text-decoration: none;font-size: 12px">White papers</a></p>
-						<p style="display: inline-block;margin-bottom: 8px;font-size: 12px;color: #5C5B5B">Go to <a href="http://pcuervo.com/fusion-works" style="color: #f74c02;text-decoration: none;font-size: 12px">FusionWorks</a></p>
+						<p style="display: inline-block;margin-bottom: 8px;font-size: 12px;color: #5C5B5B">Go to <a href="http://pcuervo.com/fusion-works" style="color: #f74c02;text-decoration: none;font-size: 12px">Fusionworks</a></p>
 					</td>
 				</tr>
 			</table>
@@ -304,7 +305,7 @@ function send_pdf_by_email(){
 	$email 		= $_POST['email'];
 	$pdf_url	= $_POST['pdf_url'];
 	$pdf_title	= $_POST['pdf_title'];
-	$reply_to	= 'miguel@pcuervo.com';
+	$reply_to	= 'info@fwpr.com';
 	$name_to	= 'Whatevs Bruh';
 	$position 	= isset( $_POST['position'] ) ? $_POST['position'] : '';
 	$company 	= isset( $_POST['company'] ) ? $_POST['company'] : '';
