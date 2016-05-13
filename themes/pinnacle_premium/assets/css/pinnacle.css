@@ -481,6 +481,13 @@ input[type=text], textarea, input[type=email], input[type=url]{
 .contact .kad-circle-iconclass, .sidebar .kad-circle-iconclass { padding: 10px; }
 
 /*Sidebar*/
+@media (max-width: 480px){
+	#pg-166-5 .tp-rightarrow,
+	#pg-166-5 .tp-leftarrow {
+		top: 80%!important
+	}
+}
+/*Sidebar*/
 .sidebar { margin-bottom: 30px; }
 .sidebar .widget-title {
 	text-align: center;

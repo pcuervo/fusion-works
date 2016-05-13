@@ -68,11 +68,11 @@ add_action('init', function(){
 		}
 
 				// Smart Flow
-		if( ! get_page_by_path('smart-flog') ){
+		if( ! get_page_by_path('smart-flow') ){
 			$page = array(
 				'post_author' => 1,
 				'post_status' => 'publish',
-				'post_title'  => 'smart-flog',
+				'post_title'  => 'smart-flow',
 				'post_name'   => 'Smart Flow',
 				'post_type'   => 'page'
 			);
