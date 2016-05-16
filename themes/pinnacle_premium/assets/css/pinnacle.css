@@ -30,6 +30,11 @@
 .width-10{ width: 10%; }
 .width-7{ width: 7%; }
 
+.width--110 { width: 150px; }
+.width--100 { width: 100px; }
+.width--90 { width: 90px; }
+.width--50 { width: 50px; }
+
 @media (max-width: 992px){ .width--sm{ width: 210px; } }
 
 .max-width--80 { max-width: 80px; }
@@ -340,6 +345,7 @@
 .font-size--xlarge { font-size: 28px; }
 .font-size--xxlarge { font-size: 36px; }
 .font-size--xl { font-size: 50px; }
+.font-size--xxl { font-size: 70px; }
 @media (max-width: 992px){ .font-size--sm { font-size: 28px; }}
 
 .font-weight--300 { font-weight: 300!important; }
