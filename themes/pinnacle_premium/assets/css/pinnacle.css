@@ -597,5 +597,8 @@ div.bnt-content p {
 .addtoany_share_save_container { margin: 0px 0!important;}
 
 /*White Paper*/
-
 #white_paper + aside { display: none; }
+.loader{
+	display: none;
+	text-align: center;
+}

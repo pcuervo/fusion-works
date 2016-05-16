@@ -25,7 +25,7 @@
 <?php endif; ?>
 <?php do_action('kt_before_header_content'); ?>
           <style type="text/css"> .kad-header-style-basic #nav-main ul.sf-menu > li > a, .kad-header-style-basic #kad-shrinkheader #mobile-nav-trigger a {line-height:<?php echo $header_height;?>px; }  </style>
-  <div id="kad-shrinkheader" class="" style="height:<?php echo esc_attr($header_height);?>px; line-height:<?php echo esc_attr($header_height);?>px;">
+  <div id="kad-shrinkheader" class="[ container ]" style="height:<?php echo esc_attr($header_height);?>px; line-height:<?php echo esc_attr($header_height);?>px;">
     <div class="row">
           <div class="<?php echo $logocclass; ?> clearfix kad-header-left">
             <div id="logo" class="logocase">
