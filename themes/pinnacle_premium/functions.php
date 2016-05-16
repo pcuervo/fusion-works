@@ -294,7 +294,7 @@ function send_pdf_by_email(){
 	$pdf_url	= $_POST['pdf_url'];
 	$pdf_title	= $_POST['pdf_title'];
 	$reply_to	= 'info@fwpr.com';
-	$name_to	= 'Whatevs Bruh';
+	$name_to	= 'Fusionworks';
 	$position 	= isset( $_POST['position'] ) ? $_POST['position'] : '';
 	$company 	= isset( $_POST['company'] ) ? $_POST['company'] : '';
 
@@ -308,7 +308,7 @@ function send_pdf_by_email(){
 
 	$address = $email;
 	$mail->AddAddress( $address, $name );
-	$mail->Subject    = "PHPMailer Test Subject via mail(), basic";
+	$mail->Subject = "Fusionworks White Papers";
 	$mail->MsgHTML( $body );
 
 	$upload_dir = wp_upload_dir();
