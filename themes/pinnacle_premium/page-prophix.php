@@ -14,11 +14,11 @@
 				<h2 class="[ wow bounceInDown ][ color-primary ][ text-uppercase ][ margin-bottom--large ]"><strong>Territories</strong></h2>
 				<div class="[ wow bounceInLeft ]">
 					<p class="[ color-primary ][ text-medium text-bold ][ margin-bottom--xlarge ]">Puerto Rico, Dominican Republic, Central America and Mexico.</p>
-					<p><img class="[ img-responsive img-centered ]" src="<?php echo THEMEPATH; ?>assets/img/customers.png" alt=""> <strong>Customers</strong></p>
-					<!-- <p>Puerto Rico</p>
+					<p><strong>Customers</strong></p>
+					<p>Puerto Rico</p>
 					<p>Dominican Republic</p>
 					<p>Guatemala</p>
-					<p>Panama</p> -->
+					<p>Panama</p>
 				</div>
 			</div>
 			<div class="[ col-xs-12 col-sm-6 ][ visible-xs ]">
@@ -31,7 +31,7 @@
 		<div class="[ container ]">
 			<div class="[ row ]">
 				<div class="[ col-ss-8 col-xs-6 col-sm-3 ][">
-					<p class="[ wow bounceInDown ][ color-light ][ text-uppercase text-large text-right ]">Experience implementing Prophix</p>
+					<p class="[ wow bounceInDown ][ color-light ][ text-uppercase text-large text-right ][ margin-top--large ]">Experience implementing Prophix</p>
 				</div>
 				<div class="[ col-ss-4 col-xs-6 col-sm-3 ][ text-center ]">
 					<img class="[ img-responsive img-centered ][ margin-bottom--xlarge ][ wow pulse ]" data-wow-iteration="3" src="<?php echo THEMEPATH; ?>assets/img/11-years.png" alt="11 years">
@@ -96,89 +96,61 @@
 			</div>
 		</article>
 	</section>
-
-<!-- Key functionalities info -->
-	<section class="[ backgroung-tertiary ][ relative ][ padding-bottom--xxlarge ]">
-		<article class="[ container ][ padding-top ]">
-			<h2 class="[ wow bounceInDown ][ color-light ][ text-center text-bold text-uppercase ][ margin-bottom--xxxlarge ]">Key functionalities</h2>
-			<div class="[ row ][ margin-bottom--xxxlarge ]">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-0 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-80 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key7.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-150 bottom-280 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-20 bottom-420 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-20 bottom-280 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key8.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-0 bottom-40 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-20 bottom-0 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key9.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute left-200 bottom-80 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca--small.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-125 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-50  ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key10.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-0 bottom-400 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-50 bottom-280 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key11.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-250 bottom-40 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute right-50 bottom-0 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/key12.png" alt="background key functionalities">
-				<img class="[ hidden-xs ][ hidden-sm ][ absolute bottom-0 margin-left--35 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-tuerca.png" alt="background key functionalities">
-				<div class="[ col-ss-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 no-padding ][ border--gray ][ background-light ][ text-bold ]">
-					<table>
-						<tr class="[ border-bottom--tertiary ]">
-							<td class="[ col-xs-1 ][ background-primary ][ text-center ][ padding ]">
-								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon1.png" alt="Budgeting Planning">
-							</td>
-							<td class="[ col-xs-11 ][ padding--large ]">
-								<p class="[ font-size--large ][ wow bounceInRight ]">Budgeting, Planning and Forescasting</p>
-								<p class="[ color-tertiary ][ padding-left ][ wow bounceInRight ]">
-									i. Revenue by Customer, Client, Product, Region, etc.
-									<br>ii. Payroll by Employee
-									<br>iii. CapEx: existing + new
-									<br>iv. Opex: by department, etc.
-									<br>v. Cash Flow
-								</p>
-							</td>
-						</tr>
-						<tr class="[ border-bottom--tertiary ]">
-							<td class="[ background-tertiary ][ text-center ][ padding ]">
-								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon2.png" alt="Reporting Consolidations">
-							</td>
-							<td class="[ padding--large ]">
-								<p class="[ font-size--large ][ wow bounceInRight ]">Reporting and Consolidations</p>
-							</td>
-						</tr>
-						<tr class="[ border-bottom--tertiary ]">
-							<td class="[ background-primary ][ text-center ][ padding ]">
-								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon3.png" alt="Multidimensional Analysis">
-							</td>
-							<td class="[ padding--large ]">
-								<p class="[ font-size--large ][ wow bounceInRight ]">Multidimensional Analysis</p>
-							</td>
-						</tr>
-						<tr class="[ border-bottom--tertiary ]">
-							<td class="[ background-tertiary ][ text-center ][ padding ]">
-								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon4.png" alt="Collaboration">
-							</td>
-							<td class="[ padding--large ]">
-								<p class="[ font-size--large ][ wow bounceInRight ]">Data Integration</p>
-								<p class="[ color-tertiary ][ padding-left ][ wow bounceInRight ]">
-									JD Edwards
-									<br>SAP
-									<br>Microsoft GP
-									<br>Oracle
-									<br>SQL
-									<br>MAS
-								</p>
-							</td>
-						</tr>
-						<tr class="[ border-bottom--tertiary ]">
-							<td class="[ background-primary ][ text-center ][ padding ]">
-								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/key-icon5.png" alt="Data Integration">
-							</td>
-							<td class="[ padding--large ]">
-								<p class="[ font-size--large ][ wow bounceInRight ]">Collaboration</p>
-							</td>
-						</tr>
-					</table>
-				</div>
+	<section class="[ background-light ][ relative ][ container ]">
+		<img class="[ hidden-xs ][ hidden-sm ][ absolute left-0 ][ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/prophix-fondo_left.png" alt="background key functionalities">
+		<img class="[ hidden-xs ][ hidden-sm ][ absolute right-0 ][ wow bounceInRight ]" src="<?php echo THEMEPATH; ?>assets/img/prophix-fondo_right.png" alt="background key functionalities">
+		<img class="[ hidden-xs ][ hidden-sm ][ absolute bottom-0 ][ wow bounceInUp ][ margin-auto ][ text-center ]" src="<?php echo THEMEPATH; ?>assets/img/prophix-fondo.png" alt="background key functionalities">
+		<div class="[ row ][ padding-top--xxlarge padding-bottom--large ]">
+			<div class="[ col-ss-12 visible-xs visible-sm ][ text-center ][ margin-bottom--large ]">
+				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/prophix-key_functionalities.png" alt="key functionalities">
 			</div>
-		</article>
-
+			<div class="[ col-ss-12 col-sm-6 col-md-4 ]">
+				<div class="[ row ][ hidden-xs hidden-sm ]">
+					<div class="[ col-sm-6 col-sm-offset-6 ]">
+						<img class="[ wow bounceInRight ]" src="<?php echo THEMEPATH; ?>assets/img/prophix-left.png" alt="key functionalities">
+					</div>
+				</div>
+				<div class="[ margin-bottom--large ]">
+					<p class="[ font-size--18 ]">
+						<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/budgeting.png" alt="key functionalities">A) Budgeting, Planning and Forescasting
+					</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.1s">i. Revenue by Customer, Client, Product, Region, etc.</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.2s">ii. Payroll by Employee</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.3s">iii. CapEx: existing + new</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.4s">iv. Opex: by department, etc.</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.5s">v. Cash Flow</p>
+				</div>
+				<p class="[ font-size--18 ][ margin-bottom--large ]">
+					<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/reporting.png" alt="key functionalities">B) Reporting and Consolidations
+				</p>
+				<p class="[ font-size--18 ][ margin-bottom--large ]">
+					<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/multidimensional.png" alt="key functionalities">C) Multidimensional Analysis
+				</p>
+			</div>
+			<div class="[ hidden-xs hidden-sm col-md-4 ][ text-center ]">
+				<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/prophix-key_functionalities.png" alt="key functionalities">
+			</div>
+			<div class="[ col-ss-12 col-sm-6 col-md-4 ]">
+				<div class="[ row ][ hidden-xs hidden-sm ]">
+					<div class="[ col-sm-6 ]">
+						<img class="[ wow bounceInLeft ]" src="<?php echo THEMEPATH; ?>assets/img/prophix-right.png" alt="fondo key functionalities">
+					</div>
+				</div>
+				<div class="[ margin-bottom--large ]">
+					<p class="[ font-size--18 ]">
+						<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/data-integration.png" alt="key functionalities">D) Data Integration
+					</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.1s">JD Edwards</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.2s">SAP</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.3s">Microsoft GP</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.4s">Oracle</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.5s">SQL</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.6s">MAS</p>
+				</div>
+				<p class="[ font-size--18 ][ margin-bottom--large ]">
+					<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/collaboration.png" alt="key functionalities">E) Collaboration
+				</p>
+			</div>
+		</div>
 	</section>
-
 <?php get_footer(); ?>
