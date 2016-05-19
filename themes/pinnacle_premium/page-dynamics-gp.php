@@ -53,7 +53,7 @@ Template Name: pinnacle_premium
 		</div>
 		<div class="[ col-ss-12 col-sm-3 ][ padding-top--large ]">
 			<img data-wow-delay="0.8s" class="[ wow rotateIn ][ margin-bottom--xlarge ]" src="<?php echo THEMEPATH; ?>assets/img/by-i2.png" alt="important facts">
-			<p class="[ wow fadeInLeft ][ color-light ]">Dynamics GP offers many capabilities! Whether your company has 10 employees or 5000 employees. You can use the modules that you need and as your business grows you can utilize more of GP features.</p>
+			<p class="[ wow fadeInLeft ][ color-light ]">Whether your company has 10 employees or 5000 employees, you can use the modules that you need and as your business grows you can utilize more of GP’s features.</p>
 		</div>
 		<div class="[ col-ss-12 col-sm-3 ][ padding-top--large ][ background-primary--xxlight ][ height-350 ]">
 			<img data-wow-delay="0.8s" class="[ wow rotateIn ][ margin-bottom--xlarge ]" src="<?php echo THEMEPATH; ?>assets/img/by-i3.png" alt="important facts">
