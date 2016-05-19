@@ -20,7 +20,7 @@ Template Name: pinnacle_premium
 					<div class="[ col-ss-12 col-xs-6 col-sm-4 col-sm-offset-1 ][ margin-bottom--xxlarge ]">
 						<div class="[ border-primary--info ][ padding--small ][ wow bounceInLeft ]">
 							<div class="[ background-primary--xlight ][ padding ]">
-								<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 20</p>
+								<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">20 +</p>
 								<p class="[ font-weight--600 ][ no-margin ][ color-primary ][ padding-top ]">Clients</p>
 							</div>
 						</div>
@@ -28,7 +28,7 @@ Template Name: pinnacle_premium
 					<div class="[ col-ss-12 col-xs-6 col-sm-4 ][ margin-bottom ]">
 						<div class="[ border-primary--info ][ padding--small ][ wow bounceInRight ]">
 							<div class="[ background-primary--xlight ][ padding ]">
-								<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 12</p>
+								<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">12 +</p>
 								<p class="[ font-weight--600 ][ no-margin ][ color-primary ][ padding-top ]">Years</p>
 							</div>
 						</div>
@@ -57,7 +57,7 @@ Template Name: pinnacle_premium
 					<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/bi-whole.png" alt="">
 					<p class="[ inline-block middle ][ width-70 ][ font-size--large ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">
 						<span class="[ text-bold ]">Wholesale & Distribution</span><br>
-						<span class="[ font-size--14 ]">including Puerto Rico’s Largest Insurance Company, Bank and Wholesale Distributor</span>
+						<span class="[ font-size--14 ]">including Puerto Rico’s Largest Insurance Company, Bank and Wholesale Distributor.</span>
 					</p>
 				</div>
 			</div>
@@ -68,18 +68,29 @@ Template Name: pinnacle_premium
 					<h2 class="[ text-uppercase ][ color-light ][ no-margin-top margin-bottom ][ wow bounceInLeft ]"  data-wow-delay="0.8s">Awards</h2>
 					<img class="[ wow rotateIn ][ margin-bottom ]"  data-wow-delay="0.8s" src="<?php echo THEMEPATH; ?>assets/img/crm-awards.png" alt="">
 					<div class="[ border-primary--info ][ padding--small margin-bottom--large ][ wow bounceInLeft ]"  data-wow-delay="0.8s">
-						<p class="[ color-light ]">1st SAP Partner in Latin America to be recognized as Expert in Business Intelligence by SAP</p>
+						<p class="[ color-light ]">1st SAP Partner in Latin America to be recognized as Experts in Business Intelligence by SAP.</p>
 					</div>
 				</div>
 				<div class="[ background-primary--info ][ margin-bottom--large padding-top-bottom ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/biawards1.png" alt="">
 					<p class="[ text-bold ][ color-light ][ wow bounceInLeft ]">Insight</p>
-					<p class="[ color-light ][ wow bounceInRight ]">SAP BO industry leader in Puerto Rico</p>
+					<p class="[ color-light ][ wow bounceInRight ]">SAP BO industry leader in Puerto Rico.</p>
 				</div>
 				<div class="[ padding--sides ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/biawards2.png" alt="">
 					<p class="[ text-bold ][ color-light ][ wow bounceInLeft ]">Technologies</p>
-					<p class="[ color-light ][ wow bounceInRight ]">Microsoft Power BI, SQL Server, Oracle OBI, SAP Business Objects, Sybase IQ and HANA, R</p>
+					<ul class="[ text-left ][ row ]">
+						<div class="[ col-ss-12 col-xs-6 col-sm-12 col-md-6 ]">
+							<li class="[ color-light ][ wow bounceInRight ][ margin-bottom ]">Microsoft Power BI</li>
+							<li class="[ color-light ][ wow bounceInRight ][ margin-bottom ]">SQL Server</li>
+							<li class="[ color-light ][ wow bounceInRight ][ margin-bottom ]">Oracle OBI</li>
+						</div>
+						<div class="[ col-ss-12 col-xs-6 col-sm-12 col-md-6 ]">
+							<li class="[ color-light ][ wow bounceInRight ][ margin-bottom ]">SAP Business Objects</li>
+							<li class="[ color-light ][ wow bounceInRight ][ margin-bottom ]">Sybase IQ and HANA</li>
+							<li class="[ color-light ][ wow bounceInRight ]">R</li>
+						</div>
+					</ul>
 				</div>
 			</div>
 			<div class="[ col-ss-12 col-sm-7 ][ relative ][ margin-top-bottom ]">

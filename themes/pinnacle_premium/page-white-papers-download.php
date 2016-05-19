@@ -36,11 +36,11 @@ Template Name: pinnacle_premium
 							</p>
 							<p>
 								<label>Position</label>
-								<input type="text" class="full" id="kt-feedback-post-location" value="" name="position">
+								<input type="text" class="full required requiredField" id="kt-feedback-post-location" value="" name="position">
 							</p>
 							<p>
 								<label>Company</label>
-								<input type="text" class="full" value="" id="kt-feedback-post-company" name="company">
+								<input type="text" class="full required requiredField" value="" id="kt-feedback-post-company" name="company">
 							</p>
 							<input type="hidden" name="pdf_url" value="<?php echo $pdf['url'] ?>">
 							<input type="hidden" name="pdf_title" value="<?php echo $pdf['title'] ?>">

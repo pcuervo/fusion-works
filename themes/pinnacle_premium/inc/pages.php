@@ -68,12 +68,12 @@ add_action('init', function(){
 		}
 
 				// Smart Flow
-		if( ! get_page_by_path('smart-flow') ){
+		if( ! get_page_by_path('smartflow') ){
 			$page = array(
 				'post_author' => 1,
 				'post_status' => 'publish',
-				'post_title'  => 'smart-flow',
-				'post_name'   => 'Smart Flow',
+				'post_title'  => 'smartflow',
+				'post_name'   => 'SmartFlow',
 				'post_type'   => 'page'
 			);
 			wp_insert_post( $page, true );

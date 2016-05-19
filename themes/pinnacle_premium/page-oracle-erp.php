@@ -14,7 +14,7 @@ Template Name: pinnacle_premium
 	<div class="[ col-ss-12 col-xs-6 col-sm-3 ][ margin-bottom ]">
 		<div class="[ border-primary--info ][ padding--small ][ wow bounceInLeft ]">
 			<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
-				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 18</p>
+				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">18 +</p>
 				<p class="[ font-weight--600 ][ no-margin ][ color-primary ][ padding-top ]">Clients</p>
 			</div>
 		</div>
@@ -22,7 +22,7 @@ Template Name: pinnacle_premium
 	<div class="[ col-ss-12 col-xs-6 col-sm-3 ][ margin-bottom ]">
 		<div class="[ border-primary--info ][ padding--small ][ wow bounceInLeft ]">
 			<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
-				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 30</p>
+				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">30 +</p>
 				<p class="[ font-weight--600 ][ no-margin ][ color-primary ]">Implementation<br>& migrations</p>
 			</div>
 		</div>
@@ -30,7 +30,7 @@ Template Name: pinnacle_premium
 	<div class="[ col-ss-12 col-xs-6 col-sm-3 ][ margin-bottom ]">
 		<div class="[ border-primary--info ][ padding--small ][ wow bounceInRight ]">
 			<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
-				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 1,200</p>
+				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">1,200 +</p>
 				<p class="[ font-weight--600 ][ no-margin ][ color-primary ][ padding-top ]">Users trained</p>
 			</div>
 		</div>
@@ -38,7 +38,7 @@ Template Name: pinnacle_premium
 	<div class="[ col-ss-12 col-xs-6 col-sm-3 ][ margin-bottom ]">
 		<div class="[ border-primary--info ][ padding--small ][ wow bounceInRight ]">
 			<div class="[ background-primary--xlight ][ padding ][ min-height--130 ]">
-				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">+ 24</p>
+				<p class="[ color-primary ][ text-bold ][ font-size--xlarge ][ no-margin ]">24 +</p>
 				<p class="[ font-weight--600 ][ no-margin ][ color-primary ]">Years of experience implementing Oracle</p>
 			</div>
 		</div>
@@ -104,7 +104,7 @@ Template Name: pinnacle_premium
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-key.png" alt="Key functionalities">
 				</div>
 				<div class="[ col-ss-9 ]">
-					<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Oracle Enterprise Resource Planning Cloud</h4>
+					<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Oracle Enterprise Resource Planning Cloud.</h4>
 					<p class="[ wow bounceInRight ][ color-secondary ]">Build a collaborative, efficient, and intuitive back-office hub with rich financial and operational capabilities married to the latest in social, mobile, and analytics technologies.</p>
 				</div>
 			</div>
@@ -123,7 +123,7 @@ Template Name: pinnacle_premium
 				</div>
 				<div class="[ background-primary--info ][ padding-top-bottom--small padding--sides ][ text-center ][ margin-bottom ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-facts2.png" alt="Important facts">
-					<p class="[ wow bounceInLeft ][ text-bold ][ color-light ][ no-margin ]">Nucleus Research: Oracle ERP Cloud a Leader in ERP Value Matrix</p>
+					<p class="[ wow bounceInLeft ][ text-bold ][ color-light ][ no-margin ]">Nucleus Research: Oracle ERP Cloud a Leader in ERP Value Matrix.</p>
 				</div>
 			</div>
 		</div>
@@ -134,7 +134,7 @@ Template Name: pinnacle_premium
 						<img class="[ wow rotateIn ][ max-height--150 ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-business.png" alt="Oracle e-businesss">
 					</div>
 					<div class="[ col-ss-9 ]">
-						<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Oracle E-Business Suite Financials</h4>
+						<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Oracle E-Business Suite Financials.</h4>
 						<p class="[ wow bounceInRight ][ color-light ]">Build a collaborative, efficient, and intuitiveback-office hub with rich financial and operational capabilities married to the latest in social, mobile, and analytics technologies.</p>
 					</div>
 				</div>
@@ -146,7 +146,7 @@ Template Name: pinnacle_premium
 					</div>
 					<div class="[ col-ss-9 ]">
 						<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Manage and control your full accounting cycle:</h4>
-						<p class="[ wow bounceInRight ][ color-secondary ]">General Ledger, Receivables, Payables, Procurement, Inventory, Projects, Assets, Cash Management</p>
+						<p class="[ wow bounceInRight ][ color-secondary ]">General Ledger, Receivables, Payables, Procurement, Inventory, Projects, Assets, Cash Management.</p>
 					</div>
 				</div>
 			</div>

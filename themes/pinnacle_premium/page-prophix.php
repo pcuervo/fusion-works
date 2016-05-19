@@ -31,7 +31,7 @@
 		<div class="[ container ]">
 			<div class="[ row ]">
 				<div class="[ col-ss-8 col-xs-6 col-sm-3 ][">
-					<p class="[ wow bounceInDown ][ color-light ][ text-uppercase text-large text-right ][ margin-top--large ]">Experience implementing Prophix</p>
+					<p class="[ wow bounceInDown ][ color-light ][ text-uppercase text-large text-right ][ margin-top--large ]">Experience implementing Prophix.</p>
 				</div>
 				<div class="[ col-ss-4 col-xs-6 col-sm-3 ][ text-center ]">
 					<img class="[ img-responsive img-centered ][ margin-bottom--xlarge ][ wow pulse ]" data-wow-iteration="3" src="<?php echo THEMEPATH; ?>assets/img/11-years.png" alt="11 years">
@@ -112,19 +112,19 @@
 				</div>
 				<div class="[ margin-bottom--large ]">
 					<p class="[ font-size--18 ]">
-						<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/budgeting.png" alt="key functionalities">A) Budgeting, Planning and Forescasting
+						<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/budgeting.png" alt="key functionalities">Budgeting, Planning and Forescasting.
 					</p>
-					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.1s">i. Revenue by Customer, Client, Product, Region, etc.</p>
-					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.2s">ii. Payroll by Employee</p>
-					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.3s">iii. CapEx: existing + new</p>
-					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.4s">iv. Opex: by department, etc.</p>
-					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.5s">v. Cash Flow</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.1s">Revenue by Customer, Client, Product, Region, etc.</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.2s">Payroll by Employee</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.3s">CapEx: existing + new</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.4s">Opex: by department, etc.</p>
+					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.5s">Cash Flow</p>
 				</div>
 				<p class="[ font-size--18 ][ margin-bottom--large ]">
-					<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/reporting.png" alt="key functionalities">B) Reporting and Consolidations
+					<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/reporting.png" alt="key functionalities">Reporting and Consolidations.
 				</p>
 				<p class="[ font-size--18 ][ margin-bottom--large ]">
-					<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/multidimensional.png" alt="key functionalities">C) Multidimensional Analysis
+					<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/multidimensional.png" alt="key functionalities">Multidimensional Analysis.
 				</p>
 			</div>
 			<div class="[ hidden-xs hidden-sm col-md-4 ][ text-center ]">
@@ -138,7 +138,7 @@
 				</div>
 				<div class="[ margin-bottom--large ]">
 					<p class="[ font-size--18 ]">
-						<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/data-integration.png" alt="key functionalities">D) Data Integration
+						<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/data-integration.png" alt="key functionalities">Data Integration.
 					</p>
 					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.1s">JD Edwards</p>
 					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.2s">SAP</p>
@@ -148,7 +148,7 @@
 					<p class="[ color-tertiary ][ no-margin ][ wow bounceInUp ]" data-wow-delay="0.6s">MAS</p>
 				</div>
 				<p class="[ font-size--18 ][ margin-bottom--large ]">
-					<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/collaboration.png" alt="key functionalities">E) Collaboration
+					<img class="[ wow rotateIn ][ margin-right--large ]" src="<?php echo THEMEPATH; ?>assets/img/collaboration.png" alt="key functionalities">Collaboration.
 				</p>
 			</div>
 		</div>

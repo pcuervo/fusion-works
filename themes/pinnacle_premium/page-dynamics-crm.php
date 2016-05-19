@@ -92,7 +92,7 @@ Template Name: pinnacle_premium
 								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-awards.png" alt="">
 							</div>
 							<div class="[ col-ss-7 no-padding-left ]">
-								<p class="[ wow fadeInDown ][ text-bold ][ color-secondary ][ font-size--medium ]">Partner of the Year 2014</p>
+								<p class="[ wow fadeInDown ][ text-bold ][ color-secondary ][ font-size--medium ]">Microsoft Partner of the Year 2014.</p>
 							</div>
 						</div>
 					</div>
@@ -104,7 +104,7 @@ Template Name: pinnacle_premium
 								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-awards.png" alt="">
 							</div>
 							<div class="[ col-ss-7 no-padding-left ]">
-								<p class="[ wow fadeInDown ][ text-bold ][ color-secondary ][ font-size--medium ]">CRM LATAM Winner 2014</p>
+								<p class="[ wow fadeInDown ][ text-bold ][ color-secondary ][ font-size--medium ]">Microsoft CRM LATAM Winner 2014.</p>
 							</div>
 						</div>
 					</div>
@@ -118,27 +118,27 @@ Template Name: pinnacle_premium
 		<h2 class="[ wow fadeInDown ][ text-uppercase text-center ][ color-primary ][ font-weight--600 font-size--sm ]">KEY FUNCTIONALITIES</h2>
 		<div class="[ wow bounceInLeft ][ border-bottom--primary--dotted padding-bottom--medium ]">
 			<div class="[ background-quaternary padding ]">
-				<p class="[ text-bold ][ color-secondary ]">Social & Market Insights: Provide reps with deep and valuable insights</p>
+				<p class="[ text-bold ][ color-secondary ]">Social & Market Insights: Provide reps with deep and valuable insights.</p>
 			</div>
 		</div>
 		<div class="[ wow bounceInRight ][ border-bottom--primary--dotted padding-top-bottom ]">
 			<div class="[ background-quaternary padding ]">
-				<p class="[ text-bold ][ color-secondary ]">Collaborative selling: Boost your sales rep’s selling power, by providing access to experts and information across the organization</p>
+				<p class="[ text-bold ][ color-secondary ]">Collaborative selling: Boost your sales rep’s selling power, by providing access to experts and information across the organization.</p>
 			</div>
 		</div>
 		<div class="[ wow bounceInLeft ][ border-bottom--primary--dotted padding-top-bottom ]">
 			<div class="[ background-quaternary padding ]">
-				<p class="[ text-bold ][ color-secondary ]">Mobile: Enable reps to work how they want, anywhere, anytime</p>
+				<p class="[ text-bold ][ color-secondary ]">Mobile: Enable reps to work how they want, anywhere, anytime.</p>
 			</div>
 		</div>
 		<div class="[ wow bounceInRight ][ border-bottom--primary--dotted padding-top-bottom ]">
 			<div class="[ background-quaternary padding ]">
-				<p class="[ text-bold ][ color-secondary ]">Sales, Marketing  & Services analytics: Turn data into actionable insights</p>
+				<p class="[ text-bold ][ color-secondary ]">Sales, Marketing  & Services analytics: Turn data into actionable insights.</p>
 			</div>
 		</div>
 		<div class="[ wow bounceInLeft ][ padding-top--large margin-bottom--large ]">
 			<div class="[ background-quaternary padding ]">
-				<p class="[ text-bold ][ color-secondary ]">Online and offline access</p>
+				<p class="[ text-bold ][ color-secondary ]">Online and offline access.</p>
 			</div>
 		</div>
 	</div>
@@ -150,19 +150,19 @@ Template Name: pinnacle_premium
 		</div>
 		<div class="[ background-tertiary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-comfortable.png" alt="">
-			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Comfortable, intuitive look and feel easy-to-use</p>
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Comfortable, intuitive look and feel easy-to-use.</p>
 		</div>
 		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-flexible.png" alt="">
-			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Flexible solution that fits with several business process</p>
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Flexible solution that fits with several business process.</p>
 		</div>
 		<div class="[ background-tertiary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-provide.png" alt="">
-			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Provide the information and processes to users for their understanding, and identifying their customers´needs</p>
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Provide the information and processes to users for their understanding, and identifying their customers´needs.</p>
 		</div>
 		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-agile.png" alt="">
-			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Agile automation tools to build Business Process flows and workflows</p>
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Agile automation tools to build Business Process flows and workflows.</p>
 		</div>
 	</div>
 </section>
