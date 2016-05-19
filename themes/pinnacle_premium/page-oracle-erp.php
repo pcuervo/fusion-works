@@ -112,7 +112,7 @@ Template Name: pinnacle_premium
 			</div>
 		</div>
 		<div class="[ col-ss-12 col-sm-7 col-lg-8 ][ no-padding--sides ][ background-quaternary ]">
-			<h3 class="[ wow bounceInLeft ][ text-center ][ color-light ][ font-weight--600 ]">KEY FUNCTIONALITIES</h3>
+			<h3 class="[ wow bounceInLeft ][ text-center ][ color-light ][ font-weight--600 ][ margin-bottom--xlarge ]">KEY FUNCTIONALITIES</h3>
 			<div class="[ row ][ padding-top-bottom--large padding--sides ]">
 				<div class="[ col-ss-3 ][ text-center ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-key.png" alt="Key functionalities">
