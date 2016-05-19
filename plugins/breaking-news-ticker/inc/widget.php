@@ -80,7 +80,7 @@ class bnt_widget extends WP_Widget {
 							<p><?php
 								$limit = $instance['content_length'];
 								echo bnt_excerpt($limit);
-							?> <span class="[ link-footer ]">Read More</span></p>
+							?> <a href="<?php echo get_permalink(); ?>"><span class="[ link-footer ]">Read More</span></a></p>
 
 							<span class="widget-entry-meta">Posted on: <?php the_time('F j, Y'); ?></span>
 

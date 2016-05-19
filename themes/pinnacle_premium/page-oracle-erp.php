@@ -118,8 +118,8 @@ Template Name: pinnacle_premium
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-key.png" alt="Key functionalities">
 				</div>
 				<div class="[ col-ss-9 ]">
-					<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Oracle Enterprise Resource Planning Cloud.</h4>
-					<p class="[ wow bounceInRight ][ color-secondary ]"><strong>Build a collaborative, efficient, and intuitive back-office hub.</strong> With rich financial and operational capabilities married to the latest in social, mobile, and analytics technologies, you can accomplish this and more.</p>
+					<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Build a collaborative, efficient, and intuitive back-office hub.</h4>
+					<p class="[ wow bounceInRight ][ color-secondary ]">With rich financial and operational capabilities married to the latest in social, mobile, and analytics technologies, you can accomplish this and more.</p>
 				</div>
 			</div>
 			<div class="[ background-secondary--light ][ padding-top-bottom--large padding--sides ]">
@@ -128,18 +128,18 @@ Template Name: pinnacle_premium
 						<img class="[ wow rotateIn ][ max-height--150 ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-business.png" alt="Oracle e-businesss">
 					</div>
 					<div class="[ col-ss-9 ]">
-						<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Oracle E-Business Suite Financials.</h4>
-						<p class="[ wow bounceInRight ][ color-light ]"><strong>Work smarter. </strong>Increase efficiency and reduce back-office costs with standardized processes for shared services, productivity tools, and integrated performance management.</p>
+						<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Work smarter.</h4>
+						<p class="[ wow bounceInRight ][ color-light ]">Increase efficiency and reduce back-office costs with standardized processes for shared services, productivity tools, and integrated performance management.</p>
 					</div>
 				</div>
 			</div>
 			<div class="[ row ][ padding-top-bottom--large padding--sides ]">
 				<div class="[ col-ss-3 ][ text-center ]">
-					<img class="[ wow rotateIn ][ max-height--150 ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-business.png" alt="Oracle e-businesss">
+					<img class="[ wow rotateIn ][ max-height--150 ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-manage.png" alt="Oracle e-businesss">
 				</div>
 				<div class="[ col-ss-9 ]">
-					<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Oracle E-Business Suite Financials.</h4>
-					<p class="[ wow bounceInRight ][ color-light ]"><strong>Work smarter. </strong>Increase efficiency and reduce back-office costs with standardized processes for shared services, productivity tools, and integrated performance management.</p>
+					<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Manage and control your full accounting cycle:</h4>
+					<p class="[ wow bounceInRight ][ color-light ]">General Ledger, Receivables, Payables, Procurement, Inventory, Projects, Assets, Cash Management</p>
 				</div>
 			</div>
 			<div class="[ background-secondary--light ][ padding-top-bottom--large padding--sides ]">
@@ -150,15 +150,6 @@ Template Name: pinnacle_premium
 					<div class="[ col-ss-9 ]">
 						<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Access your financial statements anytime.</h4>
 					</div>
-				</div>
-			</div>
-			<div class="[ row ][ padding-top-bottom--large padding--sides ]">
-				<div class="[ col-ss-3 ][ text-center ]">
-					<img class="[ wow rotateIn ][ max-height--150 ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-manage.png" alt="Manage and control">
-				</div>
-				<div class="[ col-ss-9 ]">
-					<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Manage and control your full accounting cycle:</h4>
-					<p class="[ wow bounceInRight ][ color-secondary ]">General Ledger, Receivables, Payables, Procurement, Inventory, Projects, Assets, Cash Management.</p>
 				</div>
 			</div>
 		</div>

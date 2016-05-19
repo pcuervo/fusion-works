@@ -32,7 +32,7 @@ Template Name: pinnacle_premium
 							</p>
 							<p>
 								<label>Email</label>
-								<input type="email" class="full required requiredField" value="" id="kt-feedback-post-title" name="email">
+								<input type="email" class="full required requiredField" value="" id="kt-feedback-post-email" name="email">
 							</p>
 							<p>
 								<label>Position</label>

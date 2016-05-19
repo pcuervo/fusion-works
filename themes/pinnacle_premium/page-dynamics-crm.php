@@ -150,7 +150,7 @@ Template Name: pinnacle_premium
 		</div>
 		<div class="[ background-tertiary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-comfortable.png" alt="">
-			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Comfortable, intuitive look and feel easy-to-use.</p>
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Comfortable, intuitive look and easy-to-use.</p>
 		</div>
 		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-flexible.png" alt="">
@@ -162,7 +162,7 @@ Template Name: pinnacle_premium
 		</div>
 		<div class="[ background-primary ][ padding--sides--small padding-top-bottom--large ]">
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-agile.png" alt="">
-			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Agile automation tools to build Business Process flows and workflows.</p>
+			<p class="[ inline-block middle ][ width-70 ][ no-margin-bottom margin-left--large ][ color-light ][ wow bounceInRight ]">Agile automation tools to build business process flows and workflows.</p>
 		</div>
 	</div>
 </section>
