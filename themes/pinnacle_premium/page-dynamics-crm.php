@@ -92,7 +92,7 @@ Template Name: pinnacle_premium
 								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-awards.png" alt="">
 							</div>
 							<div class="[ col-ss-7 no-padding-left ]">
-								<p class="[ wow fadeInDown ][ text-bold ][ color-secondary ][ font-size--medium ]">Microsoft Partner of the Year 2014.</p>
+								<p class="[ wow fadeInDown ][ text-bold ][ color-secondary ][ font-size--medium ]">Microsoft Country Partner of the Year 2014.</p>
 							</div>
 						</div>
 					</div>
@@ -104,7 +104,7 @@ Template Name: pinnacle_premium
 								<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-awards.png" alt="">
 							</div>
 							<div class="[ col-ss-7 no-padding-left ]">
-								<p class="[ wow fadeInDown ][ text-bold ][ color-secondary ][ font-size--medium ]">Microsoft CRM LATAM Winner 2014.</p>
+								<p class="[ wow fadeInDown ][ text-bold ][ color-secondary ][ font-size--medium ]">Microsoft CRM LATAM Partner of the Year 2014.</p>
 							</div>
 						</div>
 					</div>
