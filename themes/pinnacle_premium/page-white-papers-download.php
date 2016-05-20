@@ -36,7 +36,7 @@ Template Name: pinnacle_premium
 							</p>
 							<p>
 								<label>Position</label>
-								<input type="text" class="full required requiredField" id="kt-feedback-post-location" value="" name="position">
+								<input type="text" class="full required requiredField" id="kt-feedback-post-position" value="" name="position">
 							</p>
 							<p>
 								<label>Company</label>

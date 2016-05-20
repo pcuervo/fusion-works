@@ -26,6 +26,8 @@ var $=jQuery.noConflict();
 })(jQuery);
 
 function sendPDF( data ){
+    if( ! isFormValid() ) return;
+
     $('.js-loader').show();
     $.post(
         ajax_url,
@@ -57,7 +59,16 @@ function sendPDF( data ){
     );
 }
 
-
 function injectLoader(){
     $('.testimonial-form-container').after('<div class="[ loader js-loader ]"><img src="http://fwprnew.fwpr.com/wp-content/themes/pinnacle_premium/assets/img/ajax-loader-fw.gif" alt="loading…"></div>');
+}
+
+function isFormValid(){
+    var position = $('#kt-feedback-post-position').val();
+    if( position == '' || typeof position == 'undefined' ) return false;
+
+    var company = $('#kt-feedback-post-company').val();
+    if( company == '' || typeof company == 'undefined' ) return false;
+    
+    return true;
 }
