@@ -1,12 +1,12 @@
-<?php 
+<?php
 /*
 - Force plugins to stop stating incorrect errors -
 wp_head();
 */
 get_template_part('templates/head'); ?>
-<?php global $pinnacle; 
+<?php global $pinnacle;
   if(isset($pinnacle["smooth_scrolling"]) && $pinnacle["smooth_scrolling"] == '1') { $scrolling = '1';} else if(isset($pinnacle["smooth_scrolling"]) && $pinnacle["smooth_scrolling"] == '2') { $scrolling = '2';} else {$scrolling = '0';}
-  if(isset($pinnacle["smooth_scrolling_hide"]) && $pinnacle["smooth_scrolling_hide"] == '1') {$scrolling_hide = '1';} else {$scrolling_hide = '0';} 
+  if(isset($pinnacle["smooth_scrolling_hide"]) && $pinnacle["smooth_scrolling_hide"] == '1') {$scrolling_hide = '1';} else {$scrolling_hide = '0';}
   if(isset($pinnacle['pinnacle_animate_in']) && $pinnacle['pinnacle_animate_in'] == '1') {$animate = '1';} else {$animate = '0';}
   if(isset($pinnacle['sticky_header']) && $pinnacle['sticky_header'] == '1') {$sticky = '1';} else {$sticky = '0';}
   if(isset($pinnacle['header_style'])) {$header_style = $pinnacle['header_style'];} else {$header_style = 'default';}

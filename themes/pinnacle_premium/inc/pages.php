@@ -55,41 +55,43 @@ add_action('init', function(){
 	// 		wp_insert_post( $page, true );
 	// 	}
 
-	// 	// Busines Intelligence
-	// 	if( ! get_page_by_path('busines-intelligence') ){
-	// 		$page = array(
-	// 			'post_author' => 1,
-	// 			'post_status' => 'publish',
-	// 			'post_title'  => 'busines-intelligence',
-	// 			'post_name'   => 'Busines Intelligence',
-	// 			'post_type'   => 'page'
-	// 		);
-	// 		wp_insert_post( $page, true );
-	// 	}
+		// Business Intelligence
+		if( ! get_page_by_path('business-intelligence') ){
+			$page = array(
+				'post_author' => 1,
+				'post_status' => 'publish',
+				'post_title'  => 'business-intelligence',
+				'post_name'   => 'Business Intelligence',
+				'post_type'   => 'page'
+			);
+			wp_insert_post( $page, true );
+		}
 
-	// 	// Oracle HCM
-	// 	if( ! get_page_by_path('oracle-hcm') ){
-	// 		$page = array(
-	// 			'post_author' => 1,
-	// 			'post_status' => 'publish',
-	// 			'post_title'  => 'oracle-hcm',
-	// 			'post_name'   => 'Oracle HCM',
-	// 			'post_type'   => 'page'
-	// 		);
-	// 		wp_insert_post( $page, true );
-	// 	}
+				// Smart Flow
+		if( ! get_page_by_path('smartflow') ){
+			$page = array(
+				'post_author' => 1,
+				'post_status' => 'publish',
+				'post_title'  => 'smartflow',
+				'post_name'   => 'SmartFlow',
+				'post_type'   => 'page'
+			);
+			wp_insert_post( $page, true );
+		}
 
-	// 	// Smart Flow
-	// 	if( ! get_page_by_path('smart-flog') ){
-	// 		$page = array(
-	// 			'post_author' => 1,
-	// 			'post_status' => 'publish',
-	// 			'post_title'  => 'smart-flog',
-	// 			'post_name'   => 'Smart Flow',
-	// 			'post_type'   => 'page'
-	// 		);
-	// 		wp_insert_post( $page, true );
-	// 	}
+		// Oracle HCM
+		if( ! get_page_by_path('oracle-hcm') ){
+			$page = array(
+				'post_author' => 1,
+				'post_status' => 'publish',
+				'post_title'  => 'oracle-hcm',
+				'post_name'   => 'Oracle HCM',
+				'post_type'   => 'page'
+			);
+			wp_insert_post( $page, true );
+		}
+
+
 
 		// White Paper Form
 		if( ! get_page_by_path('white-papers-download') ){
