@@ -29,7 +29,7 @@ Template Name: pinnacle_premium
 				<div class="[ border-primary--info ][ padding--sides--xxsmall padding-top-bottom--xsmall ][ wow bounceInLeft ]">
 					<p class="[ color-light ][ text-bold ][ font-size--20 ]">9,000 +<br>employees</p>
 				</div>
-				<p class="[ color-light ][ font-weight--600 ][ margin-bottom ][ wow bounceInDown ][ font-size--12 ]">count organitations</p>
+				<p class="[ color-light ][ font-weight--600 ][ margin-bottom ][ wow bounceInDown ][ font-size--12 ]">count organizations.</p>
 			</div>
 			<div class="[ col-ss-12 col-sm-4 ]">
 				<p class="[ color-light ][ font-weight--600 ][ wow bounceInDown ][ font-size--12 ]">Consultants with over</p>
@@ -74,7 +74,7 @@ Template Name: pinnacle_premium
 			</div>
 			<div class="[ col-ss-12 col-sm-6 ][ no-padding ][ text-center ]">
 				<div class="[ background-primary ][ padding-top-bottom--large padding--sides--small ]">
-					<h2 class="[ text-uppercase ][ color-light ][ margin-bottom--xxlarge ][ wow bounceInRight ]">Key functionalities</h2>
+					<h2 class="[ color-light ][ text-uppercase ][ margin-bottom--xxlarge ][ wow bounceInRight ]">Key functionalities</h2>
 					<div class="[ row ]">
 						<div class="[ col-ss-6 col-sm-4 ][ margin-bottom--xlarge ]">
 							<img class="[ inline-block middle ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/h1.png" alt="key fuctionalities">
@@ -105,6 +105,7 @@ Template Name: pinnacle_premium
 				</div>
 				<div class="[ padding--sides--xsmall ][ text-left ]">
 					<div class="[ row ][ padding-top-bottom padding--sides ][ background-primary--info ]">
+						<h2 class="[ text-center ][ text-uppercase ][ color-light ][ margin-bottom--xxlarge ][ wow bounceInRight ]">Key FEATURES</h2>
 						<img class="[ inline-block middle ][ width-20 ][ wow wow rotateIn ][ margin-right ]" data-wow-delay="0.2s" src="<?php echo THEMEPATH; ?>assets/img/hcmphone.png" alt="Phone">
 						<p class="[ inline-block middle ][ width-70 ][ color-light ][ wow bounceInRight ][ text-uppercase ][ text-bold ]" data-wow-delay="0.3s">
 							<span class="[ color-light ][ background-primary ][ padding--sides--small padding-top-bottom--xsmall ]">MOBILE</span>
@@ -144,15 +145,15 @@ Template Name: pinnacle_premium
 		<div class="[ row ] relative ">
 			<div class="[ col-ss-12 col-sm-6 ][ padding-top-bottom--xlarge padding--sides--small ]">
 				<div class="[ border-primary--info ][ padding-top-bottom--small ][ wow bounceInLeft ]">
-					<p class="[ color-light ]">“Modern HR in the cloud has arrived. It gives employees access to HR apps that are relevant, personalized, social and accessible on the device of their choice. And it provides the insight executives and managers need to make the right decisions and provide the optimal employee experience.“</p>
+					<p class="[ color-light ]">Modern HR in the cloud has arrived. It gives employees access to HR apps that are relevant, personalized, social and accessible on the device of their choice. And it provides the insight executives and managers need to make the right decisions and provide the optimal employee experience.</p>
 				</div>
 			</div>
 			<div class="[ col-ss-12 col-sm-6 ][ padding-top-bottom--small ][ background-secondary ]">
 				<div class="[ border-bottom--primary--xxxlight ][ padding-bottom margin-bottom ]">
 					<img class="[ inline-block middle ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/hcm-pluma.png" alt="key fuctionalities">
 				</div>
-				<p class="[ color-secondary ][ background-primary--xxxlight padding-top-bottom ][ wow bounceInRight ]">"The two most important applications inside of a modern enterprise are HCM and customer service because it's all about taking care of people, taking care of your employees who in turn take care of your customers." - Larry Ellison, Oracle Founder.</p>
-				<p class="[ color--primary--xxxlight ][ wow bounceInLeft ]">- Larry Ellison, Oracle Founder.</p>
+				<p class="[ color-secondary ][ background-primary--xxxlight padding-top-bottom ][ wow bounceInRight ]">"The two most important applications inside of a modern enterprise are HCM and customer service because it's all about taking care of people, taking care of your employees who in turn take care of your customers."</p>
+				<p class="[ color-light ][ wow bounceInLeft ][ text-bold ]">- Larry Ellison, Oracle Founder.</p>
 			</div>
 		</div>
 	</section>

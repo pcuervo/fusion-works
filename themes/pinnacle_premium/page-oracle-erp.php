@@ -100,10 +100,10 @@ Template Name: pinnacle_premium
 			</div>
 			<div class="[ padding-top--botom ]">
 				<h3 class="[ wow bounceInLeft ][ font-weight--600 ][ color-secondary ][ no-margin-top ]">IMPORTANT FACTS</h3>
-				<p class="[ wow bounceInLeft ][ text-bold ][ color-primary ]">Fusionworks provide services in the following areas:</p>
+				<p class="[ wow bounceInLeft ][ text-bold ][ color-primary ]">Fusionworks provides services in the following areas:</p>
 				<div class="[ background-primary--info ][ padding-top-bottom--small padding--sides ][ text-center ][ margin-bottom ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-facts1.png" alt="Important facts">
-					<p class="[ wow bounceInLeft ][ text-bold ][ color-light ][ no-margin ]">Enterprise Resource Planning (ERP) implementation, project management, trainings, documentation, support to end users.</p>
+					<p class="[ wow bounceInLeft ][ text-bold ][ color-light ][ no-margin ]">Enterprise Resource Planning (ERP) implementations, project management, trainings, documentation, support to end users.</p>
 				</div>
 				<div class="[ background-primary--info ][ padding-top-bottom--small padding--sides ][ text-center ][ margin-bottom ]">
 					<img class="[ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/oracle-facts2.png" alt="Important facts">
@@ -139,7 +139,7 @@ Template Name: pinnacle_premium
 				</div>
 				<div class="[ col-ss-9 ]">
 					<h4 class="[ wow bounceInLeft ][ font-weight--600 ][ color-xdark ]">Manage and control your full accounting cycle:</h4>
-					<p class="[ wow bounceInRight ][ color-light ]">General Ledger, Receivables, Payables, Procurement, Inventory, Projects, Assets, Cash Management</p>
+					<p class="[ wow bounceInRight ][ color-light ]">General Ledger, Receivables, Payables, Procurement, Inventory, Projects, Assets, Cash Management.</p>
 				</div>
 			</div>
 			<div class="[ background-secondary--light ][ padding-top-bottom--large padding--sides ]">
