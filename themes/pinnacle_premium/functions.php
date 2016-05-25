@@ -229,11 +229,11 @@ function get_white_paper_download_email_body( $name, $pdf_title ){
 				</tr>
 				<tr style="text-align: center;">
 					<td>
-						<a href="http://pcuervo.com/fusion-works">
-							<img src="http://pcuervo.com/fusion-works/wp-content/uploads/2016/05/Logo-Fusion-Works.png" alt="Logo FusionWorks" style="width: 200px; display: block; margin: auto;"/>
+						<a href="http://fwpr.com">
+							<img src="http://fwpr.com/wp-content/uploads/2016/04/logo-margin-1.png" alt="Logo FusionWorks" style="width: 200px; display: block; margin: auto;"/>
 						</a>
-						<p style="display: inline-block;margin-bottom: 8px;margin-right: 10px;font-size: 12px;color: #5C5B5B">View more <a href="http://pcuervo.com/fusion-works/white-papers/" style="color: #f74c02;text-decoration: none;font-size: 12px">White papers</a></p>
-						<p style="display: inline-block;margin-bottom: 8px;font-size: 12px;color: #5C5B5B">Go to <a href="http://pcuervo.com/fusion-works" style="color: #f74c02;text-decoration: none;font-size: 12px">Fusionworks</a></p>
+						<p style="display: inline-block;margin-bottom: 8px;margin-right: 10px;font-size: 12px;color: #5C5B5B">View more <a href="http://fwpr.com/white-papers/" style="color: #f74c02;text-decoration: none;font-size: 12px">White papers</a></p>
+						<p style="display: inline-block;margin-bottom: 8px;font-size: 12px;color: #5C5B5B">Go to <a href="http://fwpr.com" style="color: #f74c02;text-decoration: none;font-size: 12px">Fusionworks</a></p>
 					</td>
 				</tr>
 			</table>
