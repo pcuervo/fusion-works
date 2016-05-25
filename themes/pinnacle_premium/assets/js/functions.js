@@ -52,7 +52,7 @@ function sendPDF( data ){
                  if ( $('.js-form-error').length ){
                     $('.js-form-error').remove();
                  }
-                $('.testimonial-form-container').after('<div class="[ text-center ][ color-primary ][ js-form-success ]"><h5>Thank you for your interest in our White Paper: Implementing ERP: Best Practices</h5><h5>You will receive our awesome content over email shortly.Get more business insights by following us at:</h5><div class="[ textwidget text-center ]"><p style="display: inline-block; margin-right: 10px; text-align: center;"><a href="http://www.linkedin.com/company/fusionworks?trk=fc_badge" id="kadbtn11" target="_blank" class="kad-btn btn-shortcode kad-btn-primary" style="border-radius: 50%;"><i class="kt-icon-linkedin2"></i></a></p><p style="display: inline-block; margin-right: 10px; text-align: center;"><a href="http://www.facebook.com/pages/San-Juan-Puerto-Rico/Fusionworks-Inc/167798349901765" id="kadbtn53" target="_blank" class="kad-btn btn-shortcode kad-btn-primary" style="border-radius: 50%;"><i class="kt-icon-facebook2"></i></a></p></div></div>');
+                $('.testimonial-form-container').after('<div class="[ text-center ][ color-primary ][ js-form-success ]"><h5>Thank you for your interest in our White Paper: Implementing ERP: Best Practices</h5><h5>You will receive our awesome content over email shortly.Get more business insights by following us at:</h5><div class="[ textwidget text-center ]"><p style="display: inline-block; margin-right: 10px; text-align: center;"><a href="http://www.linkedin.com/company/fusionworks?trk=fc_badge" id="kadbtn11" target="_blank" class="kad-btn btn-shortcode kad-btn-primary" style="border-radius: 50%;"><i class="kt-icon-linkedin2"></i></a></p><p style="display: inline-block; margin-right: 10px; text-align: center;"><a href="http://www.facebook.com/pages/San-Juan-Puerto-Rico/Fusionworks-Inc/167798349901765" id="kadbtn53" target="_blank" class="kad-btn btn-shortcode kad-btn-primary" style="border-radius: 50%;"><i class="kt-icon-facebook2"></i></a></p></div><p>*If you cannot find the email in yout inbox, please look fot it in the spam folder.</p></div>');
 
             }
         }
@@ -69,6 +69,6 @@ function isFormValid(){
 
     var company = $('#kt-feedback-post-company').val();
     if( company == '' || typeof company == 'undefined' ) return false;
-    
+
     return true;
 }

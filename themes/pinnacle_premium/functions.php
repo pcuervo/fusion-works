@@ -137,6 +137,7 @@ function notify_admin_white_paper_download( $name, $position, $company, $pdf_tit
 	$mail->AddAddress( $address, $name );
 	$mail->Subject = $name . " has downloaded a white paper.";
 	$mail->MsgHTML( $body );
+	$mail->Send();
 
 
 }// notify_admin_white_paper_download
@@ -230,7 +231,7 @@ function get_white_paper_download_email_body( $name, $pdf_title ){
 				<tr style="text-align: center;">
 					<td>
 						<a href="http://fwpr.com">
-							<img src="http://fwpr.com/wp-content/uploads/2016/04/logo-margin-1.png" alt="Logo FusionWorks" style="width: 200px; display: block; margin: auto;"/>
+							<img src="http://fwpr.com/wp-content/uploads/2016/04/logo-margin-1.png" alt="Logo FusionWorks" width="200" style="display: block; height: auto; margin: auto;"/>
 						</a>
 						<p style="display: inline-block;margin-bottom: 8px;margin-right: 10px;font-size: 12px;color: #5C5B5B">View more <a href="http://fwpr.com/white-papers/" style="color: #f74c02;text-decoration: none;font-size: 12px">White papers</a></p>
 						<p style="display: inline-block;margin-bottom: 8px;font-size: 12px;color: #5C5B5B">Go to <a href="http://fwpr.com" style="color: #f74c02;text-decoration: none;font-size: 12px">Fusionworks</a></p>
