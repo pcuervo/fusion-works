@@ -157,4 +157,10 @@ Template Name: pinnacle_premium
 			</div>
 		</div>
 	</section>
+	<section class="[ background-primary--info ][ container ][ text-center ][ padding-top-bottom--large ]">
+		<a class="[ btn-infografia ][ wow bounceInUp ]" href="http://fwpr.com/contact-us/">
+			<img class="[ inline-block middle ]" src="<?php echo THEMEPATH; ?>assets/img/email.png" alt="link contacto">
+			<span class="[ inline-block middle ]">Contact us</span>
+		</a>
+	</section>
 <?php get_footer(); ?>

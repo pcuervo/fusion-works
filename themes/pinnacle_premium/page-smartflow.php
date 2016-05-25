@@ -61,4 +61,11 @@ Template Name: pinnacle_premium
 			<p class="[ inline-block middle ][ width--110 ][ color-secondary ][ wow bounceInLeft ][ text-uppercase ][ text-left ]" data-wow-delay="0.3s">Runs on<br><span class="[ color-primary ]">Microsoft Azure, Amazon Web Service.</span></p>
 		</div>
 	</section>
+	<section class="[ background-primary--light ][ container ][ text-center ][ padding-top-bottom--large ]">
+		<p>Let Fusionworks transform the way you work!</p>
+		<a class="[ btn-infografia ][ wow bounceInUp ]" href="http://fwpr.com/contact-us/">
+			<img class="[ inline-block middle ]" src="<?php echo THEMEPATH; ?>assets/img/email.png" alt="link contacto">
+			<span class="[ inline-block middle ]">Contact us</span>
+		</a>
+	</section>
 <?php get_footer(); ?>
