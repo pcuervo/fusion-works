@@ -112,4 +112,5 @@ Template Name: pinnacle_premium
 
 	</section>
 
+
 <?php get_footer(); ?>

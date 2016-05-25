@@ -530,6 +530,18 @@ input[type=text], textarea, input[type=email], input[type=url]{
 
 .rev-btn a, .rev-btn a i { color: #fff!important; }
 
+/*Infografía button*/
+
+.btn-infografia {
+	background-color: #fff;
+	padding: 15px 45px;
+	border-radius: 10px;
+	color: #7f6e64;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 16px;
+}
+
 /*Sidebar*/
 @media (max-width: 480px){
 	#pg-166-5 .tp-rightarrow,
