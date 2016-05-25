@@ -3590,7 +3590,7 @@ class RevSliderOutput {
 			echo '						sliderType:"'. esc_attr($slider_type) .'",'."\n";
 
 			$stripped_http = explode('://', RS_PLUGIN_URL);
-			echo 'jsFileLocation:"'. esc_attr( $stripped_http[1] .'public/assets/js/' ) .'",'."\n";
+			echo 'jsFileLocation:"//'. esc_attr( $stripped_http[1] .'public/assets/js/' ) .'",'."\n";
 
 			if($optFullScreen == 'on'){
 				$sl_layout = 'fullscreen';
