@@ -142,7 +142,7 @@ Template Name: pinnacle_premium
 			</div>
 		</div>
 	</div>
-	<div class="[ col-ss-12 col-sm-7 col-lg-8 ]">
+	<div class="[ col-ss-12 col-sm-7 col-lg-8 ][ no-padding-right ]">
 		<div class="[ background-primary ][ padding--sides--small padding-top padding-bottom--large ]">
 			<h2 class="[ wow fadeInDown ][ text-uppercase text-center ][ color-light ][ no-margin-top ]">Important facts</h2>
 			<img class="[ inline-block middle ][ width-20 ][ wow rotateIn ]" src="<?php echo THEMEPATH; ?>assets/img/crm-rapid-start.png" alt="">
@@ -166,6 +166,11 @@ Template Name: pinnacle_premium
 		</div>
 	</div>
 </section>
-
+<section class="[ background-primary--info ][ container ][ text-center ][ padding-top-bottom--large ]">
+	<a class="[ btn-infografia ][ wow bounceInUp ]" href="http://fwpr.com/contact-us/">
+		<img class="[ inline-block middle ]" src="<?php echo THEMEPATH; ?>assets/img/email.png" alt="link contacto">
+		<span class="[ inline-block middle ]">Contact us</span>
+	</a>
+</section>
 
 <?php get_footer(); ?>
