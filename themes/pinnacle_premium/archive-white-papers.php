@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<div id="pageheader" class="titleclass [ margin-bottom--xxxlarge ]" style=" background:url(/fusion-works/wp-content/uploads/2016/03/man-notebook-notes-macbook.png); background-position:center center; background-repeat:no-repeat; background-size:cover;">
+	<div id="pageheader" class="titleclass [ margin-bottom--xxxlarge ]" style=" background:url(/wp-content/uploads/2016/03/man-notebook-notes-macbook.png); background-position:center center; background-repeat:no-repeat; background-size:cover;">
 		<div class="header-color-overlay"></div>
 		<div class="container">
 			<div class="page-header" style="opacity: 1;">
