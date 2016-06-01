@@ -522,7 +522,8 @@ input[type=text], textarea, input[type=email], input[type=url]{
 .resultados-busqueda .widget_kadence_gallery_widget,
 .resultados-busqueda .siteorigin-panels-stretch,
 .resultados-busqueda .fullwidthbanner-container,
-.resultados-busqueda .entry-content .panel-grid { display: none; }
+.resultados-busqueda .entry-content .panel-grid,
+.resultados-busqueda .search_item .search_item { display: none; }
 
 /*Social button*/
 .contact .kad-circle-iconclass, .sidebar .kad-circle-iconclass { padding: 10px; }
