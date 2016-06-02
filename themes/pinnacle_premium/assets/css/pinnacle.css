@@ -74,6 +74,7 @@
 .inline{ display: inline; }
 .block{ display: block; }
 .inline-block{ display: inline-block; }
+.hidden { display: none;}
 
 @media (max-width: 768px){ .hidden-xs { display: none; } }
 

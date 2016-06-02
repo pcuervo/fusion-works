@@ -266,6 +266,7 @@ function get_white_paper_admin_email_body( $name, $position, $company, $pdf_titl
 					<h2>FusionWorks White Paper</h2>
 					<div align="center">
 						<p>Name: $name </p>
+						<p>Email: $email </p>
 						<p>Company: $company</p>
 						<p>Position: $position</p>
 						<p>White paper: $pdf_title</p>
