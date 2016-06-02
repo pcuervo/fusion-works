@@ -120,12 +120,12 @@ define( 'SITEURL', site_url('/') );
  * Send email to admin when someone request to download a white paper.
  * @return JSON $message - A success/error message about the status of the post.
 */
-function notify_admin_white_paper_download( $name, $position, $company, $pdf_title ){
+function notify_admin_white_paper_download( $name, $email, $position, $company, $pdf_title ){
 
 	// require_once('inc/phpmailer/class.phpmailer.php');
 
 	$mail      	= new PHPMailer(); // defaults to using php "mail()"
-	$body       = get_white_paper_admin_email_body( $name, $position, $company, $pdf_title );
+	$body       = get_white_paper_admin_email_body( $name, $email, $position, $company, $pdf_title );
 	$reply_to	= 'info@fwpr.com';
 	$name_to	= 'FusionWorks';
 
@@ -253,7 +253,7 @@ EOT;
 * @param string $name
 * @return HTML $body
 **/
-function get_white_paper_admin_email_body( $name, $position, $company, $pdf_title ){
+function get_white_paper_admin_email_body( $name, $email, $position, $company, $pdf_title ){
 	$body = <<<EOT
 		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 		<html>
@@ -317,7 +317,7 @@ function send_pdf_by_email(){
 	$pdf_url_arr = explode( 'uploads/', $pdf_url );
 	$attachment = $mail->addAttachment( $upload_dir['basedir'] . '/' . $pdf_url_arr[1] );
 
-	notify_admin_white_paper_download( $name, $position, $company, $pdf_title );
+	notify_admin_white_paper_download( $name, $email, $position, $company, $pdf_title );
 
 	if( !$mail->Send() ) {
 		error_log( $mail->ErrorInfo );
